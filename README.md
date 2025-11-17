@@ -71,26 +71,37 @@ npx playwright show-report
 └── package.json               # Project dependencies
 ```
 
-## 🎙️ Video Narration
+## 🎙️ Video Narration (Automatic)
 
-Automatically generate narrated videos from your test recordings! See [README-NARRATION.md](./README-NARRATION.md) for full documentation.
+Videos are **automatically narrated** after test execution! When Azure Speech credentials are configured, the custom reporter generates narrated videos for all test recordings.
 
-**Quick Usage:**
+**Setup (Optional - enables auto-narration):**
 
 ```bash
 # Set up Azure Speech credentials
-export SPEECH_KEY=your_key
-export SPEECH_REGION=eastus
+export SPEECH_KEY=your_azure_key
+export SPEECH_REGION=eastus  # e.g., eastus, westus2, etc.
 
-# Generate narrated videos
+# Run tests - narration happens automatically
+npm test
+```
+
+**Manual Narration:**
+
+If you need to re-narrate existing videos or run narration separately:
+
+```bash
 npm run narrate
 ```
 
-The script will:
-1. Find all test videos in `test-results/`
-2. Generate voice narration describing the test
-3. Merge audio with video using ffmpeg
-4. Output narrated MP4 files to `narrated-videos/`
+**How it works:**
+1. Tests run and record videos on failure
+2. Custom Playwright reporter detects video recordings
+3. If `SPEECH_KEY` is set, narration runs automatically after tests
+4. Narrated MP4 files saved to `narrated-videos/`
+5. Original `.webm` files remain in `test-results/`
+
+See [README-NARRATION.md](./README-NARRATION.md) for detailed documentation.
 
 ## ⚙️ Configuration
 

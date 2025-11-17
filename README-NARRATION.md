@@ -2,7 +2,9 @@
 
 This utility automatically generates narration and merges it with Playwright test recordings using Azure Cognitive Services Speech API and ffmpeg.
 
-## 🚀 Quick Start
+## ✨ Automatic Narration (Recommended)
+
+Narration is **automatically enabled** when you configure Azure Speech credentials. No manual script execution needed!
 
 ### 1. Set up Azure Speech Service
 
@@ -16,12 +18,23 @@ This utility automatically generates narration and merges it with Playwright tes
 # Copy the example env file
 cp .env.example .env
 
-# Edit .env and add your credentials
+# Add to your shell profile (.bashrc, .zshrc, etc.) or set before running tests
 export SPEECH_KEY=your_azure_speech_key
 export SPEECH_REGION=eastus  # or your region
 ```
 
-### 3. Run Narration
+### 3. Run Tests - Narration Happens Automatically!
+
+```bash
+# Just run your tests normally
+npm test
+
+# Narrated videos will be generated automatically in narrated-videos/
+```
+
+## 📋 Manual Narration (Optional)
+
+If you need to re-narrate existing videos or run narration separately:
 
 ```bash
 # Process all videos in test-results directory
