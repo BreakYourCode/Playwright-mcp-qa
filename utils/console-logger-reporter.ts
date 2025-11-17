@@ -33,20 +33,35 @@ class ConsoleLoggerReporter implements Reporter {
     const testId = this.getTestId(test);
     const logs = this.testLogs.get(testId) || [];
     
-    if (logs.length > 0 && result.attachments) {
-      // Find the output directory for this test
-      const outputPath = this.findTestOutputPath(test, result);
+    if (logs.length > 0) {
+      // Use result.attachments if available, otherwise construct the path
+      let outputPath = this.findTestOutputPath(test, result);
       
-      if (outputPath) {
-        const logFilePath = path.join(outputPath, 'console-logs.txt');
-        try {
-          fs.writeFileSync(logFilePath, logs.join('\n'));
-          console.log(`📝 Console logs saved to: ${logFilePath}`);
-        } catch (error) {
-          console.error(`Failed to save console logs: ${error}`);
-        }
+      if (!outputPath) {
+        // Construct test-results directory path manually
+        const testResultsDir = path.join(process.cwd(), 'test-results');
+        const testName = `${test.parent.title}-${test.title}`.replace(/[^a-z0-9]+/gi, '-');
+        const browserName = test.parent.project()?.name || 'unknown';
+        const retryCount = result.retry > 0 ? `-retry${result.retry}` : '';
+        outputPath = path.join(testResultsDir, `${testName}-${browserName}${retryCount}`);
+      }
+      
+      // Ensure directory exists
+      if (!fs.existsSync(outputPath)) {
+        fs.mkdirSync(outputPath, { recursive: true });
+      }
+      
+      const logFilePath = path.join(outputPath, 'console-logs.txt');
+      try {
+        fs.writeFileSync(logFilePath, logs.join('\n'));
+        console.log(`📝 Console logs saved to: ${logFilePath}`);
+      } catch (error) {
+        console.error(`Failed to save console logs: ${error}`);
       }
     }
+    
+    // Clean up
+    this.testLogs.delete(testId);
   }
 
   private getTestId(test: TestCase): string {
