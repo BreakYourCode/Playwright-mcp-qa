@@ -10,33 +10,15 @@ test.describe('Cuisinart Stage Login Tests', () => {
     console.log('Page title:', await page.title());
     console.log('Page URL:', page.url());
 
-    // Handle OneTrust cookie banner if it appears
+    // Handle OneTrust cookie banner (no popup modal on this site)
     try {
-      const oneTrustBanner = page.locator('#onetrust-accept-btn-handler, button:has-text("Accept All Cookies"), button:has-text("Accept Cookies")');
-      await oneTrustBanner.waitFor({ timeout: 5000 });
-      await oneTrustBanner.click();
-      console.log('OneTrust banner accepted');
+      const acceptButton = page.locator('#onetrust-accept-btn-handler').first();
+      await acceptButton.waitFor({ state: 'visible', timeout: 5000 });
+      await acceptButton.click();
+      console.log('OneTrust "Accept Cookies" banner accepted');
       await page.waitForTimeout(1000);
     } catch (error) {
       console.log('OneTrust banner not found or already dismissed');
-    }
-
-    // Handle Attentive iframe modal when it appears
-    try {
-      const attentiveFrame = page.frameLocator('iframe[src*="attn.tv"]').first();
-      const closeButton = attentiveFrame.locator('#closeIconSvg').first();
-      await closeButton.waitFor({ state: 'visible', timeout: 20000 });
-      console.log('Attentive modal found, clicking close button...');
-      await closeButton.click();
-      console.log('Click executed on modal close button');
-      await page.waitForTimeout(1000);
-      
-      // Wait for overlay to be removed
-      const overlay = page.locator('div[id*="attentive"], div[class*="attentive"]').first();
-      await overlay.waitFor({ state: 'detached', timeout: 10000 });
-      console.log('Attentive modal overlay successfully closed and removed');
-    } catch (error) {
-      console.log('Attentive modal not found or already closed');
     }
   });
 });

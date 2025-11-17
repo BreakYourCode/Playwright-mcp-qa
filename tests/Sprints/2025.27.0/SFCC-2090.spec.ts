@@ -17,23 +17,14 @@ test.describe('SFCC-2090: SQL Injection Remediation - Account Login', () => {
     await page.goto(`${baseURL}/login`);
     await page.waitForLoadState('domcontentloaded');
     
-    // Handle OneTrust banner if present
+    // Handle OneTrust cookie banner (no popup modal on this site)
     try {
-      await page.locator('#onetrust-accept-btn-handler').click({ timeout: 5000 });
+      const acceptButton = page.locator('#onetrust-accept-btn-handler').first();
+      await acceptButton.waitFor({ state: 'visible', timeout: 5000 });
+      await acceptButton.click();
       await page.waitForTimeout(1000);
     } catch (e) {
-      console.log('OneTrust banner not found');
-    }
-    
-    // Handle Attentive modal if present
-    try {
-      const attentiveFrame = page.frameLocator('iframe[src*="attn.tv"]').first();
-      const closeButton = attentiveFrame.locator('#closeIconSvg').first();
-      await closeButton.waitFor({ state: 'visible', timeout: 20000 });
-      await closeButton.click();
-      await page.waitForTimeout(1000);
-    } catch (e) {
-      console.log('Attentive modal not found');
+      console.log('OneTrust banner not found or already dismissed');
     }
   });
 

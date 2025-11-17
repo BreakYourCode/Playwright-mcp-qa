@@ -1,0 +1,715 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - button "Use Website In a Screen-Reader Mode" [ref=e2]
+  - link "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window" [ref=e3] [cursor=pointer]:
+    - /url: https://accessibe.com/blog/knowledgebase/screen-reader-guide
+  - generic:
+    - generic:
+      - region "Skip Links":
+        - generic:
+          - link "Skip to Content":
+            - /url: "#acsbContent"
+            - text: Skip to Content
+            - generic:
+              - generic: ↵
+              - text: ENTER
+        - generic:
+          - link "Skip to Menu":
+            - /url: "#acsbMenu"
+            - text: Skip to Menu
+            - generic:
+              - generic: ↵
+              - text: ENTER
+        - generic:
+          - link "Skip to Footer":
+            - /url: "#acsbFooter"
+            - text: Skip to Footer
+            - generic:
+              - generic: ↵
+              - text: ENTER
+  - 'button "Open accessiBe: accessibility options, statement and help" [ref=e4] [cursor=pointer]':
+    - generic:
+      - img [ref=e5]
+      - img
+      - img
+  - iframe [ref=e8]:
+    - generic [active]:
+      - generic [ref=f1e55]:
+        - generic:
+          - table:
+            - rowgroup:
+              - row:
+                - cell:
+                  - link [ref=f1e56] [cursor=pointer]:
+                    - /url: "#"
+      - generic [ref=f1e70]:
+        - generic [ref=f1e71]: Cache Information (Page)
+        - table [ref=f1e74]:
+          - rowgroup [ref=f1e75]:
+            - 'row "Page Information Controller: Cart-Show (int_tiktok_pixel_1_62_01) Template: /default/cart/cart.isml (app_babylisspro_sfra) Processing Time: 161 ms Caching Status: Not cached" [ref=f1e76]':
+              - 'cell "Page Information Controller: Cart-Show (int_tiktok_pixel_1_62_01) Template: /default/cart/cart.isml (app_babylisspro_sfra) Processing Time: 161 ms Caching Status: Not cached" [ref=f1e77]':
+                - generic [ref=f1e78]:
+                  - generic [ref=f1e79]: Page Information
+                  - generic [ref=f1e84]:
+                    - generic [ref=f1e85]:
+                      - table [ref=f1e87]:
+                        - rowgroup [ref=f1e88]:
+                          - 'row "Controller: Cart-Show (int_tiktok_pixel_1_62_01)" [ref=f1e89]':
+                            - cell "Controller:" [ref=f1e90]:
+                              - generic [ref=f1e91]: "Controller:"
+                            - cell "Cart-Show (int_tiktok_pixel_1_62_01)" [ref=f1e92]:
+                              - generic [ref=f1e93]: Cart-Show (int_tiktok_pixel_1_62_01)
+                      - table [ref=f1e95]:
+                        - rowgroup [ref=f1e96]:
+                          - 'row "Template: /default/cart/cart.isml (app_babylisspro_sfra)" [ref=f1e97]':
+                            - cell "Template:" [ref=f1e98]:
+                              - generic [ref=f1e99]: "Template:"
+                            - cell "/default/cart/cart.isml (app_babylisspro_sfra)" [ref=f1e100]:
+                              - generic [ref=f1e101]: /default/cart/cart.isml (app_babylisspro_sfra)
+                      - table [ref=f1e103]:
+                        - rowgroup [ref=f1e104]:
+                          - 'row "Processing Time: 161 ms" [ref=f1e105]':
+                            - cell "Processing Time:" [ref=f1e106]:
+                              - generic [ref=f1e107]: "Processing Time:"
+                            - cell "161 ms" [ref=f1e108]:
+                              - generic [ref=f1e109]: 161 ms
+                      - table [ref=f1e111]:
+                        - rowgroup [ref=f1e112]:
+                          - 'row "Caching Status: Not cached" [ref=f1e113]':
+                            - cell "Caching Status:" [ref=f1e114]:
+                              - generic [ref=f1e115]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e116]:
+                              - generic [ref=f1e117]: Not cached
+                    - link [ref=f1e118] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: GTM-HtmlHead (plugin_gtm_2025_custom) Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom) Processing Time: 4 ms Caching Status: Not cached" [ref=f1e119]':
+              - 'cell "Remote Include Controller: GTM-HtmlHead (plugin_gtm_2025_custom) Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom) Processing Time: 4 ms Caching Status: Not cached" [ref=f1e120]':
+                - generic [ref=f1e121]:
+                  - generic [ref=f1e124]: Remote Include
+                  - generic [ref=f1e129]:
+                    - generic [ref=f1e130]:
+                      - table [ref=f1e132]:
+                        - rowgroup [ref=f1e133]:
+                          - 'row "Controller: GTM-HtmlHead (plugin_gtm_2025_custom)" [ref=f1e134]':
+                            - cell "Controller:" [ref=f1e135]:
+                              - generic [ref=f1e136]: "Controller:"
+                            - cell "GTM-HtmlHead (plugin_gtm_2025_custom)" [ref=f1e137]:
+                              - generic [ref=f1e138]: GTM-HtmlHead (plugin_gtm_2025_custom)
+                      - table [ref=f1e140]:
+                        - rowgroup [ref=f1e141]:
+                          - 'row "Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom)" [ref=f1e142]':
+                            - cell "Template:" [ref=f1e143]:
+                              - generic [ref=f1e144]: "Template:"
+                            - cell "/default/gtm/gtmScript.isml (plugin_gtm_2025_custom)" [ref=f1e145]:
+                              - generic [ref=f1e146]: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom)
+                      - table [ref=f1e148]:
+                        - rowgroup [ref=f1e149]:
+                          - 'row "Processing Time: 4 ms" [ref=f1e150]':
+                            - cell "Processing Time:" [ref=f1e151]:
+                              - generic [ref=f1e152]: "Processing Time:"
+                            - cell "4 ms" [ref=f1e153]:
+                              - generic [ref=f1e154]: 4 ms
+                      - table [ref=f1e156]:
+                        - rowgroup [ref=f1e157]:
+                          - 'row "Caching Status: Not cached" [ref=f1e158]':
+                            - cell "Caching Status:" [ref=f1e159]:
+                              - generic [ref=f1e160]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e161]:
+                              - generic [ref=f1e162]: Not cached
+                    - link [ref=f1e163] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: GTM-CustomerData (plugin_gtm_2025_custom) Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e164]':
+              - 'cell "Remote Include Controller: GTM-CustomerData (plugin_gtm_2025_custom) Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e165]':
+                - generic [ref=f1e166]:
+                  - generic [ref=f1e169]: Remote Include
+                  - generic [ref=f1e174]:
+                    - generic [ref=f1e175]:
+                      - table [ref=f1e177]:
+                        - rowgroup [ref=f1e178]:
+                          - 'row "Controller: GTM-CustomerData (plugin_gtm_2025_custom)" [ref=f1e179]':
+                            - cell "Controller:" [ref=f1e180]:
+                              - generic [ref=f1e181]: "Controller:"
+                            - cell "GTM-CustomerData (plugin_gtm_2025_custom)" [ref=f1e182]:
+                              - generic [ref=f1e183]: GTM-CustomerData (plugin_gtm_2025_custom)
+                      - table [ref=f1e185]:
+                        - rowgroup [ref=f1e186]:
+                          - 'row "Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom)" [ref=f1e187]':
+                            - cell "Template:" [ref=f1e188]:
+                              - generic [ref=f1e189]: "Template:"
+                            - cell "/default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom)" [ref=f1e190]:
+                              - generic [ref=f1e191]: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom)
+                      - table [ref=f1e193]:
+                        - rowgroup [ref=f1e194]:
+                          - 'row "Processing Time: 3 ms" [ref=f1e195]':
+                            - cell "Processing Time:" [ref=f1e196]:
+                              - generic [ref=f1e197]: "Processing Time:"
+                            - cell "3 ms" [ref=f1e198]:
+                              - generic [ref=f1e199]: 3 ms
+                      - table [ref=f1e201]:
+                        - rowgroup [ref=f1e202]:
+                          - 'row "Caching Status: Not cached" [ref=f1e203]':
+                            - cell "Caching Status:" [ref=f1e204]:
+                              - generic [ref=f1e205]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e206]:
+                              - generic [ref=f1e207]: Not cached
+                    - link [ref=f1e208] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Noibu-GenerateNoibuId (int_noibu_sfra) Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e209]':
+              - 'cell "Remote Include Controller: Noibu-GenerateNoibuId (int_noibu_sfra) Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e210]':
+                - generic [ref=f1e211]:
+                  - generic [ref=f1e214]: Remote Include
+                  - generic [ref=f1e219]:
+                    - generic [ref=f1e220]:
+                      - table [ref=f1e222]:
+                        - rowgroup [ref=f1e223]:
+                          - 'row "Controller: Noibu-GenerateNoibuId (int_noibu_sfra)" [ref=f1e224]':
+                            - cell "Controller:" [ref=f1e225]:
+                              - generic [ref=f1e226]: "Controller:"
+                            - cell "Noibu-GenerateNoibuId (int_noibu_sfra)" [ref=f1e227]:
+                              - generic [ref=f1e228]: Noibu-GenerateNoibuId (int_noibu_sfra)
+                      - table [ref=f1e230]:
+                        - rowgroup [ref=f1e231]:
+                          - 'row "Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra)" [ref=f1e232]':
+                            - cell "Template:" [ref=f1e233]:
+                              - generic [ref=f1e234]: "Template:"
+                            - cell "/default//noibu/noibuFooterInclude.isml (int_noibu_sfra)" [ref=f1e235]:
+                              - generic [ref=f1e236]: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra)
+                      - table [ref=f1e238]:
+                        - rowgroup [ref=f1e239]:
+                          - 'row "Processing Time: 11 ms" [ref=f1e240]':
+                            - cell "Processing Time:" [ref=f1e241]:
+                              - generic [ref=f1e242]: "Processing Time:"
+                            - cell "11 ms" [ref=f1e243]:
+                              - generic [ref=f1e244]: 11 ms
+                      - table [ref=f1e246]:
+                        - rowgroup [ref=f1e247]:
+                          - 'row "Caching Status: Not cached" [ref=f1e248]':
+                            - cell "Caching Status:" [ref=f1e249]:
+                              - generic [ref=f1e250]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e251]:
+                              - generic [ref=f1e252]: Not cached
+                    - link [ref=f1e253] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: GTM-BeforeHeader (plugin_gtm_2025_custom) Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e254]':
+              - 'cell "Remote Include Controller: GTM-BeforeHeader (plugin_gtm_2025_custom) Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e255]':
+                - generic [ref=f1e256]:
+                  - generic [ref=f1e259]: Remote Include
+                  - generic [ref=f1e264]:
+                    - generic [ref=f1e265]:
+                      - table [ref=f1e267]:
+                        - rowgroup [ref=f1e268]:
+                          - 'row "Controller: GTM-BeforeHeader (plugin_gtm_2025_custom)" [ref=f1e269]':
+                            - cell "Controller:" [ref=f1e270]:
+                              - generic [ref=f1e271]: "Controller:"
+                            - cell "GTM-BeforeHeader (plugin_gtm_2025_custom)" [ref=f1e272]:
+                              - generic [ref=f1e273]: GTM-BeforeHeader (plugin_gtm_2025_custom)
+                      - table [ref=f1e275]:
+                        - rowgroup [ref=f1e276]:
+                          - 'row "Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom)" [ref=f1e277]':
+                            - cell "Template:" [ref=f1e278]:
+                              - generic [ref=f1e279]: "Template:"
+                            - cell "/default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom)" [ref=f1e280]:
+                              - generic [ref=f1e281]: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom)
+                      - table [ref=f1e283]:
+                        - rowgroup [ref=f1e284]:
+                          - 'row "Processing Time: 3 ms" [ref=f1e285]':
+                            - cell "Processing Time:" [ref=f1e286]:
+                              - generic [ref=f1e287]: "Processing Time:"
+                            - cell "3 ms" [ref=f1e288]:
+                              - generic [ref=f1e289]: 3 ms
+                      - table [ref=f1e291]:
+                        - rowgroup [ref=f1e292]:
+                          - 'row "Caching Status: Not cached" [ref=f1e293]':
+                            - cell "Caching Status:" [ref=f1e294]:
+                              - generic [ref=f1e295]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e296]:
+                              - generic [ref=f1e297]: Not cached
+                    - link [ref=f1e298] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Pipeline: Internal Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e299]':
+              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e300]':
+                - generic [ref=f1e301]:
+                  - generic [ref=f1e304]: Remote Include
+                  - generic [ref=f1e309]:
+                    - generic [ref=f1e310]:
+                      - table [ref=f1e312]:
+                        - rowgroup [ref=f1e313]:
+                          - 'row "Pipeline: Internal" [ref=f1e314]':
+                            - cell "Pipeline:" [ref=f1e315]:
+                              - generic [ref=f1e316]: "Pipeline:"
+                            - cell "Internal" [ref=f1e317]:
+                              - generic [ref=f1e318]: Internal
+                      - table [ref=f1e320]:
+                        - rowgroup [ref=f1e321]:
+                          - 'row "Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base)" [ref=f1e322]':
+                            - cell "Template:" [ref=f1e323]:
+                              - generic [ref=f1e324]: "Template:"
+                            - cell "/default/slots/html/htmlSlotContainer.isml (app_storefront_base)" [ref=f1e325]:
+                              - generic [ref=f1e327] [cursor=pointer]:
+                                - text: /default/slots/html/htmlSlotContainer.isml
+                                - text: (app_storefront_base)
+                      - table [ref=f1e329]:
+                        - rowgroup [ref=f1e330]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e331]':
+                            - cell "Processing Time:" [ref=f1e332]:
+                              - generic [ref=f1e333]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e334]:
+                              - generic [ref=f1e335]: 5 ms
+                      - table [ref=f1e337]:
+                        - rowgroup [ref=f1e338]:
+                          - 'row "Caching Status: Not cached" [ref=f1e339]':
+                            - cell "Caching Status:" [ref=f1e340]:
+                              - generic [ref=f1e341]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e342]:
+                              - generic [ref=f1e343]: Not cached
+                    - link [ref=f1e344] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Account-Header (app_babylisspro_sfra) Template: /default/account/header.isml (app_babylisspro_sfra) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e345]':
+              - 'cell "Remote Include Controller: Account-Header (app_babylisspro_sfra) Template: /default/account/header.isml (app_babylisspro_sfra) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e346]':
+                - generic [ref=f1e347]:
+                  - generic [ref=f1e350]: Remote Include
+                  - generic [ref=f1e355]:
+                    - generic [ref=f1e356]:
+                      - table [ref=f1e358]:
+                        - rowgroup [ref=f1e359]:
+                          - 'row "Controller: Account-Header (app_babylisspro_sfra)" [ref=f1e360]':
+                            - cell "Controller:" [ref=f1e361]:
+                              - generic [ref=f1e362]: "Controller:"
+                            - cell "Account-Header (app_babylisspro_sfra)" [ref=f1e363]:
+                              - generic [ref=f1e364]: Account-Header (app_babylisspro_sfra)
+                      - table [ref=f1e366]:
+                        - rowgroup [ref=f1e367]:
+                          - 'row "Template: /default/account/header.isml (app_babylisspro_sfra)" [ref=f1e368]':
+                            - cell "Template:" [ref=f1e369]:
+                              - generic [ref=f1e370]: "Template:"
+                            - cell "/default/account/header.isml (app_babylisspro_sfra)" [ref=f1e371]:
+                              - generic [ref=f1e372]: /default/account/header.isml (app_babylisspro_sfra)
+                      - table [ref=f1e374]:
+                        - rowgroup [ref=f1e375]:
+                          - 'row "Processing Time: 11 ms" [ref=f1e376]':
+                            - cell "Processing Time:" [ref=f1e377]:
+                              - generic [ref=f1e378]: "Processing Time:"
+                            - cell "11 ms" [ref=f1e379]:
+                              - generic [ref=f1e380]: 11 ms
+                      - table [ref=f1e382]:
+                        - rowgroup [ref=f1e383]:
+                          - 'row "Caching Status: Not cached" [ref=f1e384]':
+                            - cell "Caching Status:" [ref=f1e385]:
+                              - generic [ref=f1e386]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e387]:
+                              - generic [ref=f1e388]: Not cached
+                    - link [ref=f1e389] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Cart-MiniCart (int_tiktok_pixel_1_62_01) Template: /default//components/header/miniCart.isml (app_babylisspro_sfra) Processing Time: 13 ms Caching Status: Not cached" [ref=f1e390]':
+              - 'cell "Remote Include Controller: Cart-MiniCart (int_tiktok_pixel_1_62_01) Template: /default//components/header/miniCart.isml (app_babylisspro_sfra) Processing Time: 13 ms Caching Status: Not cached" [ref=f1e391]':
+                - generic [ref=f1e392]:
+                  - generic [ref=f1e395]: Remote Include
+                  - generic [ref=f1e400]:
+                    - generic [ref=f1e401]:
+                      - table [ref=f1e403]:
+                        - rowgroup [ref=f1e404]:
+                          - 'row "Controller: Cart-MiniCart (int_tiktok_pixel_1_62_01)" [ref=f1e405]':
+                            - cell "Controller:" [ref=f1e406]:
+                              - generic [ref=f1e407]: "Controller:"
+                            - cell "Cart-MiniCart (int_tiktok_pixel_1_62_01)" [ref=f1e408]:
+                              - generic [ref=f1e409]: Cart-MiniCart (int_tiktok_pixel_1_62_01)
+                      - table [ref=f1e411]:
+                        - rowgroup [ref=f1e412]:
+                          - 'row "Template: /default//components/header/miniCart.isml (app_babylisspro_sfra)" [ref=f1e413]':
+                            - cell "Template:" [ref=f1e414]:
+                              - generic [ref=f1e415]: "Template:"
+                            - cell "/default//components/header/miniCart.isml (app_babylisspro_sfra)" [ref=f1e416]:
+                              - generic [ref=f1e418] [cursor=pointer]:
+                                - text: /default//components/header/miniCart.isml
+                                - text: (app_babylisspro_sfra)
+                      - table [ref=f1e420]:
+                        - rowgroup [ref=f1e421]:
+                          - 'row "Processing Time: 13 ms" [ref=f1e422]':
+                            - cell "Processing Time:" [ref=f1e423]:
+                              - generic [ref=f1e424]: "Processing Time:"
+                            - cell "13 ms" [ref=f1e425]:
+                              - generic [ref=f1e426]: 13 ms
+                      - table [ref=f1e428]:
+                        - rowgroup [ref=f1e429]:
+                          - 'row "Caching Status: Not cached" [ref=f1e430]':
+                            - cell "Caching Status:" [ref=f1e431]:
+                              - generic [ref=f1e432]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e433]:
+                              - generic [ref=f1e434]: Not cached
+                    - link [ref=f1e435] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-IncludeHeaderMenu (app_babylisspro_sfra) Template: /default//components/header/menu.isml (app_babylisspro_sfra) Processing Time: 19 ms Caching Status: Cached until: 11/18/2025 12:56 pm" [ref=f1e436]':
+              - 'cell "Remote Include Controller: Page-IncludeHeaderMenu (app_babylisspro_sfra) Template: /default//components/header/menu.isml (app_babylisspro_sfra) Processing Time: 19 ms Caching Status: Cached until: 11/18/2025 12:56 pm" [ref=f1e437]':
+                - generic [ref=f1e438]:
+                  - generic [ref=f1e441]: Remote Include
+                  - generic [ref=f1e446]:
+                    - generic [ref=f1e447]:
+                      - table [ref=f1e449]:
+                        - rowgroup [ref=f1e450]:
+                          - 'row "Controller: Page-IncludeHeaderMenu (app_babylisspro_sfra)" [ref=f1e451]':
+                            - cell "Controller:" [ref=f1e452]:
+                              - generic [ref=f1e453]: "Controller:"
+                            - cell "Page-IncludeHeaderMenu (app_babylisspro_sfra)" [ref=f1e454]:
+                              - generic [ref=f1e455]: Page-IncludeHeaderMenu (app_babylisspro_sfra)
+                      - table [ref=f1e457]:
+                        - rowgroup [ref=f1e458]:
+                          - 'row "Template: /default//components/header/menu.isml (app_babylisspro_sfra)" [ref=f1e459]':
+                            - cell "Template:" [ref=f1e460]:
+                              - generic [ref=f1e461]: "Template:"
+                            - cell "/default//components/header/menu.isml (app_babylisspro_sfra)" [ref=f1e462]:
+                              - generic [ref=f1e463]: /default//components/header/menu.isml (app_babylisspro_sfra)
+                      - table [ref=f1e465]:
+                        - rowgroup [ref=f1e466]:
+                          - 'row "Processing Time: 19 ms" [ref=f1e467]':
+                            - cell "Processing Time:" [ref=f1e468]:
+                              - generic [ref=f1e469]: "Processing Time:"
+                            - cell "19 ms" [ref=f1e470]:
+                              - generic [ref=f1e471]: 19 ms
+                      - table [ref=f1e473]:
+                        - rowgroup [ref=f1e474]:
+                          - 'row "Caching Status: Cached until: 11/18/2025 12:56 pm" [ref=f1e475]':
+                            - cell "Caching Status:" [ref=f1e476]:
+                              - generic [ref=f1e477]: "Caching Status:"
+                            - 'cell "Cached until: 11/18/2025 12:56 pm" [ref=f1e478]':
+                              - generic [ref=f1e479]: "Cached until: 11/18/2025 12:56 pm"
+                    - link [ref=f1e480] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_babylisspro_sfra) Template: /default/components/content/contentAssetInc.isml (app_storefront_base) Processing Time: 10 ms Caching Status: Cached until: 11/18/2025 12:56 pm" [ref=f1e481]':
+              - 'cell "Remote Include Controller: Page-Include (app_babylisspro_sfra) Template: /default/components/content/contentAssetInc.isml (app_storefront_base) Processing Time: 10 ms Caching Status: Cached until: 11/18/2025 12:56 pm" [ref=f1e482]':
+                - generic [ref=f1e483]:
+                  - generic [ref=f1e486]: Remote Include
+                  - generic [ref=f1e491]:
+                    - generic [ref=f1e492]:
+                      - table [ref=f1e494]:
+                        - rowgroup [ref=f1e495]:
+                          - 'row "Controller: Page-Include (app_babylisspro_sfra)" [ref=f1e496]':
+                            - cell "Controller:" [ref=f1e497]:
+                              - generic [ref=f1e498]: "Controller:"
+                            - cell "Page-Include (app_babylisspro_sfra)" [ref=f1e499]:
+                              - generic [ref=f1e500]: Page-Include (app_babylisspro_sfra)
+                      - table [ref=f1e502]:
+                        - rowgroup [ref=f1e503]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base)" [ref=f1e504]':
+                            - cell "Template:" [ref=f1e505]:
+                              - generic [ref=f1e506]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base)" [ref=f1e507]:
+                              - generic [ref=f1e509] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base)
+                      - table [ref=f1e511]:
+                        - rowgroup [ref=f1e512]:
+                          - 'row "Processing Time: 10 ms" [ref=f1e513]':
+                            - cell "Processing Time:" [ref=f1e514]:
+                              - generic [ref=f1e515]: "Processing Time:"
+                            - cell "10 ms" [ref=f1e516]:
+                              - generic [ref=f1e517]: 10 ms
+                      - table [ref=f1e519]:
+                        - rowgroup [ref=f1e520]:
+                          - 'row "Caching Status: Cached until: 11/18/2025 12:56 pm" [ref=f1e521]':
+                            - cell "Caching Status:" [ref=f1e522]:
+                              - generic [ref=f1e523]: "Caching Status:"
+                            - 'cell "Cached until: 11/18/2025 12:56 pm" [ref=f1e524]':
+                              - generic [ref=f1e525]: "Cached until: 11/18/2025 12:56 pm"
+                    - link [ref=f1e526] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: ConsentTracking-Check (app_babylisspro_sfra) Template: /default//common/consent.isml (app_storefront_base) Processing Time: 7 ms Caching Status: Not cached" [ref=f1e527]':
+              - 'cell "Remote Include Controller: ConsentTracking-Check (app_babylisspro_sfra) Template: /default//common/consent.isml (app_storefront_base) Processing Time: 7 ms Caching Status: Not cached" [ref=f1e528]':
+                - generic [ref=f1e529]:
+                  - generic [ref=f1e532]: Remote Include
+                  - generic [ref=f1e537]:
+                    - generic [ref=f1e538]:
+                      - table [ref=f1e540]:
+                        - rowgroup [ref=f1e541]:
+                          - 'row "Controller: ConsentTracking-Check (app_babylisspro_sfra)" [ref=f1e542]':
+                            - cell "Controller:" [ref=f1e543]:
+                              - generic [ref=f1e544]: "Controller:"
+                            - cell "ConsentTracking-Check (app_babylisspro_sfra)" [ref=f1e545]:
+                              - generic [ref=f1e546]: ConsentTracking-Check (app_babylisspro_sfra)
+                      - table [ref=f1e548]:
+                        - rowgroup [ref=f1e549]:
+                          - 'row "Template: /default//common/consent.isml (app_storefront_base)" [ref=f1e550]':
+                            - cell "Template:" [ref=f1e551]:
+                              - generic [ref=f1e552]: "Template:"
+                            - cell "/default//common/consent.isml (app_storefront_base)" [ref=f1e553]:
+                              - generic [ref=f1e554]: /default//common/consent.isml (app_storefront_base)
+                      - table [ref=f1e556]:
+                        - rowgroup [ref=f1e557]:
+                          - 'row "Processing Time: 7 ms" [ref=f1e558]':
+                            - cell "Processing Time:" [ref=f1e559]:
+                              - generic [ref=f1e560]: "Processing Time:"
+                            - cell "7 ms" [ref=f1e561]:
+                              - generic [ref=f1e562]: 7 ms
+                      - table [ref=f1e564]:
+                        - rowgroup [ref=f1e565]:
+                          - 'row "Caching Status: Not cached" [ref=f1e566]':
+                            - cell "Caching Status:" [ref=f1e567]:
+                              - generic [ref=f1e568]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e569]:
+                              - generic [ref=f1e570]: Not cached
+                    - link [ref=f1e571] [cursor=pointer]:
+                      - /url: "#"
+      - generic [ref=f1e585]:
+        - generic [ref=f1e586]: Search Query
+        - generic [ref=f1e587]:
+          - generic:
+            - table:
+              - rowgroup:
+                - row:
+                  - cell:
+                    - link [ref=f1e588] [cursor=pointer]:
+                      - /url: "#"
+      - table [ref=f1e606]:
+        - rowgroup [ref=f1e607]:
+          - row:
+            - cell:
+              - link [ref=f1e608] [cursor=pointer]:
+                - /url: "#"
+          - row [ref=f1e609]:
+            - cell [ref=f1e610]:
+              - link [ref=f1e613] [cursor=pointer]:
+                - /url: "#"
+          - row [ref=f1e614]:
+            - cell [ref=f1e615]:
+              - link [ref=f1e618] [cursor=pointer]:
+                - /url: "#"
+          - row [ref=f1e619]:
+            - cell [ref=f1e620]:
+              - link [ref=f1e623] [cursor=pointer]:
+                - /url: "#"
+          - row "Searchable Product Attributes" [ref=f1e624]:
+            - cell "Searchable Product Attributes" [ref=f1e625]:
+              - generic [ref=f1e626]:
+                - generic [ref=f1e627]: Searchable Product Attributes
+                - link [ref=f1e628] [cursor=pointer]:
+                  - /url: "#"
+          - row "Searchable Category Attributes" [ref=f1e629]:
+            - cell "Searchable Category Attributes" [ref=f1e630]:
+              - generic [ref=f1e632]: Searchable Category Attributes
+  - generic [ref=e9]:
+    - banner [ref=e10]:
+      - paragraph [ref=e13]: Enjoy Free Shipping on Orders $99+
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - link "Babyliss pro logo" [ref=e18] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e20]:
+            - search [ref=e21]:
+              - combobox "Enter Keyword or Item No." [ref=e22]
+              - button "Submit search keywords" [ref=e23] [cursor=pointer]:
+                - generic [ref=e24]: 
+            - text: 
+          - text:  
+          - generic [ref=e25]:
+            - generic [ref=e27]:
+              - link "Account" [ref=e30] [cursor=pointer]:
+                - /url: /login
+                - img [ref=e31]
+              - link "1 items in cart" [ref=e35] [cursor=pointer]:
+                - /url: https://dev.babylisspro.com/cart
+                - img "items in cart" [ref=e36]: 
+                - generic [ref=e38]: "1"
+              - link "wishlist" [ref=e42] [cursor=pointer]:
+                - /url: https://dev.babylisspro.com/account?rurl=account&args=tab4-features-12
+                - img [ref=e43]
+            - button "English" [ref=e46] [cursor=pointer]: EN
+        - generic "nav bar opened press Tab to see items" [ref=e47]:
+          - navigation "Primary" [ref=e50]:
+            - menu [ref=e52]:
+              - button "Hair Dryers" [ref=e53] [cursor=pointer]
+              - button "Straighteners" [ref=e54] [cursor=pointer]
+              - button "Curling Irons & Stylers" [ref=e55] [cursor=pointer]
+              - link "Specialty Hair Tools" [ref=e56] [cursor=pointer]:
+                - /url: /specialty-hair-tools
+              - button "Barber Tools" [ref=e57] [cursor=pointer]
+              - link "Gift Sets" [ref=e58] [cursor=pointer]:
+                - /url: /gift-sets
+        - text:  
+    - main [ref=e59]:
+      - generic [ref=e60]:
+        - heading "Cart" [level=1] [ref=e62]
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic [ref=e67]:
+              - heading "Cart Summary" [level=2] [ref=e69]
+              - table [ref=e71]:
+                - rowgroup [ref=e72]:
+                  - row "Product Each Quantity Total" [ref=e73]:
+                    - cell "Product" [ref=e74]
+                    - cell "Each" [ref=e75]
+                    - cell "Quantity" [ref=e76]
+                    - cell "Total" [ref=e77]
+                - rowgroup [ref=e78]:
+                  - row "BaBylissPRO® Italian Dryer Diffuser, BaBylissPRO® Italian Dryer Diffuser $14.99 1 $14.99 Remove product BaBylissPRO® Italian Dryer Diffuser" [ref=e79]:
+                    - cell "BaBylissPRO® Italian Dryer Diffuser, BaBylissPRO® Italian Dryer Diffuser" [ref=e80]:
+                      - img "BaBylissPRO® Italian Dryer Diffuser," [ref=e83]
+                      - strong [ref=e85]:
+                        - link "BaBylissPRO® Italian Dryer Diffuser" [ref=e86] [cursor=pointer]:
+                          - /url: /italian-hair-dryer-diffuser/BABDF2.html
+                    - cell "$14.99" [ref=e87]:
+                      - generic [ref=e91]: $14.99
+                    - cell "1" [ref=e92]:
+                      - combobox "quantity" [ref=e95]:
+                        - option "1" [selected]
+                        - option "2"
+                        - option "3"
+                        - option "4"
+                        - option "5"
+                        - option "6"
+                        - option "7"
+                        - option "8"
+                        - option "9"
+                        - option "10"
+                    - cell "$14.99 Remove product BaBylissPRO® Italian Dryer Diffuser" [ref=e96]:
+                      - generic [ref=e97]: $14.99
+                      - button "Remove product BaBylissPRO® Italian Dryer Diffuser" [ref=e99] [cursor=pointer]: ×
+            - generic [ref=e100]:
+              - img [ref=e101]
+              - link "Continue Shopping" [ref=e103] [cursor=pointer]:
+                - /url: /
+          - generic [ref=e104]:
+            - generic [ref=e106]:
+              - text: Promotion Code
+              - generic [ref=e108]:
+                - generic [ref=e109]:
+                  - textbox "Promotion Code" [ref=e111]:
+                    - /placeholder: Enter Promotion Code
+                  - button "Apply" [ref=e113] [cursor=pointer]
+                - generic:
+                  - alert
+            - heading "Price Details" [level=2] [ref=e117]
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - paragraph [ref=e122]: Subtotal
+                - paragraph [ref=e124]: $14.99
+              - generic [ref=e125]:
+                - paragraph [ref=e127]: Shipping & Handling
+                - paragraph [ref=e129]: $4.99
+              - generic [ref=e130]:
+                - paragraph [ref=e132]: Estimated Sales Tax
+                - paragraph [ref=e134]: $0.00
+              - generic [ref=e135]:
+                - paragraph [ref=e137]: "Estimated Total:"
+                - paragraph [ref=e139]: $19.98
+            - link "Proceed to Checkout" [ref=e141] [cursor=pointer]:
+              - /url: https://dev.babylisspro.com/checkout/login
+              - text: Proceed to Checkout
+              - img [ref=e142]
+            - generic [ref=e144]: "-- or --"
+            - group "Express Checkout" [ref=e145]:
+              - generic [ref=e146]: Express Checkout
+              - generic [ref=e147]:
+                - button "Checkout with PayPal" [ref=e148] [cursor=pointer]:
+                  - generic [ref=e149]: Checkout with
+                  - img "PayPal" [ref=e150]
+                - button "Checkout with GPay" [ref=e153] [cursor=pointer]
+            - alert [ref=e154]: The sales tax listed above is an estimate. Please note, once you have placed your order it cannot be cancelled.
+        - generic [ref=e155]: Need Help? Call 1-833-266-2479
+    - generic [ref=e157]:
+      - separator [ref=e158]
+      - generic [ref=e160]:
+        - generic [ref=e161]:
+          - img "BaBylissPRO logo" [ref=e162]
+          - list [ref=e163]:
+            - listitem [ref=e164]:
+              - link "TERMS OF SERVICE" [ref=e165] [cursor=pointer]:
+                - /url: https://legal.conair.com/content/page/terms-notice?referrer=www.babylisspro.com
+            - listitem [ref=e166]:
+              - link "Privacy Policy" [ref=e167] [cursor=pointer]:
+                - /url: https://legal.conair.com/content/page/privacy-notice?referrer=www.babylisspro.com
+            - listitem [ref=e168]:
+              - link "UNILATERAL PRICE POLICY" [ref=e169] [cursor=pointer]:
+                - /url: javascript:void(0)
+            - listitem [ref=e170]:
+              - link "Do Not Sell or Share My Personal Information" [ref=e171] [cursor=pointer]:
+                - /url: http://legal.conair.com/content/page/do-not-sell-request?referrer=www.babylisspro.com
+          - list [ref=e173]:
+            - listitem [ref=e174]: Sign up for our Email
+            - listitem [ref=e175]:
+              - form [ref=e176]:
+                - generic [ref=e177]:
+                  - textbox "Sign up for our Email" [ref=e178]
+                  - button "Subscribe" [ref=e180] [cursor=pointer]
+        - generic [ref=e182]:
+          - generic [ref=e183]:
+            - generic [ref=e185]:
+              - heading "SHOP" [level=2] [ref=e186]
+              - list [ref=e187]:
+                - listitem [ref=e188]:
+                  - link "DRYING" [ref=e189] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/search?cgid=drying
+                - listitem [ref=e190]:
+                  - link "STRAIGHTENING IRONS" [ref=e191] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/search?cgid=straightening-irons
+                - listitem [ref=e192]:
+                  - link "CURLING IRONS" [ref=e193] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/search?cgid=curling-irons
+                - listitem [ref=e194]:
+                  - link "SPECIALTY" [ref=e195] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/search?cgid=Specialty
+                - listitem [ref=e196]:
+                  - link "BARBEROLOGY" [ref=e197] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/search?cgid=barberology
+            - generic [ref=e199]:
+              - heading "HELP & INFO" [level=2] [ref=e200]
+              - list [ref=e201]:
+                - listitem [ref=e202]:
+                  - link "About US" [ref=e203] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/about-us.html
+                - listitem [ref=e204]:
+                  - link "FAQ'S" [ref=e205] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/warranty-page
+                - listitem [ref=e206]:
+                  - link "BaBylissPRO.com Returns" [ref=e207] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/return-policy.html
+                - listitem [ref=e208]:
+                  - link "MANUALS" [ref=e209] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/manuals
+                - listitem [ref=e210]:
+                  - link "COUNTERFEIT" [ref=e211] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/counterfeit-page.html
+                - listitem [ref=e212]:
+                  - link "SITEMAP" [ref=e213] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/sitemap
+                - listitem [ref=e214]:
+                  - link "ACCESSIBILITY STATEMENT" [ref=e215] [cursor=pointer]:
+                    - /url: https://dev.babylisspro.com/accessibility-statement.html
+                - listitem [ref=e216]:
+                  - link "Opt out of sale of personal data and Targeted Advertising" [ref=e217] [cursor=pointer]:
+                    - /url: javascript:void(0);
+            - generic [ref=e219]:
+              - heading "GLOBAL SITES" [level=2] [ref=e220]
+              - list [ref=e221]:
+                - listitem [ref=e222]:
+                  - link "EUROPE" [ref=e223] [cursor=pointer]:
+                    - /url: https://www.babylisspro.eu/fr-fr/
+                - listitem [ref=e224]:
+                  - link "CANADA" [ref=e225] [cursor=pointer]:
+                    - /url: https://www.babylisspro.ca/homepage?lang=en
+          - generic [ref=e226]:
+            - heading "Follow us:" [level=2] [ref=e227]
+            - generic [ref=e229]:
+              - heading "BaBylissPRO" [level=2] [ref=e230]
+              - generic [ref=e233]:
+                - link "BaBylissPRO Facebook (opens in a new window)" [ref=e235] [cursor=pointer]:
+                  - /url: https://www.facebook.com/BabylissproUSA
+                - link "BaBylissPRO Instagram (opens in a new window)" [ref=e237] [cursor=pointer]:
+                  - /url: https://www.instagram.com/babylissprousa/
+                - link "BaBylissPRO Youtube (opens in a new window)" [ref=e239] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCewT_X6CbR-eSYNC9yZpEog
+            - generic [ref=e241]:
+              - heading "BaBylissPROBarber" [level=2] [ref=e242]
+              - link "BaByliss4Barbers Instagram (opens in a new window)" [ref=e245] [cursor=pointer]:
+                - /url: https://www.instagram.com/babylissprobarber/
+            - generic [ref=e247]:
+              - heading "Barberology" [level=2] [ref=e248]
+              - generic [ref=e251]:
+                - link "Barberology Facebook (opens in a new window)" [ref=e253] [cursor=pointer]:
+                  - /url: https://www.facebook.com/BaBylissPRO-Barberology-357858984767839/
+                - link "Barberology Instagram (opens in a new window)" [ref=e255] [cursor=pointer]:
+                  - /url: https://www.instagram.com/babylisspro_barberology/
+                - link "Barberology Youtube (opens in a new window)" [ref=e257] [cursor=pointer]:
+                  - /url: https://www.youtube.com/channel/UCewT_X6CbR-eSYNC9yZpEog
+            - heading [level=2] [ref=e260]
+```
