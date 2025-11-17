@@ -10,6 +10,28 @@ test.describe('Cuisinart Stage Login Tests', () => {
     console.log('Page title:', await page.title());
     console.log('Page URL:', page.url());
 
+    // Handle OneTrust cookie banner if it appears
+    try {
+      const oneTrustBanner = page.locator('#onetrust-accept-btn-handler, button:has-text("Accept All Cookies"), button:has-text("Accept Cookies")');
+      await oneTrustBanner.waitFor({ timeout: 5000 });
+      await oneTrustBanner.click();
+      console.log('OneTrust banner accepted');
+      await page.waitForTimeout(1000);
+    } catch (error) {
+      console.log('OneTrust banner not found or already dismissed');
+    }
+
+    // Handle modal overlay if it appears (newsletter signup, promotion, etc.)
+    try {
+      const modalClose = page.locator('button.close, button[aria-label*="close" i], button:has-text("×"), .modal-close, [data-dismiss="modal"]').first();
+      await modalClose.waitFor({ timeout: 5000 });
+      await modalClose.click();
+      console.log('Modal overlay closed');
+      await page.waitForTimeout(1000);
+    } catch (error) {
+      console.log('Modal overlay not found or already closed');
+    }
+
     // Click account/login link
     const accountLink = page.locator('a:has-text("Account"), a:has-text("Sign In"), a:has-text("Login"), [aria-label*="account" i]').first();
     

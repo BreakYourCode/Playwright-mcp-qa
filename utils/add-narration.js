@@ -19,10 +19,17 @@ speechConfig.speechSynthesisVoiceName = 'en-US-JennyNeural';
 /**
  * Generate narration script from test results
  */
-function generateNarrationScript(testName, testResults) {
+function generateNarrationScript(testName, testResults, consoleLogs = []) {
   const script = [];
   
   script.push(`Test: ${testName}`);
+  
+  // Add console logs as narration steps
+  if (consoleLogs && consoleLogs.length > 0) {
+    consoleLogs.forEach(log => {
+      script.push(log);
+    });
+  }
   
   if (testResults.status === 'passed') {
     script.push('Status: Passed successfully');
@@ -144,6 +151,24 @@ function findVideoFiles(testResultsDir) {
 }
 
 /**
+ * Extract console logs from stdout/stderr if available
+ */
+function extractConsoleLogs(dirName) {
+  const logs = [];
+  
+  // Look for console-logs.txt file created by our custom reporter
+  const logFilePath = path.join(dirName, 'console-logs.txt');
+  
+  if (fs.existsSync(logFilePath)) {
+    const logContent = fs.readFileSync(logFilePath, 'utf8');
+    const logLines = logContent.split('\n').filter(line => line.trim());
+    logs.push(...logLines);
+  }
+  
+  return logs;
+}
+
+/**
  * Extract test information from video path
  */
 function extractTestInfo(videoPath) {
@@ -160,11 +185,15 @@ function extractTestInfo(videoPath) {
     error = errorContent.split('\n')[0].replace(/^#+\s*/, '');
   }
   
+  // Extract console logs if available
+  const consoleLogs = extractConsoleLogs(dirName);
+  
   return {
     testName: testName.replace(/-/g, ' '),
     status: error ? 'failed' : 'passed',
     error: error,
-    steps: [] // Could be enhanced to parse actual steps from trace
+    steps: [],
+    consoleLogs: consoleLogs
   };
 }
 
@@ -205,8 +234,8 @@ async function processTestVideos(testResultsDir = './test-results', outputDir = 
       // Extract test information
       const testInfo = extractTestInfo(videoPath);
       
-      // Generate narration script
-      const narrationText = generateNarrationScript(testInfo.testName, testInfo);
+      // Generate narration script with console logs
+      const narrationText = generateNarrationScript(testInfo.testName, testInfo, testInfo.consoleLogs);
       
       // Generate audio file
       const audioPath = path.join(outputDir, `narration-${Date.now()}.wav`);

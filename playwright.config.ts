@@ -30,6 +30,7 @@ export default defineConfig({
   reporter: [
     ['html'],
     ['list'],
+    ['./utils/console-logger-reporter.ts'],
     ['./utils/narration-reporter.ts']
   ],
 

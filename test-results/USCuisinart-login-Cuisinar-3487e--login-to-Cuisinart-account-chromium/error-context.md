@@ -16,8 +16,8 @@
         - generic [ref=f1e71]: Cache Information (Page)
         - table [ref=f1e74]:
           - rowgroup [ref=f1e75]:
-            - 'row "Page Information Controller: Default-Start (app_conairllc_sfra_browse) Template: Processing Time: 28 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e76]':
-              - 'cell "Page Information Controller: Default-Start (app_conairllc_sfra_browse) Template: Processing Time: 28 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e77]':
+            - 'row "Page Information Controller: Default-Start (app_conairllc_sfra_browse) Template: Processing Time: 29 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e76]':
+              - 'cell "Page Information Controller: Default-Start (app_conairllc_sfra_browse) Template: Processing Time: 29 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e77]':
                 - generic [ref=f1e78]:
                   - generic [ref=f1e79]: Page Information
                   - generic [ref=f1e84]:
@@ -37,22 +37,22 @@
                             - cell [ref=f1e100]
                       - table [ref=f1e103]:
                         - rowgroup [ref=f1e104]:
-                          - 'row "Processing Time: 28 ms" [ref=f1e105]':
+                          - 'row "Processing Time: 29 ms" [ref=f1e105]':
                             - cell "Processing Time:" [ref=f1e106]:
                               - generic [ref=f1e107]: "Processing Time:"
-                            - cell "28 ms" [ref=f1e108]:
-                              - generic [ref=f1e109]: 28 ms
+                            - cell "29 ms" [ref=f1e108]:
+                              - generic [ref=f1e109]: 29 ms
                       - table [ref=f1e111]:
                         - rowgroup [ref=f1e112]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e113]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e113]':
                             - cell "Caching Status:" [ref=f1e114]:
                               - generic [ref=f1e115]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e116]':
-                              - generic [ref=f1e117]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e116]':
+                              - generic [ref=f1e117]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e118] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: GTM-HtmlHead (plugin_gtm_2025_custom) Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom) Processing Time: 6 ms Caching Status: Not cached" [ref=f1e119]':
-              - 'cell "Remote Include Controller: GTM-HtmlHead (plugin_gtm_2025_custom) Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom) Processing Time: 6 ms Caching Status: Not cached" [ref=f1e120]':
+            - 'row "Remote Include Controller: GTM-HtmlHead (plugin_gtm_2025_custom) Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom) Processing Time: 7 ms Caching Status: Not cached" [ref=f1e119]':
+              - 'cell "Remote Include Controller: GTM-HtmlHead (plugin_gtm_2025_custom) Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom) Processing Time: 7 ms Caching Status: Not cached" [ref=f1e120]':
                 - generic [ref=f1e121]:
                   - generic [ref=f1e124]: Remote Include
                   - generic [ref=f1e129]:
@@ -73,11 +73,11 @@
                               - generic [ref=f1e146]: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom)
                       - table [ref=f1e148]:
                         - rowgroup [ref=f1e149]:
-                          - 'row "Processing Time: 6 ms" [ref=f1e150]':
+                          - 'row "Processing Time: 7 ms" [ref=f1e150]':
                             - cell "Processing Time:" [ref=f1e151]:
                               - generic [ref=f1e152]: "Processing Time:"
-                            - cell "6 ms" [ref=f1e153]:
-                              - generic [ref=f1e154]: 6 ms
+                            - cell "7 ms" [ref=f1e153]:
+                              - generic [ref=f1e154]: 7 ms
                       - table [ref=f1e156]:
                         - rowgroup [ref=f1e157]:
                           - 'row "Caching Status: Not cached" [ref=f1e158]':
@@ -87,8 +87,8 @@
                               - generic [ref=f1e162]: Not cached
                     - link [ref=f1e163] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: GTM-CustomerData (plugin_gtm_2025_custom) Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e164]':
-              - 'cell "Remote Include Controller: GTM-CustomerData (plugin_gtm_2025_custom) Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e165]':
+            - 'row "Remote Include Controller: GTM-CustomerData (plugin_gtm_2025_custom) Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e164]':
+              - 'cell "Remote Include Controller: GTM-CustomerData (plugin_gtm_2025_custom) Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e165]':
                 - generic [ref=f1e166]:
                   - generic [ref=f1e169]: Remote Include
                   - generic [ref=f1e174]:
@@ -109,11 +109,11 @@
                               - generic [ref=f1e191]: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom)
                       - table [ref=f1e193]:
                         - rowgroup [ref=f1e194]:
-                          - 'row "Processing Time: 3 ms" [ref=f1e195]':
+                          - 'row "Processing Time: 5 ms" [ref=f1e195]':
                             - cell "Processing Time:" [ref=f1e196]:
                               - generic [ref=f1e197]: "Processing Time:"
-                            - cell "3 ms" [ref=f1e198]:
-                              - generic [ref=f1e199]: 3 ms
+                            - cell "5 ms" [ref=f1e198]:
+                              - generic [ref=f1e199]: 5 ms
                       - table [ref=f1e201]:
                         - rowgroup [ref=f1e202]:
                           - 'row "Caching Status: Not cached" [ref=f1e203]':
@@ -123,8 +123,8 @@
                               - generic [ref=f1e207]: Not cached
                     - link [ref=f1e208] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Pipeline: Internal - Page Designer Page: homepage Processing Time: 159 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e209]':
-              - 'cell "Remote Include Pipeline: Internal - Page Designer Page: homepage Processing Time: 159 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e210]':
+            - 'row "Remote Include Pipeline: Internal - Page Designer Page: homepage Processing Time: 172 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e209]':
+              - 'cell "Remote Include Pipeline: Internal - Page Designer Page: homepage Processing Time: 172 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e210]':
                 - generic [ref=f1e211]:
                   - generic [ref=f1e214]: Remote Include
                   - generic [ref=f1e219]:
@@ -145,22 +145,22 @@
                               - generic [ref=f1e236]: homepage
                       - table [ref=f1e238]:
                         - rowgroup [ref=f1e239]:
-                          - 'row "Processing Time: 159 ms" [ref=f1e240]':
+                          - 'row "Processing Time: 172 ms" [ref=f1e240]':
                             - cell "Processing Time:" [ref=f1e241]:
                               - generic [ref=f1e242]: "Processing Time:"
-                            - cell "159 ms" [ref=f1e243]:
-                              - generic [ref=f1e244]: 159 ms
+                            - cell "172 ms" [ref=f1e243]:
+                              - generic [ref=f1e244]: 172 ms
                       - table [ref=f1e246]:
                         - rowgroup [ref=f1e247]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e248]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e248]':
                             - cell "Caching Status:" [ref=f1e249]:
                               - generic [ref=f1e250]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e251]':
-                              - generic [ref=f1e252]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e251]':
+                              - generic [ref=f1e252]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e253] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: GTM-BeforeHeader (plugin_gtm_2025_custom) Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom) Processing Time: 4 ms Caching Status: Not cached" [ref=f1e254]':
-              - 'cell "Remote Include Controller: GTM-BeforeHeader (plugin_gtm_2025_custom) Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom) Processing Time: 4 ms Caching Status: Not cached" [ref=f1e255]':
+            - 'row "Remote Include Controller: GTM-BeforeHeader (plugin_gtm_2025_custom) Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e254]':
+              - 'cell "Remote Include Controller: GTM-BeforeHeader (plugin_gtm_2025_custom) Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e255]':
                 - generic [ref=f1e256]:
                   - generic [ref=f1e259]: Remote Include
                   - generic [ref=f1e264]:
@@ -181,11 +181,11 @@
                               - generic [ref=f1e281]: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom)
                       - table [ref=f1e283]:
                         - rowgroup [ref=f1e284]:
-                          - 'row "Processing Time: 4 ms" [ref=f1e285]':
+                          - 'row "Processing Time: 3 ms" [ref=f1e285]':
                             - cell "Processing Time:" [ref=f1e286]:
                               - generic [ref=f1e287]: "Processing Time:"
-                            - cell "4 ms" [ref=f1e288]:
-                              - generic [ref=f1e289]: 4 ms
+                            - cell "3 ms" [ref=f1e288]:
+                              - generic [ref=f1e289]: 3 ms
                       - table [ref=f1e291]:
                         - rowgroup [ref=f1e292]:
                           - 'row "Caching Status: Not cached" [ref=f1e293]':
@@ -233,8 +233,8 @@
                               - generic [ref=f1e343]: Not cached
                     - link [ref=f1e344] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Account-Header (app_custom_sfra_recipe) Template: /default/account/header.isml (app_conairllc_sfra_browse) Processing Time: 18 ms Caching Status: Not cached" [ref=f1e345]':
-              - 'cell "Remote Include Controller: Account-Header (app_custom_sfra_recipe) Template: /default/account/header.isml (app_conairllc_sfra_browse) Processing Time: 18 ms Caching Status: Not cached" [ref=f1e346]':
+            - 'row "Remote Include Controller: Account-Header (app_custom_sfra_recipe) Template: /default/account/header.isml (app_conairllc_sfra_browse) Processing Time: 19 ms Caching Status: Not cached" [ref=f1e345]':
+              - 'cell "Remote Include Controller: Account-Header (app_custom_sfra_recipe) Template: /default/account/header.isml (app_conairllc_sfra_browse) Processing Time: 19 ms Caching Status: Not cached" [ref=f1e346]':
                 - generic [ref=f1e347]:
                   - generic [ref=f1e350]: Remote Include
                   - generic [ref=f1e355]:
@@ -255,11 +255,11 @@
                               - generic [ref=f1e372]: /default/account/header.isml (app_conairllc_sfra_browse)
                       - table [ref=f1e374]:
                         - rowgroup [ref=f1e375]:
-                          - 'row "Processing Time: 18 ms" [ref=f1e376]':
+                          - 'row "Processing Time: 19 ms" [ref=f1e376]':
                             - cell "Processing Time:" [ref=f1e377]:
                               - generic [ref=f1e378]: "Processing Time:"
-                            - cell "18 ms" [ref=f1e379]:
-                              - generic [ref=f1e380]: 18 ms
+                            - cell "19 ms" [ref=f1e379]:
+                              - generic [ref=f1e380]: 19 ms
                       - table [ref=f1e382]:
                         - rowgroup [ref=f1e383]:
                           - 'row "Caching Status: Not cached" [ref=f1e384]':
@@ -269,8 +269,8 @@
                               - generic [ref=f1e388]: Not cached
                     - link [ref=f1e389] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Cart-MiniCart (app_cuisinart_sfra_base) Template: /default//components/header/miniCart.isml (app_conairllc_sfra_browse) Processing Time: 18 ms Caching Status: Not cached" [ref=f1e390]':
-              - 'cell "Remote Include Controller: Cart-MiniCart (app_cuisinart_sfra_base) Template: /default//components/header/miniCart.isml (app_conairllc_sfra_browse) Processing Time: 18 ms Caching Status: Not cached" [ref=f1e391]':
+            - 'row "Remote Include Controller: Cart-MiniCart (app_cuisinart_sfra_base) Template: /default//components/header/miniCart.isml (app_conairllc_sfra_browse) Processing Time: 24 ms Caching Status: Not cached" [ref=f1e390]':
+              - 'cell "Remote Include Controller: Cart-MiniCart (app_cuisinart_sfra_base) Template: /default//components/header/miniCart.isml (app_conairllc_sfra_browse) Processing Time: 24 ms Caching Status: Not cached" [ref=f1e391]':
                 - generic [ref=f1e392]:
                   - generic [ref=f1e395]: Remote Include
                   - generic [ref=f1e400]:
@@ -293,11 +293,11 @@
                                 - text: (app_conairllc_sfra_browse)
                       - table [ref=f1e420]:
                         - rowgroup [ref=f1e421]:
-                          - 'row "Processing Time: 18 ms" [ref=f1e422]':
+                          - 'row "Processing Time: 24 ms" [ref=f1e422]':
                             - cell "Processing Time:" [ref=f1e423]:
                               - generic [ref=f1e424]: "Processing Time:"
-                            - cell "18 ms" [ref=f1e425]:
-                              - generic [ref=f1e426]: 18 ms
+                            - cell "24 ms" [ref=f1e425]:
+                              - generic [ref=f1e426]: 24 ms
                       - table [ref=f1e428]:
                         - rowgroup [ref=f1e429]:
                           - 'row "Caching Status: Not cached" [ref=f1e430]':
@@ -307,8 +307,8 @@
                               - generic [ref=f1e434]: Not cached
                     - link [ref=f1e435] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-IncludeHeaderMenu (app_conairllc_sfra_browse) Template: /default//components/header/menu.isml (app_conairllc_sfra_browse) Processing Time: 130 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e436]':
-              - 'cell "Remote Include Controller: Page-IncludeHeaderMenu (app_conairllc_sfra_browse) Template: /default//components/header/menu.isml (app_conairllc_sfra_browse) Processing Time: 130 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e437]':
+            - 'row "Remote Include Controller: Page-IncludeHeaderMenu (app_conairllc_sfra_browse) Template: /default//components/header/menu.isml (app_conairllc_sfra_browse) Processing Time: 128 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e436]':
+              - 'cell "Remote Include Controller: Page-IncludeHeaderMenu (app_conairllc_sfra_browse) Template: /default//components/header/menu.isml (app_conairllc_sfra_browse) Processing Time: 128 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e437]':
                 - generic [ref=f1e438]:
                   - generic [ref=f1e441]: Remote Include
                   - generic [ref=f1e446]:
@@ -331,18 +331,18 @@
                                 - text: (app_conairllc_sfra_browse)
                       - table [ref=f1e466]:
                         - rowgroup [ref=f1e467]:
-                          - 'row "Processing Time: 130 ms" [ref=f1e468]':
+                          - 'row "Processing Time: 128 ms" [ref=f1e468]':
                             - cell "Processing Time:" [ref=f1e469]:
                               - generic [ref=f1e470]: "Processing Time:"
-                            - cell "130 ms" [ref=f1e471]:
-                              - generic [ref=f1e472]: 130 ms
+                            - cell "128 ms" [ref=f1e471]:
+                              - generic [ref=f1e472]: 128 ms
                       - table [ref=f1e474]:
                         - rowgroup [ref=f1e475]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e476]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e476]':
                             - cell "Caching Status:" [ref=f1e477]:
                               - generic [ref=f1e478]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e479]':
-                              - generic [ref=f1e480]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e479]':
+                              - generic [ref=f1e480]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e481] [cursor=pointer]:
                       - /url: "#"
             - 'row "Remote Include Controller: Account-Header (app_custom_sfra_recipe) Template: /default/account/mobileHeader.isml (app_conairllc_sfra_browse) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e482]':
@@ -383,8 +383,8 @@
                               - generic [ref=f1e526]: Not cached
                     - link [ref=f1e527] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 9 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e528]':
-              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 9 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e529]':
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 8 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e528]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 8 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e529]':
                 - generic [ref=f1e530]:
                   - generic [ref=f1e533]: Remote Include
                   - generic [ref=f1e538]:
@@ -407,22 +407,22 @@
                                 - text: (app_storefront_base_6_3)
                       - table [ref=f1e558]:
                         - rowgroup [ref=f1e559]:
-                          - 'row "Processing Time: 9 ms" [ref=f1e560]':
+                          - 'row "Processing Time: 8 ms" [ref=f1e560]':
                             - cell "Processing Time:" [ref=f1e561]:
                               - generic [ref=f1e562]: "Processing Time:"
-                            - cell "9 ms" [ref=f1e563]:
-                              - generic [ref=f1e564]: 9 ms
+                            - cell "8 ms" [ref=f1e563]:
+                              - generic [ref=f1e564]: 8 ms
                       - table [ref=f1e566]:
                         - rowgroup [ref=f1e567]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e568]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e568]':
                             - cell "Caching Status:" [ref=f1e569]:
                               - generic [ref=f1e570]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e571]':
-                              - generic [ref=f1e572]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e571]':
+                              - generic [ref=f1e572]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e573] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Pipeline: Internal Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Not cached" [ref=f1e574]':
-              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Not cached" [ref=f1e575]':
+            - 'row "Remote Include Pipeline: Internal Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e574]':
+              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e575]':
                 - generic [ref=f1e576]:
                   - generic [ref=f1e579]: Remote Include
                   - generic [ref=f1e584]:
@@ -445,11 +445,11 @@
                                 - text: (app_storefront_base_6_3)
                       - table [ref=f1e604]:
                         - rowgroup [ref=f1e605]:
-                          - 'row "Processing Time: 6 ms" [ref=f1e606]':
+                          - 'row "Processing Time: 5 ms" [ref=f1e606]':
                             - cell "Processing Time:" [ref=f1e607]:
                               - generic [ref=f1e608]: "Processing Time:"
-                            - cell "6 ms" [ref=f1e609]:
-                              - generic [ref=f1e610]: 6 ms
+                            - cell "5 ms" [ref=f1e609]:
+                              - generic [ref=f1e610]: 5 ms
                       - table [ref=f1e612]:
                         - rowgroup [ref=f1e613]:
                           - 'row "Caching Status: Not cached" [ref=f1e614]':
@@ -459,8 +459,8 @@
                               - generic [ref=f1e618]: Not cached
                     - link [ref=f1e619] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e620]':
-              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e621]':
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e620]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e621]':
                 - generic [ref=f1e622]:
                   - generic [ref=f1e625]: Remote Include
                   - generic [ref=f1e630]:
@@ -490,15 +490,15 @@
                               - generic [ref=f1e656]: 5 ms
                       - table [ref=f1e658]:
                         - rowgroup [ref=f1e659]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e660]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e660]':
                             - cell "Caching Status:" [ref=f1e661]:
                               - generic [ref=f1e662]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e663]':
-                              - generic [ref=f1e664]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e663]':
+                              - generic [ref=f1e664]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e665] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e666]':
-              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e667]':
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e666]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e667]':
                 - generic [ref=f1e668]:
                   - generic [ref=f1e671]: Remote Include
                   - generic [ref=f1e676]:
@@ -521,22 +521,22 @@
                                 - text: (app_storefront_base_6_3)
                       - table [ref=f1e696]:
                         - rowgroup [ref=f1e697]:
-                          - 'row "Processing Time: 6 ms" [ref=f1e698]':
+                          - 'row "Processing Time: 5 ms" [ref=f1e698]':
                             - cell "Processing Time:" [ref=f1e699]:
                               - generic [ref=f1e700]: "Processing Time:"
-                            - cell "6 ms" [ref=f1e701]:
-                              - generic [ref=f1e702]: 6 ms
+                            - cell "5 ms" [ref=f1e701]:
+                              - generic [ref=f1e702]: 5 ms
                       - table [ref=f1e704]:
                         - rowgroup [ref=f1e705]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e706]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e706]':
                             - cell "Caching Status:" [ref=f1e707]:
                               - generic [ref=f1e708]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e709]':
-                              - generic [ref=f1e710]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e709]':
+                              - generic [ref=f1e710]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e711] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e712]':
-              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e713]':
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e712]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e713]':
                 - generic [ref=f1e714]:
                   - generic [ref=f1e717]: Remote Include
                   - generic [ref=f1e722]:
@@ -566,15 +566,15 @@
                               - generic [ref=f1e748]: 5 ms
                       - table [ref=f1e750]:
                         - rowgroup [ref=f1e751]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e752]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e752]':
                             - cell "Caching Status:" [ref=f1e753]:
                               - generic [ref=f1e754]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e755]':
-                              - generic [ref=f1e756]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e755]':
+                              - generic [ref=f1e756]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e757] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e758]':
-              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e759]':
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e758]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e759]':
                 - generic [ref=f1e760]:
                   - generic [ref=f1e763]: Remote Include
                   - generic [ref=f1e768]:
@@ -597,22 +597,22 @@
                                 - text: (app_storefront_base_6_3)
                       - table [ref=f1e788]:
                         - rowgroup [ref=f1e789]:
-                          - 'row "Processing Time: 6 ms" [ref=f1e790]':
+                          - 'row "Processing Time: 5 ms" [ref=f1e790]':
                             - cell "Processing Time:" [ref=f1e791]:
                               - generic [ref=f1e792]: "Processing Time:"
-                            - cell "6 ms" [ref=f1e793]:
-                              - generic [ref=f1e794]: 6 ms
+                            - cell "5 ms" [ref=f1e793]:
+                              - generic [ref=f1e794]: 5 ms
                       - table [ref=f1e796]:
                         - rowgroup [ref=f1e797]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e798]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e798]':
                             - cell "Caching Status:" [ref=f1e799]:
                               - generic [ref=f1e800]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e801]':
-                              - generic [ref=f1e802]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e801]':
+                              - generic [ref=f1e802]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e803] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e804]':
-              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e805]':
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e804]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e805]':
                 - generic [ref=f1e806]:
                   - generic [ref=f1e809]: Remote Include
                   - generic [ref=f1e814]:
@@ -635,22 +635,22 @@
                                 - text: (app_storefront_base_6_3)
                       - table [ref=f1e834]:
                         - rowgroup [ref=f1e835]:
-                          - 'row "Processing Time: 6 ms" [ref=f1e836]':
+                          - 'row "Processing Time: 5 ms" [ref=f1e836]':
                             - cell "Processing Time:" [ref=f1e837]:
                               - generic [ref=f1e838]: "Processing Time:"
-                            - cell "6 ms" [ref=f1e839]:
-                              - generic [ref=f1e840]: 6 ms
+                            - cell "5 ms" [ref=f1e839]:
+                              - generic [ref=f1e840]: 5 ms
                       - table [ref=f1e842]:
                         - rowgroup [ref=f1e843]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e844]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e844]':
                             - cell "Caching Status:" [ref=f1e845]:
                               - generic [ref=f1e846]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e847]':
-                              - generic [ref=f1e848]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e847]':
+                              - generic [ref=f1e848]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e849] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e850]':
-              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e851]':
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 4 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e850]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 4 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e851]':
                 - generic [ref=f1e852]:
                   - generic [ref=f1e855]: Remote Include
                   - generic [ref=f1e860]:
@@ -673,22 +673,22 @@
                                 - text: (app_storefront_base_6_3)
                       - table [ref=f1e880]:
                         - rowgroup [ref=f1e881]:
-                          - 'row "Processing Time: 5 ms" [ref=f1e882]':
+                          - 'row "Processing Time: 4 ms" [ref=f1e882]':
                             - cell "Processing Time:" [ref=f1e883]:
                               - generic [ref=f1e884]: "Processing Time:"
-                            - cell "5 ms" [ref=f1e885]:
-                              - generic [ref=f1e886]: 5 ms
+                            - cell "4 ms" [ref=f1e885]:
+                              - generic [ref=f1e886]: 4 ms
                       - table [ref=f1e888]:
                         - rowgroup [ref=f1e889]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e890]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e890]':
                             - cell "Caching Status:" [ref=f1e891]:
                               - generic [ref=f1e892]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e893]':
-                              - generic [ref=f1e894]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e893]':
+                              - generic [ref=f1e894]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e895] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e896]':
-              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e897]':
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e896]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e897]':
                 - generic [ref=f1e898]:
                   - generic [ref=f1e901]: Remote Include
                   - generic [ref=f1e906]:
@@ -718,15 +718,15 @@
                               - generic [ref=f1e932]: 5 ms
                       - table [ref=f1e934]:
                         - rowgroup [ref=f1e935]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e936]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e936]':
                             - cell "Caching Status:" [ref=f1e937]:
                               - generic [ref=f1e938]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e939]':
-                              - generic [ref=f1e940]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e939]':
+                              - generic [ref=f1e940]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e941] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e942]':
-              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e943]':
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 4 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e942]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 4 ms Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e943]':
                 - generic [ref=f1e944]:
                   - generic [ref=f1e947]: Remote Include
                   - generic [ref=f1e952]:
@@ -749,22 +749,22 @@
                                 - text: (app_storefront_base_6_3)
                       - table [ref=f1e972]:
                         - rowgroup [ref=f1e973]:
-                          - 'row "Processing Time: 5 ms" [ref=f1e974]':
+                          - 'row "Processing Time: 4 ms" [ref=f1e974]':
                             - cell "Processing Time:" [ref=f1e975]:
                               - generic [ref=f1e976]: "Processing Time:"
-                            - cell "5 ms" [ref=f1e977]:
-                              - generic [ref=f1e978]: 5 ms
+                            - cell "4 ms" [ref=f1e977]:
+                              - generic [ref=f1e978]: 4 ms
                       - table [ref=f1e980]:
                         - rowgroup [ref=f1e981]:
-                          - 'row "Caching Status: Cached until: 11/17/2025 10:43 pm" [ref=f1e982]':
+                          - 'row "Caching Status: Cached until: 11/17/2025 11:01 pm" [ref=f1e982]':
                             - cell "Caching Status:" [ref=f1e983]:
                               - generic [ref=f1e984]: "Caching Status:"
-                            - 'cell "Cached until: 11/17/2025 10:43 pm" [ref=f1e985]':
-                              - generic [ref=f1e986]: "Cached until: 11/17/2025 10:43 pm"
+                            - 'cell "Cached until: 11/17/2025 11:01 pm" [ref=f1e985]':
+                              - generic [ref=f1e986]: "Cached until: 11/17/2025 11:01 pm"
                     - link [ref=f1e987] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: Noibu-GenerateNoibuId (int_noibu_sfra) Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e988]':
-              - 'cell "Remote Include Controller: Noibu-GenerateNoibuId (int_noibu_sfra) Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e989]':
+            - 'row "Remote Include Controller: Noibu-GenerateNoibuId (int_noibu_sfra) Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra) Processing Time: 10 ms Caching Status: Not cached" [ref=f1e988]':
+              - 'cell "Remote Include Controller: Noibu-GenerateNoibuId (int_noibu_sfra) Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra) Processing Time: 10 ms Caching Status: Not cached" [ref=f1e989]':
                 - generic [ref=f1e990]:
                   - generic [ref=f1e993]: Remote Include
                   - generic [ref=f1e998]:
@@ -785,11 +785,11 @@
                               - generic [ref=f1e1015]: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra)
                       - table [ref=f1e1017]:
                         - rowgroup [ref=f1e1018]:
-                          - 'row "Processing Time: 11 ms" [ref=f1e1019]':
+                          - 'row "Processing Time: 10 ms" [ref=f1e1019]':
                             - cell "Processing Time:" [ref=f1e1020]:
                               - generic [ref=f1e1021]: "Processing Time:"
-                            - cell "11 ms" [ref=f1e1022]:
-                              - generic [ref=f1e1023]: 11 ms
+                            - cell "10 ms" [ref=f1e1022]:
+                              - generic [ref=f1e1023]: 10 ms
                       - table [ref=f1e1025]:
                         - rowgroup [ref=f1e1026]:
                           - 'row "Caching Status: Not cached" [ref=f1e1027]':
@@ -799,8 +799,8 @@
                               - generic [ref=f1e1031]: Not cached
                     - link [ref=f1e1032] [cursor=pointer]:
                       - /url: "#"
-            - 'row "Remote Include Controller: ConsentTracking-Check (app_storefront_base_6_3) Template: /default//common/consent.isml (app_storefront_base_6_3) Processing Time: 12 ms Caching Status: Not cached" [ref=f1e1033]':
-              - 'cell "Remote Include Controller: ConsentTracking-Check (app_storefront_base_6_3) Template: /default//common/consent.isml (app_storefront_base_6_3) Processing Time: 12 ms Caching Status: Not cached" [ref=f1e1034]':
+            - 'row "Remote Include Controller: ConsentTracking-Check (app_storefront_base_6_3) Template: /default//common/consent.isml (app_storefront_base_6_3) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e1033]':
+              - 'cell "Remote Include Controller: ConsentTracking-Check (app_storefront_base_6_3) Template: /default//common/consent.isml (app_storefront_base_6_3) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e1034]':
                 - generic [ref=f1e1035]:
                   - generic [ref=f1e1038]: Remote Include
                   - generic [ref=f1e1043]:
@@ -821,11 +821,11 @@
                               - generic [ref=f1e1060]: /default//common/consent.isml (app_storefront_base_6_3)
                       - table [ref=f1e1062]:
                         - rowgroup [ref=f1e1063]:
-                          - 'row "Processing Time: 12 ms" [ref=f1e1064]':
+                          - 'row "Processing Time: 11 ms" [ref=f1e1064]':
                             - cell "Processing Time:" [ref=f1e1065]:
                               - generic [ref=f1e1066]: "Processing Time:"
-                            - cell "12 ms" [ref=f1e1067]:
-                              - generic [ref=f1e1068]: 12 ms
+                            - cell "11 ms" [ref=f1e1067]:
+                              - generic [ref=f1e1068]: 11 ms
                       - table [ref=f1e1070]:
                         - rowgroup [ref=f1e1071]:
                           - 'row "Caching Status: Not cached" [ref=f1e1072]':
@@ -1323,7 +1323,6 @@
               - generic [ref=e559]: Email
               - textbox [ref=e560]:
                 - /placeholder: "*Email"
-                - text: vladjimir_henry@conair.com
             - paragraph [ref=e564]:
               - generic [ref=e565]:
                 - text: By subscribing, you acknowledge that you have read and agreed to our
@@ -1460,49 +1459,8 @@
                 - link [ref=e664] [cursor=pointer]:
                   - /url: https://stage.cuisinart.com/chemical-disclosure
                   - text: Chemical Disclosures
-  - region [ref=e665]:
-    - dialog [ref=e666]:
-      - generic [ref=e668]:
-        - generic [ref=e671]:
-          - text: This website uses cookies and other tracking technologies to enhance user experience, to display personalized advertisements and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. You can exercise your rights to opt-out of sale of processing personal data for targeted advertising by clicking the link on the right. For more details see our
-          - link [ref=e672] [cursor=pointer]:
-            - /url: https://legal.conair.com/content/page/privacy-notice?referrer=www.cuisinart.com
-            - text: Privacy Policy
-          - link [ref=e673] [cursor=pointer]:
-            - /url: https://legal.conair.com/content/page/terms-notice?referrer=www.cuisinart.com
-            - text: Terms of Use
-        - generic [ref=e675]:
-          - button [ref=e676] [cursor=pointer]: Opt out of sale of personal data and Targeted Advertising
-          - button [ref=e677] [cursor=pointer]: Accept Cookies
-  - dialog [active] [ref=e678]:
-    - document:
-      - generic [ref=e679]:
-        - button [ref=e680] [cursor=pointer]
-        - generic [ref=e682]:
-          - generic [ref=e685]:
-            - generic [ref=e686]:
-              - heading [level=2] [ref=e687]: Sign in
-              - generic [ref=e688]:
-                - textbox [ref=e689]
-                - generic: "*Email Address"
-                - paragraph [ref=e690]:
-                  - generic [ref=e691]: "Error:"
-                  - text: Please fill out this field.
-              - generic [ref=e692]:
-                - textbox [ref=e693]: conair1
-                - generic: "*Password"
-              - generic [ref=e694]:
-                - generic [ref=e696] [cursor=pointer]:
-                  - text: Remember Me
-                  - checkbox
-                - button [ref=e700] [cursor=pointer]: Forgot Password
-              - button [ref=e702] [cursor=pointer]: Sign in
-            - button [ref=e704] [cursor=pointer]: Create an account
-          - generic [ref=e707]:
-            - generic [ref=e709]: Or with
-            - button [pressed] [ref=e711] [cursor=pointer]: Sign in with Google
-  - iframe [ref=e713]:
-    - dialog "Sign Up via Text for Offers — Cuisinart" [ref=f2e3]:
+  - iframe [active] [ref=e665]:
+    - dialog "Sign Up via Text for Offers — Cuisinart" [active] [ref=f2e3]:
       - main [ref=f2e4]:
         - generic [ref=f2e7]:
           - button "Dismiss this popup" [ref=f2e8] [cursor=pointer]:
