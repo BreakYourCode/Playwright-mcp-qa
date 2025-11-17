@@ -1,0 +1,4 @@
+OneTrust banner not found
+Attentive modal not found
+Testing: Union-based SQL injection
+✓ Union-based injection blocked

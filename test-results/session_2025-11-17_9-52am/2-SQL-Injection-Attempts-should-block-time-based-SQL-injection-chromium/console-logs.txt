@@ -1,0 +1,4 @@
+OneTrust banner not found
+Attentive modal not found
+Testing: Time-based SQL injection
+✓ Time-based injection blocked

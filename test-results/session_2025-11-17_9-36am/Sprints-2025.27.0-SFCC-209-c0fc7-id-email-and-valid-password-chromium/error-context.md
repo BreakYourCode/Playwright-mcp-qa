@@ -1,0 +1,84 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: Please sign in to save your favourites items.
+      - heading "Sign in" [level=2] [ref=e8]
+      - generic [ref=e9]:
+        - textbox "*Email Address" [ref=e10]:
+          - /placeholder: ""
+          - text: randomuser@test.com
+        - text: "*Email Address"
+        - paragraph
+      - generic [ref=e11]:
+        - textbox "*Password" [active] [ref=e12]:
+          - /placeholder: ""
+          - text: AnyPassword456
+        - text: "*Password"
+        - paragraph
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - text: Remember Me
+          - checkbox "Remember Me" [ref=e16]
+        - button "Forgot Password" [ref=e18] [cursor=pointer]
+      - button "Sign in" [ref=e20]
+    - button "Create an account" [ref=e22]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Create Account" [level=2] [ref=e27]
+      - generic [ref=e28]:
+        - generic [ref=e30]:
+          - textbox "*First Name" [ref=e31]:
+            - /placeholder: ""
+          - text: "*First Name"
+          - paragraph
+        - generic [ref=e33]:
+          - textbox "*Last Name" [ref=e34]:
+            - /placeholder: ""
+          - text: "*Last Name"
+          - paragraph
+      - generic [ref=e35]:
+        - textbox "Phone Number" [ref=e36]:
+          - /placeholder: ""
+        - text: Phone Number
+        - paragraph
+      - generic [ref=e37]:
+        - textbox "*Email" [ref=e38]:
+          - /placeholder: ""
+        - text: "*Email"
+        - paragraph
+      - generic [ref=e39]:
+        - textbox "*Confirm Email" [ref=e40]:
+          - /placeholder: ""
+        - text: "*Confirm Email"
+        - paragraph
+      - generic [ref=e41]:
+        - textbox "*Password" [ref=e42]:
+          - /placeholder: ""
+        - text: "*Password"
+        - paragraph
+      - generic [ref=e43]:
+        - textbox "*Confirm Password" [ref=e44]:
+          - /placeholder: ""
+        - text: "*Confirm Password"
+        - paragraph
+      - generic [ref=e46]:
+        - text: Opt-in to receive emails and special offers from Cuisinart
+        - checkbox "Opt-in to receive emails and special offers from Cuisinart" [ref=e47]
+      - generic [ref=e49]:
+        - text: By clicking the box, you acknowledge that you have read and agreed to our
+        - link "Terms of Use" [ref=e50] [cursor=pointer]:
+          - /url: https://dev.cuisinart.co.uk/on/demandware.store/Sites-uk-cuisinart-sfra-Site/en_GB/Page-Show?cid=terms-and-conditions
+        - text: and
+        - link "Privacy Policy" [ref=e51] [cursor=pointer]:
+          - /url: https://dev.cuisinart.co.uk/privacy-policy.html
+      - button "Create Account" [ref=e53]
+    - paragraph [ref=e54]:
+      - text: Already have an account?
+      - button "Sign in" [ref=e55]
+  - generic [ref=e58]:
+    - generic [ref=e59]: Or with
+    - button "Sign in with Google" [pressed] [ref=e61] [cursor=pointer]
+```

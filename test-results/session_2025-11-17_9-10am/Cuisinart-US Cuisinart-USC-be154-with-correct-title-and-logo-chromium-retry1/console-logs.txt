@@ -1,0 +1,3 @@
+Attentive modal not found or already closed
+Verifying homepage elements
+✓ Page title verified: Cuisinart - Kitchen appliances for the heart of your home

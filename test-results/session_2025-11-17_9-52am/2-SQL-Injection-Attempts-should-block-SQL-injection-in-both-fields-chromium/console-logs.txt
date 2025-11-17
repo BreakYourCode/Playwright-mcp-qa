@@ -1,0 +1,4 @@
+OneTrust banner not found
+Attentive modal not found
+Testing: SQL injection in both fields
+✓ SQL injection blocked, no data leakage

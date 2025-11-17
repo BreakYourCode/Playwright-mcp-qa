@@ -1,0 +1,5 @@
+Attentive modal not found or already closed
+Checking main navigation menu
+✓ Main navigation is visible
+✓ Menu item "Appliances" is visible
+✓ Menu item "Cookware" is visible
