@@ -143,6 +143,15 @@ export SPEECH_REGION=eastus
 sudo apt-get update && sudo apt-get install -y ffmpeg
 ```
 
+### "Could not find tag for codec vp8 in stream" (Fixed!)
+
+This error occurred because Playwright videos use VP8 codec (WebM format), which isn't compatible with MP4 containers. The script now automatically re-encodes videos to H.264 format for MP4 compatibility.
+
+**What the fix does:**
+- Changed ffmpeg command from `-c:v copy` (stream copy) to `-c:v libx264 -preset fast -crf 22` (re-encode)
+- Videos are converted from VP8 (WebM) to H.264 (MP4) during narration merge
+- Quality is preserved with CRF 22 (visually lossless)
+
 ### "Speech synthesis failed"
 
 - Check your Azure subscription is active

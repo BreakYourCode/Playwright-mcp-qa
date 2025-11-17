@@ -1,0 +1,1517 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - iframe [ref=e2]:
+    - generic [active]:
+      - generic [ref=f1e55]:
+        - generic:
+          - table:
+            - rowgroup:
+              - row:
+                - cell:
+                  - link [ref=f1e56] [cursor=pointer]:
+                    - /url: "#"
+      - generic [ref=f1e70]:
+        - generic [ref=f1e71]: Cache Information (Page)
+        - table [ref=f1e74]:
+          - rowgroup [ref=f1e75]:
+            - 'row "Page Information Controller: Default-Start (app_conairllc_sfra_browse) Template: Processing Time: 19 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e76]':
+              - 'cell "Page Information Controller: Default-Start (app_conairllc_sfra_browse) Template: Processing Time: 19 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e77]':
+                - generic [ref=f1e78]:
+                  - generic [ref=f1e79]: Page Information
+                  - generic [ref=f1e84]:
+                    - generic [ref=f1e85]:
+                      - table [ref=f1e87]:
+                        - rowgroup [ref=f1e88]:
+                          - 'row "Controller: Default-Start (app_conairllc_sfra_browse)" [ref=f1e89]':
+                            - cell "Controller:" [ref=f1e90]:
+                              - generic [ref=f1e91]: "Controller:"
+                            - cell "Default-Start (app_conairllc_sfra_browse)" [ref=f1e92]:
+                              - generic [ref=f1e93]: Default-Start (app_conairllc_sfra_browse)
+                      - table [ref=f1e95]:
+                        - rowgroup [ref=f1e96]:
+                          - row "Template:" [ref=f1e97]:
+                            - cell "Template:" [ref=f1e98]:
+                              - generic [ref=f1e99]: "Template:"
+                            - cell [ref=f1e100]
+                      - table [ref=f1e103]:
+                        - rowgroup [ref=f1e104]:
+                          - 'row "Processing Time: 19 ms" [ref=f1e105]':
+                            - cell "Processing Time:" [ref=f1e106]:
+                              - generic [ref=f1e107]: "Processing Time:"
+                            - cell "19 ms" [ref=f1e108]:
+                              - generic [ref=f1e109]: 19 ms
+                      - table [ref=f1e111]:
+                        - rowgroup [ref=f1e112]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e113]':
+                            - cell "Caching Status:" [ref=f1e114]:
+                              - generic [ref=f1e115]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e116]':
+                              - generic [ref=f1e117]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e118] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: GTM-HtmlHead (plugin_gtm_2025_custom) Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e119]':
+              - 'cell "Remote Include Controller: GTM-HtmlHead (plugin_gtm_2025_custom) Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e120]':
+                - generic [ref=f1e121]:
+                  - generic [ref=f1e124]: Remote Include
+                  - generic [ref=f1e129]:
+                    - generic [ref=f1e130]:
+                      - table [ref=f1e132]:
+                        - rowgroup [ref=f1e133]:
+                          - 'row "Controller: GTM-HtmlHead (plugin_gtm_2025_custom)" [ref=f1e134]':
+                            - cell "Controller:" [ref=f1e135]:
+                              - generic [ref=f1e136]: "Controller:"
+                            - cell "GTM-HtmlHead (plugin_gtm_2025_custom)" [ref=f1e137]:
+                              - generic [ref=f1e138]: GTM-HtmlHead (plugin_gtm_2025_custom)
+                      - table [ref=f1e140]:
+                        - rowgroup [ref=f1e141]:
+                          - 'row "Template: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom)" [ref=f1e142]':
+                            - cell "Template:" [ref=f1e143]:
+                              - generic [ref=f1e144]: "Template:"
+                            - cell "/default/gtm/gtmScript.isml (plugin_gtm_2025_custom)" [ref=f1e145]:
+                              - generic [ref=f1e146]: /default/gtm/gtmScript.isml (plugin_gtm_2025_custom)
+                      - table [ref=f1e148]:
+                        - rowgroup [ref=f1e149]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e150]':
+                            - cell "Processing Time:" [ref=f1e151]:
+                              - generic [ref=f1e152]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e153]:
+                              - generic [ref=f1e154]: 5 ms
+                      - table [ref=f1e156]:
+                        - rowgroup [ref=f1e157]:
+                          - 'row "Caching Status: Not cached" [ref=f1e158]':
+                            - cell "Caching Status:" [ref=f1e159]:
+                              - generic [ref=f1e160]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e161]:
+                              - generic [ref=f1e162]: Not cached
+                    - link [ref=f1e163] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: GTM-CustomerData (plugin_gtm_2025_custom) Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom) Processing Time: 4 ms Caching Status: Not cached" [ref=f1e164]':
+              - 'cell "Remote Include Controller: GTM-CustomerData (plugin_gtm_2025_custom) Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom) Processing Time: 4 ms Caching Status: Not cached" [ref=f1e165]':
+                - generic [ref=f1e166]:
+                  - generic [ref=f1e169]: Remote Include
+                  - generic [ref=f1e174]:
+                    - generic [ref=f1e175]:
+                      - table [ref=f1e177]:
+                        - rowgroup [ref=f1e178]:
+                          - 'row "Controller: GTM-CustomerData (plugin_gtm_2025_custom)" [ref=f1e179]':
+                            - cell "Controller:" [ref=f1e180]:
+                              - generic [ref=f1e181]: "Controller:"
+                            - cell "GTM-CustomerData (plugin_gtm_2025_custom)" [ref=f1e182]:
+                              - generic [ref=f1e183]: GTM-CustomerData (plugin_gtm_2025_custom)
+                      - table [ref=f1e185]:
+                        - rowgroup [ref=f1e186]:
+                          - 'row "Template: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom)" [ref=f1e187]':
+                            - cell "Template:" [ref=f1e188]:
+                              - generic [ref=f1e189]: "Template:"
+                            - cell "/default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom)" [ref=f1e190]:
+                              - generic [ref=f1e191]: /default//gtm/gtmCustomerData.isml (plugin_gtm_2025_custom)
+                      - table [ref=f1e193]:
+                        - rowgroup [ref=f1e194]:
+                          - 'row "Processing Time: 4 ms" [ref=f1e195]':
+                            - cell "Processing Time:" [ref=f1e196]:
+                              - generic [ref=f1e197]: "Processing Time:"
+                            - cell "4 ms" [ref=f1e198]:
+                              - generic [ref=f1e199]: 4 ms
+                      - table [ref=f1e201]:
+                        - rowgroup [ref=f1e202]:
+                          - 'row "Caching Status: Not cached" [ref=f1e203]':
+                            - cell "Caching Status:" [ref=f1e204]:
+                              - generic [ref=f1e205]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e206]:
+                              - generic [ref=f1e207]: Not cached
+                    - link [ref=f1e208] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Pipeline: Internal - Page Designer Page: homepage Processing Time: 119 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e209]':
+              - 'cell "Remote Include Pipeline: Internal - Page Designer Page: homepage Processing Time: 119 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e210]':
+                - generic [ref=f1e211]:
+                  - generic [ref=f1e214]: Remote Include
+                  - generic [ref=f1e219]:
+                    - generic [ref=f1e220]:
+                      - table [ref=f1e222]:
+                        - rowgroup [ref=f1e223]:
+                          - 'row "Pipeline: Internal - Page Designer" [ref=f1e224]':
+                            - cell "Pipeline:" [ref=f1e225]:
+                              - generic [ref=f1e226]: "Pipeline:"
+                            - cell "Internal - Page Designer" [ref=f1e227]:
+                              - generic [ref=f1e228]: Internal - Page Designer
+                      - table [ref=f1e230]:
+                        - rowgroup [ref=f1e231]:
+                          - 'row "Page: homepage" [ref=f1e232]':
+                            - cell "Page:" [ref=f1e233]:
+                              - generic [ref=f1e234]: "Page:"
+                            - cell "homepage" [ref=f1e235]:
+                              - generic [ref=f1e236]: homepage
+                      - table [ref=f1e238]:
+                        - rowgroup [ref=f1e239]:
+                          - 'row "Processing Time: 119 ms" [ref=f1e240]':
+                            - cell "Processing Time:" [ref=f1e241]:
+                              - generic [ref=f1e242]: "Processing Time:"
+                            - cell "119 ms" [ref=f1e243]:
+                              - generic [ref=f1e244]: 119 ms
+                      - table [ref=f1e246]:
+                        - rowgroup [ref=f1e247]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e248]':
+                            - cell "Caching Status:" [ref=f1e249]:
+                              - generic [ref=f1e250]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e251]':
+                              - generic [ref=f1e252]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e253] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: GTM-BeforeHeader (plugin_gtm_2025_custom) Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e254]':
+              - 'cell "Remote Include Controller: GTM-BeforeHeader (plugin_gtm_2025_custom) Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e255]':
+                - generic [ref=f1e256]:
+                  - generic [ref=f1e259]: Remote Include
+                  - generic [ref=f1e264]:
+                    - generic [ref=f1e265]:
+                      - table [ref=f1e267]:
+                        - rowgroup [ref=f1e268]:
+                          - 'row "Controller: GTM-BeforeHeader (plugin_gtm_2025_custom)" [ref=f1e269]':
+                            - cell "Controller:" [ref=f1e270]:
+                              - generic [ref=f1e271]: "Controller:"
+                            - cell "GTM-BeforeHeader (plugin_gtm_2025_custom)" [ref=f1e272]:
+                              - generic [ref=f1e273]: GTM-BeforeHeader (plugin_gtm_2025_custom)
+                      - table [ref=f1e275]:
+                        - rowgroup [ref=f1e276]:
+                          - 'row "Template: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom)" [ref=f1e277]':
+                            - cell "Template:" [ref=f1e278]:
+                              - generic [ref=f1e279]: "Template:"
+                            - cell "/default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom)" [ref=f1e280]:
+                              - generic [ref=f1e281]: /default/gtm/gtmNoScript.isml (plugin_gtm_2025_custom)
+                      - table [ref=f1e283]:
+                        - rowgroup [ref=f1e284]:
+                          - 'row "Processing Time: 3 ms" [ref=f1e285]':
+                            - cell "Processing Time:" [ref=f1e286]:
+                              - generic [ref=f1e287]: "Processing Time:"
+                            - cell "3 ms" [ref=f1e288]:
+                              - generic [ref=f1e289]: 3 ms
+                      - table [ref=f1e291]:
+                        - rowgroup [ref=f1e292]:
+                          - 'row "Caching Status: Not cached" [ref=f1e293]':
+                            - cell "Caching Status:" [ref=f1e294]:
+                              - generic [ref=f1e295]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e296]:
+                              - generic [ref=f1e297]: Not cached
+                    - link [ref=f1e298] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_storefront_base_6_3) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e299]':
+              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/content/contentAssetBody.isml (app_storefront_base_6_3) Processing Time: 3 ms Caching Status: Not cached" [ref=f1e300]':
+                - generic [ref=f1e301]:
+                  - generic [ref=f1e304]: Remote Include
+                  - generic [ref=f1e309]:
+                    - generic [ref=f1e310]:
+                      - table [ref=f1e312]:
+                        - rowgroup [ref=f1e313]:
+                          - 'row "Pipeline: Internal" [ref=f1e314]':
+                            - cell "Pipeline:" [ref=f1e315]:
+                              - generic [ref=f1e316]: "Pipeline:"
+                            - cell "Internal" [ref=f1e317]:
+                              - generic [ref=f1e318]: Internal
+                      - table [ref=f1e320]:
+                        - rowgroup [ref=f1e321]:
+                          - 'row "Template: /default/slots/content/contentAssetBody.isml (app_storefront_base_6_3)" [ref=f1e322]':
+                            - cell "Template:" [ref=f1e323]:
+                              - generic [ref=f1e324]: "Template:"
+                            - cell "/default/slots/content/contentAssetBody.isml (app_storefront_base_6_3)" [ref=f1e325]:
+                              - generic [ref=f1e327] [cursor=pointer]:
+                                - text: /default/slots/content/contentAssetBody.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e329]:
+                        - rowgroup [ref=f1e330]:
+                          - 'row "Processing Time: 3 ms" [ref=f1e331]':
+                            - cell "Processing Time:" [ref=f1e332]:
+                              - generic [ref=f1e333]: "Processing Time:"
+                            - cell "3 ms" [ref=f1e334]:
+                              - generic [ref=f1e335]: 3 ms
+                      - table [ref=f1e337]:
+                        - rowgroup [ref=f1e338]:
+                          - 'row "Caching Status: Not cached" [ref=f1e339]':
+                            - cell "Caching Status:" [ref=f1e340]:
+                              - generic [ref=f1e341]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e342]:
+                              - generic [ref=f1e343]: Not cached
+                    - link [ref=f1e344] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Account-Header (app_custom_sfra_recipe) Template: /default/account/header.isml (app_conairllc_sfra_browse) Processing Time: 14 ms Caching Status: Not cached" [ref=f1e345]':
+              - 'cell "Remote Include Controller: Account-Header (app_custom_sfra_recipe) Template: /default/account/header.isml (app_conairllc_sfra_browse) Processing Time: 14 ms Caching Status: Not cached" [ref=f1e346]':
+                - generic [ref=f1e347]:
+                  - generic [ref=f1e350]: Remote Include
+                  - generic [ref=f1e355]:
+                    - generic [ref=f1e356]:
+                      - table [ref=f1e358]:
+                        - rowgroup [ref=f1e359]:
+                          - 'row "Controller: Account-Header (app_custom_sfra_recipe)" [ref=f1e360]':
+                            - cell "Controller:" [ref=f1e361]:
+                              - generic [ref=f1e362]: "Controller:"
+                            - cell "Account-Header (app_custom_sfra_recipe)" [ref=f1e363]:
+                              - generic [ref=f1e364]: Account-Header (app_custom_sfra_recipe)
+                      - table [ref=f1e366]:
+                        - rowgroup [ref=f1e367]:
+                          - 'row "Template: /default/account/header.isml (app_conairllc_sfra_browse)" [ref=f1e368]':
+                            - cell "Template:" [ref=f1e369]:
+                              - generic [ref=f1e370]: "Template:"
+                            - cell "/default/account/header.isml (app_conairllc_sfra_browse)" [ref=f1e371]:
+                              - generic [ref=f1e372]: /default/account/header.isml (app_conairllc_sfra_browse)
+                      - table [ref=f1e374]:
+                        - rowgroup [ref=f1e375]:
+                          - 'row "Processing Time: 14 ms" [ref=f1e376]':
+                            - cell "Processing Time:" [ref=f1e377]:
+                              - generic [ref=f1e378]: "Processing Time:"
+                            - cell "14 ms" [ref=f1e379]:
+                              - generic [ref=f1e380]: 14 ms
+                      - table [ref=f1e382]:
+                        - rowgroup [ref=f1e383]:
+                          - 'row "Caching Status: Not cached" [ref=f1e384]':
+                            - cell "Caching Status:" [ref=f1e385]:
+                              - generic [ref=f1e386]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e387]:
+                              - generic [ref=f1e388]: Not cached
+                    - link [ref=f1e389] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Cart-MiniCart (app_cuisinart_sfra_base) Template: /default//components/header/miniCart.isml (app_conairllc_sfra_browse) Processing Time: 16 ms Caching Status: Not cached" [ref=f1e390]':
+              - 'cell "Remote Include Controller: Cart-MiniCart (app_cuisinart_sfra_base) Template: /default//components/header/miniCart.isml (app_conairllc_sfra_browse) Processing Time: 16 ms Caching Status: Not cached" [ref=f1e391]':
+                - generic [ref=f1e392]:
+                  - generic [ref=f1e395]: Remote Include
+                  - generic [ref=f1e400]:
+                    - generic [ref=f1e401]:
+                      - table [ref=f1e403]:
+                        - rowgroup [ref=f1e404]:
+                          - 'row "Controller: Cart-MiniCart (app_cuisinart_sfra_base)" [ref=f1e405]':
+                            - cell "Controller:" [ref=f1e406]:
+                              - generic [ref=f1e407]: "Controller:"
+                            - cell "Cart-MiniCart (app_cuisinart_sfra_base)" [ref=f1e408]:
+                              - generic [ref=f1e409]: Cart-MiniCart (app_cuisinart_sfra_base)
+                      - table [ref=f1e411]:
+                        - rowgroup [ref=f1e412]:
+                          - 'row "Template: /default//components/header/miniCart.isml (app_conairllc_sfra_browse)" [ref=f1e413]':
+                            - cell "Template:" [ref=f1e414]:
+                              - generic [ref=f1e415]: "Template:"
+                            - cell "/default//components/header/miniCart.isml (app_conairllc_sfra_browse)" [ref=f1e416]:
+                              - generic [ref=f1e418] [cursor=pointer]:
+                                - text: /default//components/header/miniCart.isml
+                                - text: (app_conairllc_sfra_browse)
+                      - table [ref=f1e420]:
+                        - rowgroup [ref=f1e421]:
+                          - 'row "Processing Time: 16 ms" [ref=f1e422]':
+                            - cell "Processing Time:" [ref=f1e423]:
+                              - generic [ref=f1e424]: "Processing Time:"
+                            - cell "16 ms" [ref=f1e425]:
+                              - generic [ref=f1e426]: 16 ms
+                      - table [ref=f1e428]:
+                        - rowgroup [ref=f1e429]:
+                          - 'row "Caching Status: Not cached" [ref=f1e430]':
+                            - cell "Caching Status:" [ref=f1e431]:
+                              - generic [ref=f1e432]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e433]:
+                              - generic [ref=f1e434]: Not cached
+                    - link [ref=f1e435] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-IncludeHeaderMenu (app_conairllc_sfra_browse) Template: /default//components/header/menu.isml (app_conairllc_sfra_browse) Processing Time: 109 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e436]':
+              - 'cell "Remote Include Controller: Page-IncludeHeaderMenu (app_conairllc_sfra_browse) Template: /default//components/header/menu.isml (app_conairllc_sfra_browse) Processing Time: 109 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e437]':
+                - generic [ref=f1e438]:
+                  - generic [ref=f1e441]: Remote Include
+                  - generic [ref=f1e446]:
+                    - generic [ref=f1e447]:
+                      - table [ref=f1e449]:
+                        - rowgroup [ref=f1e450]:
+                          - 'row "Controller: Page-IncludeHeaderMenu (app_conairllc_sfra_browse)" [ref=f1e451]':
+                            - cell "Controller:" [ref=f1e452]:
+                              - generic [ref=f1e453]: "Controller:"
+                            - cell "Page-IncludeHeaderMenu (app_conairllc_sfra_browse)" [ref=f1e454]:
+                              - generic [ref=f1e455]: Page-IncludeHeaderMenu (app_conairllc_sfra_browse)
+                      - table [ref=f1e457]:
+                        - rowgroup [ref=f1e458]:
+                          - 'row "Template: /default//components/header/menu.isml (app_conairllc_sfra_browse)" [ref=f1e459]':
+                            - cell "Template:" [ref=f1e460]:
+                              - generic [ref=f1e461]: "Template:"
+                            - cell "/default//components/header/menu.isml (app_conairllc_sfra_browse)" [ref=f1e462]:
+                              - generic [ref=f1e464] [cursor=pointer]:
+                                - text: /default//components/header/menu.isml
+                                - text: (app_conairllc_sfra_browse)
+                      - table [ref=f1e466]:
+                        - rowgroup [ref=f1e467]:
+                          - 'row "Processing Time: 109 ms" [ref=f1e468]':
+                            - cell "Processing Time:" [ref=f1e469]:
+                              - generic [ref=f1e470]: "Processing Time:"
+                            - cell "109 ms" [ref=f1e471]:
+                              - generic [ref=f1e472]: 109 ms
+                      - table [ref=f1e474]:
+                        - rowgroup [ref=f1e475]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e476]':
+                            - cell "Caching Status:" [ref=f1e477]:
+                              - generic [ref=f1e478]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e479]':
+                              - generic [ref=f1e480]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e481] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Account-Header (app_custom_sfra_recipe) Template: /default/account/mobileHeader.isml (app_conairllc_sfra_browse) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e482]':
+              - 'cell "Remote Include Controller: Account-Header (app_custom_sfra_recipe) Template: /default/account/mobileHeader.isml (app_conairllc_sfra_browse) Processing Time: 11 ms Caching Status: Not cached" [ref=f1e483]':
+                - generic [ref=f1e484]:
+                  - generic [ref=f1e487]: Remote Include
+                  - generic [ref=f1e492]:
+                    - generic [ref=f1e493]:
+                      - table [ref=f1e495]:
+                        - rowgroup [ref=f1e496]:
+                          - 'row "Controller: Account-Header (app_custom_sfra_recipe)" [ref=f1e497]':
+                            - cell "Controller:" [ref=f1e498]:
+                              - generic [ref=f1e499]: "Controller:"
+                            - cell "Account-Header (app_custom_sfra_recipe)" [ref=f1e500]:
+                              - generic [ref=f1e501]: Account-Header (app_custom_sfra_recipe)
+                      - table [ref=f1e503]:
+                        - rowgroup [ref=f1e504]:
+                          - 'row "Template: /default/account/mobileHeader.isml (app_conairllc_sfra_browse)" [ref=f1e505]':
+                            - cell "Template:" [ref=f1e506]:
+                              - generic [ref=f1e507]: "Template:"
+                            - cell "/default/account/mobileHeader.isml (app_conairllc_sfra_browse)" [ref=f1e508]:
+                              - generic [ref=f1e510] [cursor=pointer]:
+                                - text: /default/account/mobileHeader.isml
+                                - text: (app_conairllc_sfra_browse)
+                      - table [ref=f1e512]:
+                        - rowgroup [ref=f1e513]:
+                          - 'row "Processing Time: 11 ms" [ref=f1e514]':
+                            - cell "Processing Time:" [ref=f1e515]:
+                              - generic [ref=f1e516]: "Processing Time:"
+                            - cell "11 ms" [ref=f1e517]:
+                              - generic [ref=f1e518]: 11 ms
+                      - table [ref=f1e520]:
+                        - rowgroup [ref=f1e521]:
+                          - 'row "Caching Status: Not cached" [ref=f1e522]':
+                            - cell "Caching Status:" [ref=f1e523]:
+                              - generic [ref=f1e524]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e525]:
+                              - generic [ref=f1e526]: Not cached
+                    - link [ref=f1e527] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 8 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e528]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 8 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e529]':
+                - generic [ref=f1e530]:
+                  - generic [ref=f1e533]: Remote Include
+                  - generic [ref=f1e538]:
+                    - generic [ref=f1e539]:
+                      - table [ref=f1e541]:
+                        - rowgroup [ref=f1e542]:
+                          - 'row "Controller: Page-Include (app_conairllc_sfra_browse)" [ref=f1e543]':
+                            - cell "Controller:" [ref=f1e544]:
+                              - generic [ref=f1e545]: "Controller:"
+                            - cell "Page-Include (app_conairllc_sfra_browse)" [ref=f1e546]:
+                              - generic [ref=f1e547]: Page-Include (app_conairllc_sfra_browse)
+                      - table [ref=f1e549]:
+                        - rowgroup [ref=f1e550]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e551]':
+                            - cell "Template:" [ref=f1e552]:
+                              - generic [ref=f1e553]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e554]:
+                              - generic [ref=f1e556] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e558]:
+                        - rowgroup [ref=f1e559]:
+                          - 'row "Processing Time: 8 ms" [ref=f1e560]':
+                            - cell "Processing Time:" [ref=f1e561]:
+                              - generic [ref=f1e562]: "Processing Time:"
+                            - cell "8 ms" [ref=f1e563]:
+                              - generic [ref=f1e564]: 8 ms
+                      - table [ref=f1e566]:
+                        - rowgroup [ref=f1e567]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e568]':
+                            - cell "Caching Status:" [ref=f1e569]:
+                              - generic [ref=f1e570]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e571]':
+                              - generic [ref=f1e572]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e573] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Pipeline: Internal Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e574]':
+              - 'cell "Remote Include Pipeline: Internal Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Not cached" [ref=f1e575]':
+                - generic [ref=f1e576]:
+                  - generic [ref=f1e579]: Remote Include
+                  - generic [ref=f1e584]:
+                    - generic [ref=f1e585]:
+                      - table [ref=f1e587]:
+                        - rowgroup [ref=f1e588]:
+                          - 'row "Pipeline: Internal" [ref=f1e589]':
+                            - cell "Pipeline:" [ref=f1e590]:
+                              - generic [ref=f1e591]: "Pipeline:"
+                            - cell "Internal" [ref=f1e592]:
+                              - generic [ref=f1e593]: Internal
+                      - table [ref=f1e595]:
+                        - rowgroup [ref=f1e596]:
+                          - 'row "Template: /default/slots/html/htmlSlotContainer.isml (app_storefront_base_6_3)" [ref=f1e597]':
+                            - cell "Template:" [ref=f1e598]:
+                              - generic [ref=f1e599]: "Template:"
+                            - cell "/default/slots/html/htmlSlotContainer.isml (app_storefront_base_6_3)" [ref=f1e600]:
+                              - generic [ref=f1e602] [cursor=pointer]:
+                                - text: /default/slots/html/htmlSlotContainer.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e604]:
+                        - rowgroup [ref=f1e605]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e606]':
+                            - cell "Processing Time:" [ref=f1e607]:
+                              - generic [ref=f1e608]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e609]:
+                              - generic [ref=f1e610]: 5 ms
+                      - table [ref=f1e612]:
+                        - rowgroup [ref=f1e613]:
+                          - 'row "Caching Status: Not cached" [ref=f1e614]':
+                            - cell "Caching Status:" [ref=f1e615]:
+                              - generic [ref=f1e616]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e617]:
+                              - generic [ref=f1e618]: Not cached
+                    - link [ref=f1e619] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e620]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e621]':
+                - generic [ref=f1e622]:
+                  - generic [ref=f1e625]: Remote Include
+                  - generic [ref=f1e630]:
+                    - generic [ref=f1e631]:
+                      - table [ref=f1e633]:
+                        - rowgroup [ref=f1e634]:
+                          - 'row "Controller: Page-Include (app_conairllc_sfra_browse)" [ref=f1e635]':
+                            - cell "Controller:" [ref=f1e636]:
+                              - generic [ref=f1e637]: "Controller:"
+                            - cell "Page-Include (app_conairllc_sfra_browse)" [ref=f1e638]:
+                              - generic [ref=f1e639]: Page-Include (app_conairllc_sfra_browse)
+                      - table [ref=f1e641]:
+                        - rowgroup [ref=f1e642]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e643]':
+                            - cell "Template:" [ref=f1e644]:
+                              - generic [ref=f1e645]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e646]:
+                              - generic [ref=f1e648] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e650]:
+                        - rowgroup [ref=f1e651]:
+                          - 'row "Processing Time: 6 ms" [ref=f1e652]':
+                            - cell "Processing Time:" [ref=f1e653]:
+                              - generic [ref=f1e654]: "Processing Time:"
+                            - cell "6 ms" [ref=f1e655]:
+                              - generic [ref=f1e656]: 6 ms
+                      - table [ref=f1e658]:
+                        - rowgroup [ref=f1e659]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e660]':
+                            - cell "Caching Status:" [ref=f1e661]:
+                              - generic [ref=f1e662]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e663]':
+                              - generic [ref=f1e664]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e665] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e666]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e667]':
+                - generic [ref=f1e668]:
+                  - generic [ref=f1e671]: Remote Include
+                  - generic [ref=f1e676]:
+                    - generic [ref=f1e677]:
+                      - table [ref=f1e679]:
+                        - rowgroup [ref=f1e680]:
+                          - 'row "Controller: Page-Include (app_conairllc_sfra_browse)" [ref=f1e681]':
+                            - cell "Controller:" [ref=f1e682]:
+                              - generic [ref=f1e683]: "Controller:"
+                            - cell "Page-Include (app_conairllc_sfra_browse)" [ref=f1e684]:
+                              - generic [ref=f1e685]: Page-Include (app_conairllc_sfra_browse)
+                      - table [ref=f1e687]:
+                        - rowgroup [ref=f1e688]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e689]':
+                            - cell "Template:" [ref=f1e690]:
+                              - generic [ref=f1e691]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e692]:
+                              - generic [ref=f1e694] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e696]:
+                        - rowgroup [ref=f1e697]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e698]':
+                            - cell "Processing Time:" [ref=f1e699]:
+                              - generic [ref=f1e700]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e701]:
+                              - generic [ref=f1e702]: 5 ms
+                      - table [ref=f1e704]:
+                        - rowgroup [ref=f1e705]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e706]':
+                            - cell "Caching Status:" [ref=f1e707]:
+                              - generic [ref=f1e708]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e709]':
+                              - generic [ref=f1e710]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e711] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e712]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e713]':
+                - generic [ref=f1e714]:
+                  - generic [ref=f1e717]: Remote Include
+                  - generic [ref=f1e722]:
+                    - generic [ref=f1e723]:
+                      - table [ref=f1e725]:
+                        - rowgroup [ref=f1e726]:
+                          - 'row "Controller: Page-Include (app_conairllc_sfra_browse)" [ref=f1e727]':
+                            - cell "Controller:" [ref=f1e728]:
+                              - generic [ref=f1e729]: "Controller:"
+                            - cell "Page-Include (app_conairllc_sfra_browse)" [ref=f1e730]:
+                              - generic [ref=f1e731]: Page-Include (app_conairllc_sfra_browse)
+                      - table [ref=f1e733]:
+                        - rowgroup [ref=f1e734]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e735]':
+                            - cell "Template:" [ref=f1e736]:
+                              - generic [ref=f1e737]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e738]:
+                              - generic [ref=f1e740] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e742]:
+                        - rowgroup [ref=f1e743]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e744]':
+                            - cell "Processing Time:" [ref=f1e745]:
+                              - generic [ref=f1e746]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e747]:
+                              - generic [ref=f1e748]: 5 ms
+                      - table [ref=f1e750]:
+                        - rowgroup [ref=f1e751]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e752]':
+                            - cell "Caching Status:" [ref=f1e753]:
+                              - generic [ref=f1e754]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e755]':
+                              - generic [ref=f1e756]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e757] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e758]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 6 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e759]':
+                - generic [ref=f1e760]:
+                  - generic [ref=f1e763]: Remote Include
+                  - generic [ref=f1e768]:
+                    - generic [ref=f1e769]:
+                      - table [ref=f1e771]:
+                        - rowgroup [ref=f1e772]:
+                          - 'row "Controller: Page-Include (app_conairllc_sfra_browse)" [ref=f1e773]':
+                            - cell "Controller:" [ref=f1e774]:
+                              - generic [ref=f1e775]: "Controller:"
+                            - cell "Page-Include (app_conairllc_sfra_browse)" [ref=f1e776]:
+                              - generic [ref=f1e777]: Page-Include (app_conairllc_sfra_browse)
+                      - table [ref=f1e779]:
+                        - rowgroup [ref=f1e780]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e781]':
+                            - cell "Template:" [ref=f1e782]:
+                              - generic [ref=f1e783]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e784]:
+                              - generic [ref=f1e786] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e788]:
+                        - rowgroup [ref=f1e789]:
+                          - 'row "Processing Time: 6 ms" [ref=f1e790]':
+                            - cell "Processing Time:" [ref=f1e791]:
+                              - generic [ref=f1e792]: "Processing Time:"
+                            - cell "6 ms" [ref=f1e793]:
+                              - generic [ref=f1e794]: 6 ms
+                      - table [ref=f1e796]:
+                        - rowgroup [ref=f1e797]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e798]':
+                            - cell "Caching Status:" [ref=f1e799]:
+                              - generic [ref=f1e800]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e801]':
+                              - generic [ref=f1e802]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e803] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e804]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e805]':
+                - generic [ref=f1e806]:
+                  - generic [ref=f1e809]: Remote Include
+                  - generic [ref=f1e814]:
+                    - generic [ref=f1e815]:
+                      - table [ref=f1e817]:
+                        - rowgroup [ref=f1e818]:
+                          - 'row "Controller: Page-Include (app_conairllc_sfra_browse)" [ref=f1e819]':
+                            - cell "Controller:" [ref=f1e820]:
+                              - generic [ref=f1e821]: "Controller:"
+                            - cell "Page-Include (app_conairllc_sfra_browse)" [ref=f1e822]:
+                              - generic [ref=f1e823]: Page-Include (app_conairllc_sfra_browse)
+                      - table [ref=f1e825]:
+                        - rowgroup [ref=f1e826]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e827]':
+                            - cell "Template:" [ref=f1e828]:
+                              - generic [ref=f1e829]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e830]:
+                              - generic [ref=f1e832] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e834]:
+                        - rowgroup [ref=f1e835]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e836]':
+                            - cell "Processing Time:" [ref=f1e837]:
+                              - generic [ref=f1e838]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e839]:
+                              - generic [ref=f1e840]: 5 ms
+                      - table [ref=f1e842]:
+                        - rowgroup [ref=f1e843]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e844]':
+                            - cell "Caching Status:" [ref=f1e845]:
+                              - generic [ref=f1e846]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e847]':
+                              - generic [ref=f1e848]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e849] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e850]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e851]':
+                - generic [ref=f1e852]:
+                  - generic [ref=f1e855]: Remote Include
+                  - generic [ref=f1e860]:
+                    - generic [ref=f1e861]:
+                      - table [ref=f1e863]:
+                        - rowgroup [ref=f1e864]:
+                          - 'row "Controller: Page-Include (app_conairllc_sfra_browse)" [ref=f1e865]':
+                            - cell "Controller:" [ref=f1e866]:
+                              - generic [ref=f1e867]: "Controller:"
+                            - cell "Page-Include (app_conairllc_sfra_browse)" [ref=f1e868]:
+                              - generic [ref=f1e869]: Page-Include (app_conairllc_sfra_browse)
+                      - table [ref=f1e871]:
+                        - rowgroup [ref=f1e872]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e873]':
+                            - cell "Template:" [ref=f1e874]:
+                              - generic [ref=f1e875]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e876]:
+                              - generic [ref=f1e878] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e880]:
+                        - rowgroup [ref=f1e881]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e882]':
+                            - cell "Processing Time:" [ref=f1e883]:
+                              - generic [ref=f1e884]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e885]:
+                              - generic [ref=f1e886]: 5 ms
+                      - table [ref=f1e888]:
+                        - rowgroup [ref=f1e889]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e890]':
+                            - cell "Caching Status:" [ref=f1e891]:
+                              - generic [ref=f1e892]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e893]':
+                              - generic [ref=f1e894]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e895] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e896]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e897]':
+                - generic [ref=f1e898]:
+                  - generic [ref=f1e901]: Remote Include
+                  - generic [ref=f1e906]:
+                    - generic [ref=f1e907]:
+                      - table [ref=f1e909]:
+                        - rowgroup [ref=f1e910]:
+                          - 'row "Controller: Page-Include (app_conairllc_sfra_browse)" [ref=f1e911]':
+                            - cell "Controller:" [ref=f1e912]:
+                              - generic [ref=f1e913]: "Controller:"
+                            - cell "Page-Include (app_conairllc_sfra_browse)" [ref=f1e914]:
+                              - generic [ref=f1e915]: Page-Include (app_conairllc_sfra_browse)
+                      - table [ref=f1e917]:
+                        - rowgroup [ref=f1e918]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e919]':
+                            - cell "Template:" [ref=f1e920]:
+                              - generic [ref=f1e921]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e922]:
+                              - generic [ref=f1e924] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e926]:
+                        - rowgroup [ref=f1e927]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e928]':
+                            - cell "Processing Time:" [ref=f1e929]:
+                              - generic [ref=f1e930]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e931]:
+                              - generic [ref=f1e932]: 5 ms
+                      - table [ref=f1e934]:
+                        - rowgroup [ref=f1e935]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e936]':
+                            - cell "Caching Status:" [ref=f1e937]:
+                              - generic [ref=f1e938]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e939]':
+                              - generic [ref=f1e940]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e941] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e942]':
+              - 'cell "Remote Include Controller: Page-Include (app_conairllc_sfra_browse) Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3) Processing Time: 5 ms Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e943]':
+                - generic [ref=f1e944]:
+                  - generic [ref=f1e947]: Remote Include
+                  - generic [ref=f1e952]:
+                    - generic [ref=f1e953]:
+                      - table [ref=f1e955]:
+                        - rowgroup [ref=f1e956]:
+                          - 'row "Controller: Page-Include (app_conairllc_sfra_browse)" [ref=f1e957]':
+                            - cell "Controller:" [ref=f1e958]:
+                              - generic [ref=f1e959]: "Controller:"
+                            - cell "Page-Include (app_conairllc_sfra_browse)" [ref=f1e960]:
+                              - generic [ref=f1e961]: Page-Include (app_conairllc_sfra_browse)
+                      - table [ref=f1e963]:
+                        - rowgroup [ref=f1e964]:
+                          - 'row "Template: /default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e965]':
+                            - cell "Template:" [ref=f1e966]:
+                              - generic [ref=f1e967]: "Template:"
+                            - cell "/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" [ref=f1e968]:
+                              - generic [ref=f1e970] [cursor=pointer]:
+                                - text: /default/components/content/contentAssetInc.isml
+                                - text: (app_storefront_base_6_3)
+                      - table [ref=f1e972]:
+                        - rowgroup [ref=f1e973]:
+                          - 'row "Processing Time: 5 ms" [ref=f1e974]':
+                            - cell "Processing Time:" [ref=f1e975]:
+                              - generic [ref=f1e976]: "Processing Time:"
+                            - cell "5 ms" [ref=f1e977]:
+                              - generic [ref=f1e978]: 5 ms
+                      - table [ref=f1e980]:
+                        - rowgroup [ref=f1e981]:
+                          - 'row "Caching Status: Cached until: 11/17/2025 10:45 pm" [ref=f1e982]':
+                            - cell "Caching Status:" [ref=f1e983]:
+                              - generic [ref=f1e984]: "Caching Status:"
+                            - 'cell "Cached until: 11/17/2025 10:45 pm" [ref=f1e985]':
+                              - generic [ref=f1e986]: "Cached until: 11/17/2025 10:45 pm"
+                    - link [ref=f1e987] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: Noibu-GenerateNoibuId (int_noibu_sfra) Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra) Processing Time: 10 ms Caching Status: Not cached" [ref=f1e988]':
+              - 'cell "Remote Include Controller: Noibu-GenerateNoibuId (int_noibu_sfra) Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra) Processing Time: 10 ms Caching Status: Not cached" [ref=f1e989]':
+                - generic [ref=f1e990]:
+                  - generic [ref=f1e993]: Remote Include
+                  - generic [ref=f1e998]:
+                    - generic [ref=f1e999]:
+                      - table [ref=f1e1001]:
+                        - rowgroup [ref=f1e1002]:
+                          - 'row "Controller: Noibu-GenerateNoibuId (int_noibu_sfra)" [ref=f1e1003]':
+                            - cell "Controller:" [ref=f1e1004]:
+                              - generic [ref=f1e1005]: "Controller:"
+                            - cell "Noibu-GenerateNoibuId (int_noibu_sfra)" [ref=f1e1006]:
+                              - generic [ref=f1e1007]: Noibu-GenerateNoibuId (int_noibu_sfra)
+                      - table [ref=f1e1009]:
+                        - rowgroup [ref=f1e1010]:
+                          - 'row "Template: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra)" [ref=f1e1011]':
+                            - cell "Template:" [ref=f1e1012]:
+                              - generic [ref=f1e1013]: "Template:"
+                            - cell "/default//noibu/noibuFooterInclude.isml (int_noibu_sfra)" [ref=f1e1014]:
+                              - generic [ref=f1e1015]: /default//noibu/noibuFooterInclude.isml (int_noibu_sfra)
+                      - table [ref=f1e1017]:
+                        - rowgroup [ref=f1e1018]:
+                          - 'row "Processing Time: 10 ms" [ref=f1e1019]':
+                            - cell "Processing Time:" [ref=f1e1020]:
+                              - generic [ref=f1e1021]: "Processing Time:"
+                            - cell "10 ms" [ref=f1e1022]:
+                              - generic [ref=f1e1023]: 10 ms
+                      - table [ref=f1e1025]:
+                        - rowgroup [ref=f1e1026]:
+                          - 'row "Caching Status: Not cached" [ref=f1e1027]':
+                            - cell "Caching Status:" [ref=f1e1028]:
+                              - generic [ref=f1e1029]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e1030]:
+                              - generic [ref=f1e1031]: Not cached
+                    - link [ref=f1e1032] [cursor=pointer]:
+                      - /url: "#"
+            - 'row "Remote Include Controller: ConsentTracking-Check (app_storefront_base_6_3) Template: /default//common/consent.isml (app_storefront_base_6_3) Processing Time: 10 ms Caching Status: Not cached" [ref=f1e1033]':
+              - 'cell "Remote Include Controller: ConsentTracking-Check (app_storefront_base_6_3) Template: /default//common/consent.isml (app_storefront_base_6_3) Processing Time: 10 ms Caching Status: Not cached" [ref=f1e1034]':
+                - generic [ref=f1e1035]:
+                  - generic [ref=f1e1038]: Remote Include
+                  - generic [ref=f1e1043]:
+                    - generic [ref=f1e1044]:
+                      - table [ref=f1e1046]:
+                        - rowgroup [ref=f1e1047]:
+                          - 'row "Controller: ConsentTracking-Check (app_storefront_base_6_3)" [ref=f1e1048]':
+                            - cell "Controller:" [ref=f1e1049]:
+                              - generic [ref=f1e1050]: "Controller:"
+                            - cell "ConsentTracking-Check (app_storefront_base_6_3)" [ref=f1e1051]:
+                              - generic [ref=f1e1052]: ConsentTracking-Check (app_storefront_base_6_3)
+                      - table [ref=f1e1054]:
+                        - rowgroup [ref=f1e1055]:
+                          - 'row "Template: /default//common/consent.isml (app_storefront_base_6_3)" [ref=f1e1056]':
+                            - cell "Template:" [ref=f1e1057]:
+                              - generic [ref=f1e1058]: "Template:"
+                            - cell "/default//common/consent.isml (app_storefront_base_6_3)" [ref=f1e1059]:
+                              - generic [ref=f1e1060]: /default//common/consent.isml (app_storefront_base_6_3)
+                      - table [ref=f1e1062]:
+                        - rowgroup [ref=f1e1063]:
+                          - 'row "Processing Time: 10 ms" [ref=f1e1064]':
+                            - cell "Processing Time:" [ref=f1e1065]:
+                              - generic [ref=f1e1066]: "Processing Time:"
+                            - cell "10 ms" [ref=f1e1067]:
+                              - generic [ref=f1e1068]: 10 ms
+                      - table [ref=f1e1070]:
+                        - rowgroup [ref=f1e1071]:
+                          - 'row "Caching Status: Not cached" [ref=f1e1072]':
+                            - cell "Caching Status:" [ref=f1e1073]:
+                              - generic [ref=f1e1074]: "Caching Status:"
+                            - cell "Not cached" [ref=f1e1075]:
+                              - generic [ref=f1e1076]: Not cached
+                    - link [ref=f1e1077] [cursor=pointer]:
+                      - /url: "#"
+      - generic [ref=f1e1091]:
+        - generic [ref=f1e1092]: Search Query
+        - generic [ref=f1e1093]:
+          - generic:
+            - table:
+              - rowgroup:
+                - row:
+                  - cell:
+                    - link [ref=f1e1094] [cursor=pointer]:
+                      - /url: "#"
+      - table [ref=f1e1112]:
+        - rowgroup [ref=f1e1113]:
+          - row:
+            - cell:
+              - link [ref=f1e1114] [cursor=pointer]:
+                - /url: "#"
+          - row [ref=f1e1115]:
+            - cell [ref=f1e1116]:
+              - link [ref=f1e1119] [cursor=pointer]:
+                - /url: "#"
+          - row [ref=f1e1120]:
+            - cell [ref=f1e1121]:
+              - link [ref=f1e1124] [cursor=pointer]:
+                - /url: "#"
+          - row [ref=f1e1125]:
+            - cell [ref=f1e1126]:
+              - link [ref=f1e1129] [cursor=pointer]:
+                - /url: "#"
+          - row "Searchable Product Attributes" [ref=f1e1130]:
+            - cell "Searchable Product Attributes" [ref=f1e1131]:
+              - generic [ref=f1e1132]:
+                - generic [ref=f1e1133]: Searchable Product Attributes
+                - link [ref=f1e1134] [cursor=pointer]:
+                  - /url: "#"
+          - row "Searchable Category Attributes" [ref=f1e1135]:
+            - cell "Searchable Category Attributes" [ref=f1e1136]:
+              - generic [ref=f1e1138]: Searchable Category Attributes
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - link [ref=e5] [cursor=pointer]:
+        - /url: "#main-content"
+        - text: Skip to main content
+      - link [ref=e6] [cursor=pointer]:
+        - /url: "#footercontent"
+        - text: Skip to footer content
+      - generic [ref=e11]:
+        - paragraph [ref=e13]: Free Shipping on Orders $35+
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link [ref=e17] [cursor=pointer]:
+              - /url: https://stage.cuisinart.com/the-kitchen-guide-blog.html
+              - text: The Kitchen Guide
+          - listitem [ref=e18]:
+            - link [ref=e19] [cursor=pointer]:
+              - /url: https://stage.cuisinart.com/recipes/
+              - text: Recipes
+          - listitem [ref=e20]:
+            - link [ref=e21] [cursor=pointer]:
+              - /url: https://stage.cuisinart.com/collections-and-gift-guides.html
+              - text: Collections & Gift Guides
+          - listitem [ref=e22]:
+            - link [ref=e23] [cursor=pointer]:
+              - /url: https://stage.cuisinart.com/register-your-product.html
+              - text: Register a Product
+      - generic [ref=e24]:
+        - generic [ref=e25]:
+          - link [ref=e27] [cursor=pointer]:
+            - /url: /
+            - img [ref=e28]
+          - generic [ref=e29]:
+            - search [ref=e33]:
+              - combobox [ref=e34]
+              - text: 
+              - button [ref=e35] [cursor=pointer]:
+                - img [ref=e36]
+            - generic [ref=e38]:
+              - button [ref=e41] [cursor=pointer]:
+                - img [ref=e43]
+              - link [ref=e47] [cursor=pointer]:
+                - /url: https://stage.cuisinart.com/cart
+                - img [ref=e49]
+                - generic [ref=e51]: "0"
+        - navigation [ref=e55]:
+          - navigation [ref=e56]:
+            - menu [ref=e57]:
+              - menuitem [ref=e58]:
+                - link [ref=e59] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/shopping/appliances/
+                  - text: Appliances
+              - menuitem [ref=e60]:
+                - link [ref=e61] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/shopping/bakeware/
+                  - text: Bakeware
+              - menuitem [ref=e62]:
+                - link [ref=e63] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/shopping/cookware/
+                  - text: Cookware
+              - menuitem [ref=e64]:
+                - link [ref=e65] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/shopping/cutlery/
+                  - text: Cutlery
+              - menuitem [ref=e66]:
+                - link [ref=e67] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/shopping/kitchen-tools-gadgets/
+                  - text: Tools & Gadgets
+              - menuitem [ref=e68]:
+                - link [ref=e69] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/shopping/outdoors/
+                  - text: Outdoors
+              - menuitem [ref=e70]:
+                - link [ref=e71] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/shopping/parts-and-accessories/
+                  - text: Parts & Accessories
+              - menuitem [ref=e72]:
+                - link [ref=e73] [cursor=pointer]:
+                  - /url: "#"
+                  - text: Support
+              - menuitem [ref=e74]:
+                - link [ref=e75] [cursor=pointer]:
+                  - /url: /shopping/trending/
+                  - text: Trending
+              - menuitem [ref=e76]:
+                - link [ref=e77] [cursor=pointer]:
+                  - /url: /shopping/sale/
+                  - text: Sale
+              - text: 
+        - text: 
+      - link [ref=e80] [cursor=pointer]:
+        - /url: https://www.cuisinart.com/shopping/sale/
+        - text: Food Processor Event | Shop Now
+        - img [ref=e82]
+    - main [ref=e84]:
+      - generic [ref=e88]:
+        - generic [ref=e94]:
+          - link [ref=e96] [cursor=pointer]:
+            - /url: https://www.cuisinart.com/shopping/sale/?prefn1=categoryAlias&prefv1=Food+Processors
+            - img [ref=e98]
+          - generic:
+            - generic:
+              - heading [level=1]: Slice, shred & more.
+              - generic: Save up to $130 off until 12/3.
+              - link [ref=e99] [cursor=pointer]:
+                - /url: https://www.cuisinart.com/shopping/sale/?prefn1=categoryAlias&prefv1=Food+Processors
+                - text: SHOP THE SALE
+        - generic [ref=e104]:
+          - heading [level=1] [ref=e105]: Best Sellers
+          - generic [ref=e108]:
+            - navigation [ref=e110]:
+              - tablist [ref=e111]:
+                - tab [selected] [ref=e112] [cursor=pointer]: Appliances
+                - tab [ref=e113] [cursor=pointer]: Bakeware
+                - tab [ref=e114] [cursor=pointer]: Cookware
+                - tab [ref=e115] [cursor=pointer]: Cutlery
+                - tab [ref=e116] [cursor=pointer]: Kitchen Tools & Gadgets
+            - tabpanel [ref=e118]:
+              - generic [ref=e122]:
+                - generic [ref=e123]:
+                  - group [ref=e124]:
+                    - generic [ref=e126]:
+                      - generic [ref=e127]:
+                        - link [ref=e128] [cursor=pointer]:
+                          - /url: /custom-14-cup-food-processor/DFP-14BCNY.html
+                          - img [ref=e130]
+                        - generic [ref=e131]: On Sale
+                      - generic [ref=e132]:
+                        - link [ref=e134] [cursor=pointer]:
+                          - /url: /custom-14-cup-food-processor/DFP-14BCNY.html
+                          - generic [ref=e135]: Custom 14 Cup Food Processor
+                        - generic [ref=e137]:
+                          - generic [ref=e138]: undefined out of 5 Customer Rating
+                          - generic [ref=e139]:
+                            - generic [ref=e140]: "4.7"
+                            - generic [ref=e141]: (1672)
+                        - generic [ref=e142]:
+                          - generic [ref=e144]:
+                            - generic [ref=e145]: Price reduced from
+                            - text: $319.95
+                            - generic [ref=e146]: to
+                          - generic [ref=e147]: $219.95 $100.00 off
+                      - generic [ref=e148]:
+                        - button [ref=e149] [cursor=pointer]: Add to Cart
+                        - button [ref=e150] [cursor=pointer]
+                  - group [ref=e152]:
+                    - generic [ref=e154]:
+                      - generic [ref=e155]:
+                        - link [ref=e156] [cursor=pointer]:
+                          - /url: /burr-grind-brew-10-cup-coffee-maker/DGB-850NAS.html
+                          - img [ref=e158]
+                        - generic [ref=e159]: On Sale
+                      - generic [ref=e160]:
+                        - link [ref=e162] [cursor=pointer]:
+                          - /url: /burr-grind-brew-10-cup-coffee-maker/DGB-850NAS.html
+                          - generic [ref=e163]: Burr Grind & Brew 10 Cup Coffee Maker
+                        - generic [ref=e165]:
+                          - generic [ref=e166]: undefined out of 5 Customer Rating
+                          - generic [ref=e167]:
+                            - generic [ref=e168]: "3.8"
+                            - generic [ref=e169]: (729)
+                        - generic [ref=e170]:
+                          - generic [ref=e172]:
+                            - generic [ref=e173]: Price reduced from
+                            - text: $279.95
+                            - generic [ref=e174]: to
+                          - generic [ref=e175]: $167.95 $112.00 off
+                      - generic [ref=e176]:
+                        - button [ref=e177] [cursor=pointer]: Add to Cart
+                        - button [ref=e178] [cursor=pointer]
+                  - group [ref=e180]:
+                    - generic [ref=e182]:
+                      - link [ref=e184] [cursor=pointer]:
+                        - /url: /fastfreeze-ice-cream-maker/ICE-FD10.html
+                        - img [ref=e186]
+                      - generic [ref=e187]:
+                        - link [ref=e189] [cursor=pointer]:
+                          - /url: /fastfreeze-ice-cream-maker/ICE-FD10.html
+                          - generic [ref=e190]:
+                            - text: FastFreeze
+                            - superscript [ref=e191]: ™
+                            - text: Ice Cream Maker
+                        - generic [ref=e193]:
+                          - generic [ref=e194]: undefined out of 5 Customer Rating
+                          - generic [ref=e195]:
+                            - generic [ref=e196]: "4.4"
+                            - generic [ref=e197]: (81)
+                        - generic [ref=e199]: $119.95
+                      - generic [ref=e200]:
+                        - button [ref=e201] [cursor=pointer]: Add to Cart
+                        - button [ref=e202] [cursor=pointer]
+                  - group [ref=e204]:
+                    - generic [ref=e206]:
+                      - generic [ref=e207]:
+                        - link [ref=e208] [cursor=pointer]:
+                          - /url: /coffee-plus-12-cup-coffee-maker-hot-water-system/CHW-16.html
+                          - img [ref=e210]
+                        - generic [ref=e211]: On Sale
+                      - generic [ref=e212]:
+                        - link [ref=e214] [cursor=pointer]:
+                          - /url: /coffee-plus-12-cup-coffee-maker-hot-water-system/CHW-16.html
+                          - generic [ref=e215]: Coffee Plus 12 Cup Coffee Maker & Hot Water System
+                        - generic [ref=e217]:
+                          - generic [ref=e218]: undefined out of 5 Customer Rating
+                          - generic [ref=e219]:
+                            - generic [ref=e220]: "4.7"
+                            - generic [ref=e221]: (249)
+                        - generic [ref=e222]:
+                          - generic [ref=e224]:
+                            - generic [ref=e225]: Price reduced from
+                            - text: $149.95
+                            - generic [ref=e226]: to
+                          - generic [ref=e227]: $89.97 $59.98 off
+                      - generic [ref=e228]:
+                        - button [ref=e229] [cursor=pointer]: Add to Cart
+                        - button [ref=e230] [cursor=pointer]
+                  - group [ref=e232]:
+                    - generic [ref=e234]:
+                      - link [ref=e236] [cursor=pointer]:
+                        - /url: /automatic-grind-brew-10-cup-coffee-maker/DGB-450NAS.html
+                        - img [ref=e238]
+                      - generic [ref=e239]:
+                        - link [ref=e241] [cursor=pointer]:
+                          - /url: /automatic-grind-brew-10-cup-coffee-maker/DGB-450NAS.html
+                          - generic [ref=e242]: Automatic Grind & Brew 10 Cup Coffee Maker
+                        - generic [ref=e244]:
+                          - generic [ref=e245]: undefined out of 5 Customer Rating
+                          - generic [ref=e246]:
+                            - generic [ref=e247]: "4.3"
+                            - generic [ref=e248]: (623)
+                        - generic [ref=e250]: $149.95
+                      - generic [ref=e251]:
+                        - button [ref=e252] [cursor=pointer]: Add to Cart
+                        - button [ref=e253] [cursor=pointer]
+                  - group [ref=e255]:
+                    - generic [ref=e257]:
+                      - link [ref=e259] [cursor=pointer]:
+                        - /url: /compact-air-fryer-toaster-oven/TOA-26.html
+                        - img [ref=e261]
+                      - generic [ref=e262]:
+                        - link [ref=e264] [cursor=pointer]:
+                          - /url: /compact-air-fryer-toaster-oven/TOA-26.html
+                          - generic [ref=e265]: Compact Air Fryer Toaster Oven
+                        - generic [ref=e267]:
+                          - generic [ref=e268]: undefined out of 5 Customer Rating
+                          - generic [ref=e269]:
+                            - generic [ref=e270]: "4.3"
+                            - generic [ref=e271]: (1183)
+                        - generic [ref=e273]: $149.95
+                      - generic [ref=e274]:
+                        - button [ref=e275] [cursor=pointer]: Add to Cart
+                        - button [ref=e276] [cursor=pointer]
+                - navigation [ref=e279]:
+                  - button [disabled] [ref=e280]:
+                    - img [ref=e281]
+                  - generic [ref=e283]:
+                    - button [ref=e284] [cursor=pointer]
+                    - button [ref=e285] [cursor=pointer]
+                  - button [ref=e286] [cursor=pointer]:
+                    - img [ref=e287]
+        - generic [ref=e291]:
+          - link [ref=e293] [cursor=pointer]:
+            - /url: https://stage.cuisinart.com/holiday-prep-set/CTG-SAV.html
+          - generic [ref=e296]:
+            - paragraph [ref=e297]: 40% off - Limited Time Only
+            - heading [level=2] [ref=e298]: Holiday Prep Set
+            - paragraph [ref=e300]: Prep to plate, we’ve got you covered!
+            - link [ref=e301] [cursor=pointer]:
+              - /url: https://stage.cuisinart.com/holiday-prep-set/CTG-SAV.html
+              - text: SHOP NOW
+        - generic [ref=e313]:
+          - generic [ref=e315]:
+            - heading [level=2] [ref=e316]: A Work of Cuisinart
+            - heading [level=3] [ref=e317]: "Tag #aworkofcuisinart for a chance to be featured."
+          - region [ref=e320]:
+            - heading [level=2] [ref=e321]: Media Carousel - Carousel with product photos. Use the previous and next buttons to navigate.
+            - generic [ref=e322]:
+              - generic [ref=e324]:
+                - list [ref=e325]:
+                  - listitem [ref=e326]:
+                    - group [ref=e327]:
+                      - button [ref=e328] [cursor=pointer]:
+                        - generic [ref=e329]:
+                          - img
+                  - listitem [ref=e332]:
+                    - group [ref=e333]:
+                      - button [ref=e334] [cursor=pointer]:
+                        - generic [ref=e335]:
+                          - img
+                  - listitem [ref=e338]:
+                    - group [ref=e339]:
+                      - button [ref=e340] [cursor=pointer]
+                  - listitem [ref=e344]:
+                    - group [ref=e345]:
+                      - button [ref=e346] [cursor=pointer]:
+                        - generic [ref=e347]:
+                          - img
+                  - listitem [ref=e350]:
+                    - group [ref=e351]:
+                      - button [ref=e352] [cursor=pointer]:
+                        - generic [ref=e353]:
+                          - img
+                  - listitem [ref=e356]:
+                    - group [ref=e357]:
+                      - button [ref=e358] [cursor=pointer]:
+                        - generic [ref=e359]:
+                          - img
+                  - listitem [ref=e362]:
+                    - group [ref=e363]:
+                      - button [ref=e364] [cursor=pointer]:
+                        - generic [ref=e365]:
+                          - img
+                  - listitem [ref=e368]:
+                    - group [ref=e369]:
+                      - button [ref=e370] [cursor=pointer]:
+                        - generic [ref=e371]:
+                          - img
+                  - listitem [ref=e374]:
+                    - group [ref=e375]:
+                      - button [ref=e376] [cursor=pointer]:
+                        - generic [ref=e377]:
+                          - img
+                  - listitem [ref=e380]:
+                    - group [ref=e381]:
+                      - button [ref=e382] [cursor=pointer]:
+                        - generic [ref=e383]:
+                          - img
+                  - listitem [ref=e386]:
+                    - group [ref=e387]:
+                      - button [ref=e388] [cursor=pointer]:
+                        - generic [ref=e389]:
+                          - img
+                  - listitem [ref=e392]:
+                    - group [ref=e393]:
+                      - button [ref=e394] [cursor=pointer]:
+                        - generic [ref=e395]:
+                          - img
+                  - listitem [ref=e398]:
+                    - group [ref=e399]:
+                      - button [ref=e400] [cursor=pointer]
+                  - listitem [ref=e404]:
+                    - group [ref=e405]:
+                      - button [ref=e406] [cursor=pointer]:
+                        - generic [ref=e407]:
+                          - img
+                  - listitem [ref=e410]:
+                    - group [ref=e411]:
+                      - button [ref=e412] [cursor=pointer]:
+                        - generic [ref=e413]:
+                          - img
+                - status [ref=e416]: Slidepanel 1 of 5, Showing items 1 to 3 of 15.
+              - button [ref=e418] [cursor=pointer]:
+                - generic [ref=e419]:
+                  - img
+            - link [ref=e422] [cursor=pointer]:
+              - /url: https://www.bazaarvoice.com/products/visual-and-social-content/?utm_source=hYJfSHVscpppJpZh&utm_medium=referral&utm_campaign=powered-by&utm_term=layout
+              - img
+        - generic [ref=e426]:
+          - heading [level=2] [ref=e427]: Cuisinart Original Recipes
+          - link [ref=e428] [cursor=pointer]:
+            - /url: /recipes/desserts/classic-apple-pie-recipe.html
+          - generic:
+            - generic:
+              - heading [level=3]: Classic Apple Pie
+        - generic [ref=e431]:
+          - generic [ref=e432]:
+            - generic [ref=e433]:
+              - group [ref=e434]:
+                - generic [ref=e436]:
+                  - link [ref=e437] [cursor=pointer]:
+                    - /url: /recipes/holidayrecipes/thanksgiving/roast-turkey-with-herb-butter-recipe.html
+                    - generic [ref=e440]: Roast Turkey with Herb Butter
+                  - button [ref=e443] [cursor=pointer]
+              - group [ref=e444]:
+                - generic [ref=e446]:
+                  - link [ref=e447] [cursor=pointer]:
+                    - /url: /recipes/sides/Chestnut_Stuffing.html
+                    - generic [ref=e450]: Chestnut Stuffing
+                  - button [ref=e453] [cursor=pointer]
+              - group [ref=e454]:
+                - generic [ref=e456]:
+                  - link [ref=e457] [cursor=pointer]:
+                    - /url: /recipes/appetizers/cranberry-brie-bites.html
+                    - generic [ref=e460]: Cranberry Brie Bites
+                  - button [ref=e463] [cursor=pointer]
+              - group [ref=e464]:
+                - generic [ref=e466]:
+                  - link [ref=e467] [cursor=pointer]:
+                    - /url: /recipes/desserts/apple-almond-tart-recipe.html
+                    - generic [ref=e470]: Apple Almond Tart
+                  - button [ref=e473] [cursor=pointer]
+              - group [ref=e474]:
+                - generic [ref=e476]:
+                  - link [ref=e477] [cursor=pointer]:
+                    - /url: /recipes/sides/mashed-sweet-potatoes-with-fluffy-meringue-topping-recipe.html
+                    - generic [ref=e480]: Mashed Sweet Potatoes with Fluffy Meringue Topping
+                  - button [ref=e483] [cursor=pointer]
+              - group [ref=e484]:
+                - generic [ref=e486]:
+                  - link [ref=e487] [cursor=pointer]:
+                    - /url: /recipes/sides/mashed-potatoes---for-standmixer-recipe.html
+                    - generic [ref=e490]: Mashed Potatoes - for standmixer
+                  - button [ref=e493] [cursor=pointer]
+            - navigation [ref=e495]:
+              - button [disabled] [ref=e496]:
+                - img [ref=e497]
+              - generic [ref=e499]:
+                - button [ref=e500] [cursor=pointer]
+                - button [ref=e501] [cursor=pointer]
+              - button [ref=e502] [cursor=pointer]:
+                - img [ref=e503]
+          - link [ref=e506] [cursor=pointer]:
+            - /url: https://www.cuisinart.com/recipes/?crefn1=cui_recipe_parentcategory&crefv1=Beverages%7CEspresso+Recipes&index=0&csortb1=creationDate&csortd1=2&sz=12&fdid=recipes
+            - text: VIEW ALL RECIPES
+        - generic [ref=e510]:
+          - heading [level=2] [ref=e511]: Peace of Mind
+          - generic [ref=e512]:
+            - generic [ref=e513]:
+              - link [ref=e514] [cursor=pointer]:
+                - /url: https://stage.cuisinart.com/support/warranty.html
+                - img [ref=e516]
+                - generic [ref=e518]: Warranty
+              - paragraph [ref=e519]: We believe in our products, so we offer warranties to back them up.
+            - generic [ref=e520]:
+              - img [ref=e522]
+              - generic [ref=e524]: Free Shipping on Orders $35+
+              - paragraph [ref=e525]: Get free shipping on all orders over $35+ in the United States.
+            - generic [ref=e526]:
+              - link [ref=e527] [cursor=pointer]:
+                - /url: https://stage.cuisinart.com/support/shipping-and-return.html
+                - img [ref=e529]
+                - generic [ref=e531]: 30-Day Returns
+              - paragraph [ref=e532]: If you’re unsatisfied with your purchase, you can return unused merchandise within 30 days for a full refund.
+    - contentinfo [ref=e533]:
+      - generic [ref=e534]:
+        - generic [ref=e535]:
+          - generic [ref=e542]:
+            - heading [level=4] [ref=e546]:
+              - generic [ref=e547]: Be the first to know about new arrivals, sales & more.
+            - paragraph [ref=e551]:
+              - generic [ref=e552]:
+                - text: Text
+                - strong [ref=e553]: SMSVIP
+                - text: to
+                - strong [ref=e554]: "42101"
+                - text: to sign up for SMS messages & unlock a special offer.
+            - generic [ref=e557]:
+              - generic [ref=e558]: Email
+              - textbox [ref=e559]:
+                - /placeholder: "*Email"
+            - paragraph [ref=e563]:
+              - generic [ref=e564]:
+                - text: By subscribing, you acknowledge that you have read and agreed to our
+                - link [ref=e565] [cursor=pointer]:
+                  - /url: https://legal.conair.com/content/page/terms-notice?referrer=www.cuisinart.com
+                  - text: Terms of Use
+                - text: and
+                - link [ref=e566] [cursor=pointer]:
+                  - /url: https://legal.conair.com/content/page/privacy-notice?referrer=www.cuisinart.com
+                  - text: Privacy Policy
+                - text: .
+            - button [ref=e569] [cursor=pointer]: Sign Up
+          - generic [ref=e571]:
+            - paragraph [ref=e572]: Additional Support
+            - list [ref=e573]:
+              - listitem [ref=e574]:
+                - link [ref=e575] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/support/affiliate.html
+                  - text: Affiliate
+              - listitem [ref=e576]:
+                - link [ref=e577] [cursor=pointer]:
+                  - /url: https://www.studentbeans.com/en-us/us/beansid-connect/hosted/cuisinart
+                  - text: Student Discount
+              - listitem [ref=e578]:
+                - link [ref=e579] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/shopping/discontinued/
+                  - text: Discontinued
+              - listitem [ref=e580]:
+                - link [ref=e581] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/faq.html
+                  - text: FAQs
+              - listitem [ref=e582]:
+                - link [ref=e583] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/support/promo-terms-conditions.html
+                  - text: Promotional Terms & Conditions
+              - listitem [ref=e584]:
+                - link [ref=e585] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/support/safety-recalls.html
+                  - text: Safety Recalls
+              - listitem [ref=e586]:
+                - link [ref=e587] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/support/settlement.html
+                  - text: Settlement
+              - listitem [ref=e588]:
+                - link [ref=e589] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/support/shipping-and-return.html
+                  - text: Shipping & Returns
+              - listitem [ref=e590]:
+                - link [ref=e591] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/trackorder
+                  - text: Track Your Order
+              - listitem [ref=e592]:
+                - link [ref=e593] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/accessibility-statement.html
+                  - text: Accessibility Statement
+              - listitem [ref=e594]:
+                - link [ref=e595] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/support/sweepstakes.html
+                  - text: Sweepstakes
+          - generic [ref=e597]:
+            - paragraph [ref=e598]: Our Company
+            - list [ref=e599]:
+              - listitem [ref=e600]:
+                - link [ref=e601] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/support/about-us.html
+                  - text: About Us
+              - listitem [ref=e602]:
+                - link [ref=e603] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/support/cuisinart-cares.html
+                  - text: Cuisinart Cares
+              - listitem [ref=e604]:
+                - link [ref=e605] [cursor=pointer]:
+                  - /url: https://jobs.jobvite.com/conair/
+                  - text: Careers
+          - generic [ref=e606]:
+            - generic [ref=e607]:
+              - paragraph [ref=e608]: Contact Us
+              - list [ref=e609]:
+                - listitem [ref=e610]:
+                  - link [ref=e611] [cursor=pointer]:
+                    - /url: tel:1-800-726-0190
+                    - img [ref=e613]
+                    - text: 1-800-726-0190
+                - listitem [ref=e615]:
+                  - link [ref=e616] [cursor=pointer]:
+                    - /url: https://stage.cuisinart.com/support/product-assistance.html
+                    - img [ref=e618]
+                    - text: Product Support
+            - generic [ref=e620]:
+              - paragraph [ref=e621]: Follow Us On Social Media
+              - list [ref=e622]:
+                - listitem [ref=e623]:
+                  - link [ref=e624] [cursor=pointer]:
+                    - /url: https://www.facebook.com/cuisinart
+                    - img [ref=e625]
+                - listitem [ref=e627]:
+                  - link [ref=e628] [cursor=pointer]:
+                    - /url: https://www.tiktok.com/@cuisinart_official
+                    - img [ref=e629]
+                - listitem [ref=e631]:
+                  - link [ref=e632] [cursor=pointer]:
+                    - /url: https://www.instagram.com/cuisinart/
+                    - img [ref=e633]
+                - listitem [ref=e635]:
+                  - link [ref=e636] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/company/cuisinart/
+                    - img [ref=e637]
+                - listitem [ref=e639]:
+                  - link [ref=e640] [cursor=pointer]:
+                    - /url: https://www.youtube.com/cuisinart
+                    - img [ref=e641]
+                - listitem [ref=e643]:
+                  - link [ref=e644] [cursor=pointer]:
+                    - /url: https://www.pinterest.com/cuisinart/
+                    - img [ref=e645]
+        - generic [ref=e647]:
+          - separator [ref=e648]
+          - generic [ref=e649]:
+            - paragraph [ref=e652]: © 2025 Cuisinart. All Rights Reserved.
+            - list [ref=e655]:
+              - listitem [ref=e656]:
+                - link [ref=e657] [cursor=pointer]:
+                  - /url: https://legal.conair.com/content/page/terms-notice?referrer=www.cuisinart.com
+                  - text: Terms of Use
+              - listitem [ref=e658]:
+                - link [ref=e659] [cursor=pointer]:
+                  - /url: https://legal.conair.com/content/page/privacy-notice?referrer=www.cuisinart.com
+                  - text: Privacy Policy
+              - listitem [ref=e660]:
+                - link [ref=e661] [cursor=pointer]:
+                  - /url: https://legal.conair.com/content/page/do-not-sell-request?referrer=www.cuisinart.com
+                  - text: Do Not Sell or Share My Personal Information
+              - listitem [ref=e662]:
+                - link [ref=e663] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/chemical-disclosure
+                  - text: Chemical Disclosures
+  - region [ref=e664]:
+    - dialog [ref=e665]:
+      - generic [ref=e667]:
+        - generic [ref=e670]:
+          - text: This website uses cookies and other tracking technologies to enhance user experience, to display personalized advertisements and to analyze performance and traffic on our website. We also share information about your use of our site with our social media, advertising and analytics partners. You can exercise your rights to opt-out of sale of processing personal data for targeted advertising by clicking the link on the right. For more details see our
+          - link [ref=e671] [cursor=pointer]:
+            - /url: https://legal.conair.com/content/page/privacy-notice?referrer=www.cuisinart.com
+            - text: Privacy Policy
+          - link [ref=e672] [cursor=pointer]:
+            - /url: https://legal.conair.com/content/page/terms-notice?referrer=www.cuisinart.com
+            - text: Terms of Use
+        - generic [ref=e674]:
+          - button [ref=e675] [cursor=pointer]: Opt out of sale of personal data and Targeted Advertising
+          - button [ref=e676] [cursor=pointer]: Accept Cookies
+  - dialog [ref=e677]:
+    - document:
+      - generic [ref=e678]:
+        - button [ref=e679] [cursor=pointer]
+        - generic [ref=e681]:
+          - generic [ref=e684]:
+            - generic [ref=e685]:
+              - heading [level=2] [ref=e686]: Sign in
+              - generic [ref=e687]:
+                - textbox [ref=e688]
+                - generic: "*Email Address"
+                - paragraph [ref=e689]:
+                  - generic [ref=e690]: "Error:"
+                  - text: Please fill out this field.
+              - generic [ref=e691]:
+                - textbox [ref=e692]: conair1
+                - generic: "*Password"
+              - generic [ref=e693]:
+                - generic [ref=e695] [cursor=pointer]:
+                  - text: Remember Me
+                  - checkbox
+                - button [ref=e699] [cursor=pointer]: Forgot Password
+              - button [ref=e701] [cursor=pointer]: Sign in
+            - button [ref=e703] [cursor=pointer]: Create an account
+          - generic [ref=e706]:
+            - generic [ref=e708]: Or with
+            - button [pressed] [ref=e710] [cursor=pointer]: Sign in with Google
+  - iframe [active] [ref=e712]:
+    - dialog "Sign Up via Text for Offers — Cuisinart" [active] [ref=f2e3]:
+      - main [ref=f2e4]:
+        - generic [ref=f2e7]:
+          - button "Dismiss this popup" [ref=f2e8] [cursor=pointer]:
+            - img [ref=f2e9]
+          - generic [ref=f2e13]:
+            - heading "Ready to treat yourself to 15% OFF?" [level=2] [ref=f2e15]:
+              - generic [ref=f2e16]: Ready to treat yourself to
+              - generic [ref=f2e17]: 15% OFF?
+            - generic [ref=f2e19]:
+              - button "YES" [ref=f2e20] [cursor=pointer]:
+                - generic [ref=f2e22]: "YES"
+              - button "No, thanks" [ref=f2e23] [cursor=pointer]:
+                - generic [ref=f2e25]: No, thanks
+```

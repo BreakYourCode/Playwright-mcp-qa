@@ -90,7 +90,8 @@ async function textToSpeech(text, outputPath) {
 async function mergeAudioVideo(videoPath, audioPath, outputPath) {
   console.log(`Merging audio and video...`);
   
-  const command = `ffmpeg -i "${videoPath}" -i "${audioPath}" -c:v copy -c:a aac -shortest "${outputPath}" -y`;
+  // Re-encode VP8 video to H.264 for MP4 compatibility
+  const command = `ffmpeg -i "${videoPath}" -i "${audioPath}" -c:v libx264 -preset fast -crf 22 -c:a aac -shortest "${outputPath}" -y`;
   
   try {
     const { stdout, stderr } = await execPromise(command);
@@ -212,7 +213,9 @@ async function processTestVideos(testResultsDir = './test-results', outputDir = 
       await textToSpeech(narrationText, audioPath);
       
       // Merge audio and video
-      const outputFileName = `narrated-${path.basename(videoPath, '.webm')}.mp4`;
+      // Use parent directory name + video name for unique filename
+      const parentDir = path.basename(path.dirname(videoPath));
+      const outputFileName = `${parentDir}.mp4`;
       const outputPath = path.join(outputDir, outputFileName);
       
       await mergeAudioVideo(videoPath, audioPath, outputPath);

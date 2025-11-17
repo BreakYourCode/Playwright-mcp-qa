@@ -1,0 +1,70 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - iframe [ref=e2]:
+    - generic [active]:
+      - generic [ref=f1e55]:
+        - generic:
+          - table:
+            - rowgroup:
+              - row:
+                - cell:
+                  - link [ref=f1e56]:
+                    - /url: "#"
+      - generic [ref=f1e70]:
+        - generic [ref=f1e71]: Search Query
+        - generic [ref=f1e72]:
+          - generic:
+            - table:
+              - rowgroup:
+                - row:
+                  - cell:
+                    - link [ref=f1e73]:
+                      - /url: "#"
+      - table [ref=f1e91]:
+        - rowgroup [ref=f1e92]:
+          - row:
+            - cell:
+              - link [ref=f1e93]:
+                - /url: "#"
+          - row [ref=f1e94]:
+            - cell [ref=f1e95]:
+              - link [ref=f1e98]:
+                - /url: "#"
+          - row [ref=f1e99]:
+            - cell [ref=f1e100]:
+              - link [ref=f1e103]:
+                - /url: "#"
+          - row [ref=f1e104]:
+            - cell [ref=f1e105]:
+              - link [ref=f1e108]:
+                - /url: "#"
+          - row "Searchable Product Attributes" [ref=f1e109]:
+            - cell "Searchable Product Attributes" [ref=f1e110]:
+              - generic [ref=f1e111]:
+                - generic [ref=f1e112]: Searchable Product Attributes
+                - link [ref=f1e113]:
+                  - /url: "#"
+          - row "Searchable Category Attributes" [ref=f1e114]:
+            - cell "Searchable Category Attributes" [ref=f1e115]:
+              - generic [ref=f1e117]: Searchable Category Attributes
+  - generic [ref=e3]:
+    - heading "Please verify you are a human" [level=1] [ref=e6]
+    - generic [ref=e8]:
+      - paragraph [ref=e10]: Access to this page has been denied because we believe you are using automation tools to browse the website.
+      - paragraph [ref=e11]: "This may happen as a result of the following:"
+      - list [ref=e12]:
+        - listitem [ref=e13]: Javascript is disabled or blocked by an extension (ad blockers for example)
+        - listitem [ref=e14]: Your browser does not support cookies
+      - paragraph [ref=e15]: Please make sure that Javascript and cookies are enabled on your browser and that you are not blocking them from loading.
+      - paragraph [ref=e16]: "Reference ID: dd70f185-c367-11f0-9d57-32d525297853"
+    - paragraph [ref=e19]:
+      - text: Powered by
+      - link "PerimeterX" [ref=e20]:
+        - /url: https://www.perimeterx.com/whywasiblocked
+      - text: ", Inc."
+  - generic:
+    - generic [ref=e21]: mmmmmmmmmmlli
+    - generic [ref=e22]: mmmmmmmmmmlli
+```

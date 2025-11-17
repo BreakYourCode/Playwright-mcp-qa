@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@axe-core/playwright": "^4.11.0",
+    "dotenv": "^17.2.3",
     "microsoft-cognitiveservices-speech-sdk": "^1.47.0"
   }
 }
