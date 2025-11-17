@@ -8,11 +8,27 @@ import path from 'path';
  */
 dotenv.config({ path: path.resolve(__dirname, '.env') });
 
+// Generate session timestamp for grouping test results (New York time, 12h format)
+const now = new Date();
+const nyTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+const year = nyTime.getFullYear();
+const month = String(nyTime.getMonth() + 1).padStart(2, '0');
+const day = String(nyTime.getDate()).padStart(2, '0');
+let hours = nyTime.getHours();
+const minutes = String(nyTime.getMinutes()).padStart(2, '0');
+const ampm = hours >= 12 ? 'pm' : 'am';
+hours = hours % 12 || 12;
+const timestamp = `${year}-${month}-${day}_${hours}-${minutes}${ampm}`;
+process.env.TEST_SESSION_TIMESTAMP = timestamp;
+
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
   testDir: './tests',
+  
+  /* Output directory for test results - grouped by session */
+  outputDir: `test-results/session_${timestamp}`,
   
   /* Run tests in files in parallel */
   fullyParallel: true,

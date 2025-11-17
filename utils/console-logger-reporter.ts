@@ -38,8 +38,9 @@ class ConsoleLoggerReporter implements Reporter {
       let outputPath = this.findTestOutputPath(test, result);
       
       if (!outputPath) {
-        // Construct test-results directory path manually
-        const testResultsDir = path.join(process.cwd(), 'test-results');
+        // Construct test-results directory path with session grouping
+        const sessionTimestamp = process.env.TEST_SESSION_TIMESTAMP || 'unknown';
+        const testResultsDir = path.join(process.cwd(), 'test-results', `session_${sessionTimestamp}`);
         const testName = `${test.parent.title}-${test.title}`.replace(/[^a-z0-9]+/gi, '-');
         const browserName = test.parent.project()?.name || 'unknown';
         const retryCount = result.retry > 0 ? `-retry${result.retry}` : '';
