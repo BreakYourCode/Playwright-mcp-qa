@@ -4,7 +4,9 @@
   "description": "Playwright QA automation environment with MCP integration",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "narrate": "node utils/add-narration.js",
+    "narrate:custom": "node utils/add-narration.js"
   },
   "keywords": [
     "playwright",

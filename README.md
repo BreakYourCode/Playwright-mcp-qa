@@ -2,6 +2,16 @@
 
 A complete Playwright QA automation environment with Model Context Protocol (MCP) integration, optimized for GitHub Codespaces and GitHub Copilot.
 
+## ✨ Features
+
+- 🎭 Playwright Test Framework with multi-browser support
+- 🎙️ **Automatic video narration** for test results (Azure Speech + ffmpeg)
+- ♿ Accessibility testing with axe-core
+- 📊 HTML reports with screenshots and videos
+- 🔄 GitHub Actions CI/CD pipeline
+- 🐳 Dev container with all dependencies
+- 🤖 GitHub Copilot integration
+
 ## 🚀 Quick Start
 
 ### GitHub Codespaces
@@ -49,11 +59,38 @@ npx playwright show-report
 │       └── playwright.yml      # CI/CD pipeline
 ├── tests/
 │   ├── example.spec.ts         # Homepage tests
-│   └── login.spec.ts           # Login flow tests
+│   ├── login.spec.ts           # Login flow tests
+│   ├── conair-login.spec.ts    # Conair staging tests
+│   └── USCuisinart-login.spec.ts # Cuisinart staging tests
+├── utils/
+│   └── add-narration.js        # Video narration utility
 ├── playwright.config.ts        # Playwright configuration
 ├── mcp.config.json            # MCP integration config
+├── .env.example               # Environment variables template
+├── README-NARRATION.md        # Video narration documentation
 └── package.json               # Project dependencies
 ```
+
+## 🎙️ Video Narration
+
+Automatically generate narrated videos from your test recordings! See [README-NARRATION.md](./README-NARRATION.md) for full documentation.
+
+**Quick Usage:**
+
+```bash
+# Set up Azure Speech credentials
+export SPEECH_KEY=your_key
+export SPEECH_REGION=eastus
+
+# Generate narrated videos
+npm run narrate
+```
+
+The script will:
+1. Find all test videos in `test-results/`
+2. Generate voice narration describing the test
+3. Merge audio with video using ffmpeg
+4. Output narrated MP4 files to `narrated-videos/`
 
 ## ⚙️ Configuration
 
