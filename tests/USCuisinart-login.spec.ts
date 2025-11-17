@@ -22,14 +22,30 @@ test.describe('Cuisinart Stage Login Tests', () => {
     }
 
     // Wait for modal overlay to appear (appears after ~13 seconds)
+    console.log('Waiting 13 seconds for modal overlay to appear...');
+    await page.waitForTimeout(13000);
+    
     try {
-      const modalClose = page.locator('button.close, button[aria-label*="close" i], button:has-text("×"), .modal-close, [data-dismiss="modal"]').first();
-      await modalClose.waitFor({ timeout: 20000 });
-      await modalClose.click();
-      console.log('Modal overlay closed');
-      await page.waitForTimeout(1000);
+      // Handle Attentive iframe modal
+      const attentiveFrame = page.frameLocator('iframe[src*="attn.tv"]').first();
+      const closeButton = attentiveFrame.locator('#closeIconSvg').first();
+      await closeButton.waitFor({ timeout: 7000 });
+      console.log('Attentive modal found, clicking close button...');
+      await closeButton.click();
+      console.log('Click executed on modal close button');
+      
+      // Wait for modal to disappear
+      await page.waitForTimeout(2000);
+      
+      // Verify iframe is gone
+      const iframeCount = await page.locator('iframe[src*="attn.tv"]').count();
+      if (iframeCount === 0) {
+        console.log('Attentive modal overlay successfully closed and removed');
+      } else {
+        console.log('Attentive modal still present after click attempt');
+      }
     } catch (error) {
-      console.log('Modal overlay not found or already closed');
+      console.log('Attentive modal overlay not found or already closed');
     }
   });
 });

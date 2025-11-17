@@ -238,21 +238,22 @@ async function processTestVideos(testResultsDir = './test-results', outputDir = 
       const narrationText = generateNarrationScript(testInfo.testName, testInfo, testInfo.consoleLogs);
       
       // Generate audio file
-      const audioPath = path.join(outputDir, `narration-${Date.now()}.wav`);
+      const testResultDir = path.dirname(videoPath);
+      const audioPath = path.join(testResultDir, `narration-${Date.now()}.wav`);
       await textToSpeech(narrationText, audioPath);
       
-      // Merge audio and video
-      // Use parent directory name + video name for unique filename
-      const parentDir = path.basename(path.dirname(videoPath));
-      const outputFileName = `${parentDir}.mp4`;
-      const outputPath = path.join(outputDir, outputFileName);
+      // Merge audio and video - save in same directory as test results
+      const parentDir = path.basename(testResultDir);
+      const outputFileName = `${parentDir}-narrated.mp4`;
+      const outputPath = path.join(testResultDir, outputFileName);
       
       await mergeAudioVideo(videoPath, audioPath, outputPath);
       
       // Clean up temporary audio file
       fs.unlinkSync(audioPath);
       
-      console.log(`✅ Completed: ${outputFileName}\n`);
+      console.log(`✅ Completed: ${outputFileName}`);
+      console.log(`   Saved to: ${testResultDir}\n`);
       
     } catch (error) {
       console.error(`❌ Error processing ${videoPath}: ${error.message}\n`);
