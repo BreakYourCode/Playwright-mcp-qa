@@ -1,0 +1,326 @@
+    
+    <div class="container login-page p-0">
+        <div class="row justify-content-md-center m-0">
+            <div class="col-12 col-md-7 col-lg-7 p-0">
+                <div id="loginFormContainer">
+                    <!-- dwMarker="linclude" dwTemplateTitle="/default/account/components/loginFormModal.isml (app_conairllc_sfra_account)" dwTemplateURL="http://localhost:60606/target=/app_conairllc_sfra_account/cartridge/templates/default/account/components/loginFormModal.isml" -->
+
+
+<form action="/accountlogin?rurl=3" class="login login-js-form" method="POST" name="login-form">
+    <div class="title-s ca-mb-24 d-none wishlist-signin-msg">Please sign in to save your favorite items.</div>
+    <h2 class="title-m-bold ca-mb-24">Sign in</h2>
+    
+    <div class="form-group has-float-label required ca-mb-24">
+        <input type="email"
+            pattern="[A-Za-z0-9\._%+\-]+@[A-Za-z0-9\.\-]+\.[A-Za-z]{2,}" 
+            maxlength="241" 
+            id="login-form-email" 
+            required 
+            aria-required="true" 
+            class="form-control required" 
+            aria-describedby="login-form-email-error" 
+            name="loginEmail" value="" 
+            placeholder="" 
+            data-error-prefix="Error:" 
+            data-missing-error="Please fill out this field." 
+            data-pattern-mismatch="Please enter a valid E-Mail address"
+        >
+        <label for="login-form-email" class="color--grey5">*Email Address</label>
+        <p class="invalid-feedback body-m-bold color--error ca-m-0" id="login-form-email-error"></p>
+    </div>
+
+    <div class="form-group has-float-label required ca-mb-24">
+        <input type="password" 
+        id="login-form-password" 
+        autocomplete="off" required 
+        aria-required="true" 
+        class="form-control required" 
+        aria-describedby="login-form-password-error" 
+        name="loginPassword" 
+        placeholder="" 
+        data-error-prefix="Error:" 
+        data-missing-error="Please fill out this field.">
+        <label for="login-form-password" class="color--grey5">*Password</label>
+        <p class="invalid-feedback body-m-bold color--error ca-m-0" id="login-form-password-error"></p>
+    </div>
+
+    <div class="d-flex flex-column flex-lg-row justify-content-lg-between ca-mb-24">
+        <div class="remember-me ca-mb-0">
+            <label class="checkbox-container-light body-m">
+                Remember Me
+                <input type="checkbox" id="rememberMe" name="loginRememberMe" value="false" />
+                <span class="checkbox-outer ca-mtn-4"><span class="checkbox-inner"></span></span>
+            </label>
+        </div>
+
+        <div class="forgot-password text-lg-right ca-mb-0">
+
+            <a href="https://stage.cuisinart.com/on/demandware.store/Sites-us-cuisinart-sfra-Site/en_US/Account-ForgetPasswordModal"
+                class="dynamic-modal js-forgotPW-modal link-on-light-body-m ca-p-0"
+                role="button"
+                aria-label="Forgot Password"
+                data-target-id="forgotPWDModal"
+                data-url="https://stage.cuisinart.com/on/demandware.store/Sites-us-cuisinart-sfra-Site/en_US/Account-ForgetPasswordModal"
+                data-options='{"backdrop": false, "keyboard": true, "focus": true, "show": true}'
+                data-parent-modal-id="loginModal"
+                data-custom-class="custom-modal custom-backdrop modal-md"
+                data-labelled-by="forgotPWDModal"
+            ><!-- dwMarker="link" dwPipelineTitle="Account-ForgetPasswordModal (app_custom_sfra_recipe)" dwIsController="true" dwPipelineURL="http://localhost:60606/target=/app_custom_sfra_recipe/cartridge/controllers/Account.js&amp;start=ForgetPasswordModal" -->
+                Forgot Password
+            </a>
+        </div>
+    </div>
+
+    <input type="hidden" name="csrf_token" value="PHoAfKnTjzUKljVKjNYUmtDv3kmZNgrdonQK2g9Rl2qJiiyEeA1i96OWW88D6nTHi9H38tdI_SBCadYJPoduv1-cb-CKRXIAMldoGswAJF5HN_P4bRjUBGtQkxATL-oJNOmYd52us6VmS_oCMbf4gB1pP-MmKzPhVe7XccuvD7al4wg61q0="/>
+    
+        <input type="hidden" name="reCAPTCHAEnabled" value="true"/>
+        <div class="form-group ca-mb-24">
+            <button type="submit" 
+                class="btn btn-block btn-primary js-submit-button g-recaptcha js-focus-invalid-input"
+                data-sitekey="6LdCzRsqAAAAAF-gczH-5TvctNjsIEgqkrxDHsd3" 
+                data-callback="loginRecaptchaResponse"    
+                data-verify-url="/on/demandware.store/Sites-us-cuisinart-sfra-Site/en_US/ReCaptcha-Verify"
+            >Sign in</button>
+        </div>
+    
+</form>
+
+                    <div class="ca-mb-0 text-center">
+                        <button class="link-on-light-body-m p-0" id="toggleCreateAccountLink">Create an account</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center m-0">
+            <div class="col-12 col-md-10 col-lg-10 p-0">
+                <div id="registerFormContainer" class="d-none">
+                    <!-- dwMarker="linclude" dwTemplateTitle="/default/account/components/registerFormModal.isml (app_conairllc_sfra_account)" dwTemplateURL="http://localhost:60606/target=/app_conairllc_sfra_account/cartridge/templates/default/account/components/registerFormModal.isml" -->
+
+
+
+
+
+
+
+
+
+
+<form
+action="/register?rurl=3"
+class="registration register-js-form"
+method="POST"
+name="dwfrm_profile">
+<h2 class="title-m-bold ca-mb-24">Create Account</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<div class="form-group has-float-label ca-mb-24
+required">
+<input
+type="text"
+class="form-control"
+id="registration-form-fname"
+data-error-prefix="Error:"
+data-missing-error="Please fill out this field."
+data-range-error="Must be 50 characters or less."
+aria-describedby="registration-fname-error"
+pattern="^[a-zA-Z\s]+$"
+data-pattern-mismatch="Please provide alphabetic characters only."
+placeholder=""
+name="dwfrm_profile_customer_firstname" required aria-required="true" value="" maxLength="50" pattern="^[A-Za-z0-9 ]*$">
+<label for="registration-form-fname" class="color--grey5">*First Name</label>
+<p class="invalid-feedback body-m-bold color--error ca-m-0" id="registration-fname-error"></p>
+</div>
+</div>
+<div class="col-12 col-md-6">
+<div class="form-group has-float-label ca-mb-24
+required">
+<input
+type="text"
+class="form-control"
+id="registration-form-lname"
+data-error-prefix="Error:"
+data-missing-error="Please fill out this field."
+data-range-error="Must be 50 characters or less."
+aria-describedby="registration-lname-error"
+pattern="^[a-zA-Z\s]+$"
+data-pattern-mismatch="Please provide alphabetic characters only."
+placeholder=""
+name="dwfrm_profile_customer_lastname" required aria-required="true" value="" maxLength="50" pattern="^[A-Za-z0-9 ]*$">
+<label for="registration-form-lname" class="color--grey5">*Last Name</label>
+<p class="invalid-feedback body-m-bold color--error ca-m-0" id="registration-lname-error"></p>
+</div>
+</div>
+</div>
+<div class="form-group has-float-label ca-mb-24
+">
+<input
+type="tel"
+class="form-control"
+id="registration-form-phone"
+data-error-prefix="Error:"
+data-missing-error="Please fill out this field."
+data-pattern-mismatch="Please enter a valid phone number"
+data-range-error="Must be 50 characters or less."
+aria-describedby="registration-phone-error"
+placeholder=""
+pattern="^(\(?([2-9][0-8][0-9])\)?[\-\. ]?([2-9][0-9]{2})[\-\. ]?([0-9]{4})(\s*x[0-9]+)?)$"
+name="dwfrm_profile_customer_phone" value="" maxLength="2147483647" pattern="^\(?([2-9][0-8][0-9])\)?[\-\. ]?([2-9][0-9]{2})[\-\. ]?([0-9]{4})(\s*x[0-9]+)?$">
+<label for="registration-form-phone" class="color--grey5">Phone Number</label>
+<p class="invalid-feedback body-m-bold color--error ca-m-0" id="registration-phone-error"></p>
+</div>
+<div class="form-group has-float-label ca-mb-24
+required">
+<input
+type="email"
+pattern="[A-Za-z0-9\._%+\-]+@[A-Za-z0-9\.\-]+\.[A-Za-z]{2,}"
+maxlength="241"
+class="form-control email"
+id="registration-form-email"
+data-error-prefix="Error:"
+data-missing-error="Please fill out this field."
+data-pattern-mismatch="Please enter a valid E-Mail address"
+data-range-error="Must be 50 characters or less."
+aria-describedby="registration-email-error"
+placeholder=""
+name="dwfrm_profile_customer_email" required aria-required="true" value="" maxLength="50" pattern="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$">
+<label for="registration-form-email" class="color--grey5">*Email</label>
+<p class="invalid-feedback body-m-bold color--error ca-m-0" id="registration-email-error"></p>
+</div>
+<div class="form-group has-float-label ca-mb-24
+required">
+<input
+type="email"
+pattern="[A-Za-z0-9\._%+\-]+@[A-Za-z0-9\.\-]+\.[A-Za-z]{2,}"
+maxlength="241"
+class="form-control confirm-email"
+id="registration-form-email-confirm"
+data-error-prefix="Error:"
+data-missing-error="Please fill out this field."
+data-pattern-mismatch="Please enter a valid E-Mail address"
+data-range-error="Must be 50 characters or less."
+data-confirm-error="Does not match email."
+aria-describedby="registration-email-confirm-error"
+placeholder=""
+name="dwfrm_profile_customer_emailconfirm" required aria-required="true" value="" maxLength="50" pattern="^[\w.%+-]+@[\w.-]+\.[\w]{2,6}$">
+<label for="registration-form-email-confirm" class="color--grey5">*Confirm Email</label>
+<p class="invalid-feedback body-m-bold color--error ca-m-0" id="registration-email-confirm-error"></p>
+</div>
+<div class="form-group has-float-label ca-mb-24
+required">
+<input
+type="password"
+class="form-control password"
+id="registration-form-password"
+data-error-prefix="Error:"
+data-missing-error="Please fill out this field."
+data-range-error="This field needs 8 to 255 characters"
+aria-describedby="registration-password-error"
+autocomplete="off"
+placeholder=""
+name="dwfrm_profile_login_password" required aria-required="true" value="" maxLength="255">
+<label for="registration-form-password" class="color--grey5">*Password</label>
+<p class="invalid-feedback body-m-bold color--error ca-m-0" id="registration-password-error"></p>
+</div>
+<div class="form-group has-float-label ca-mb-24
+required">
+<input
+type="password"
+class="form-control confirm-password"
+id="registration-form-password-confirm"
+data-error-prefix="Error:"
+data-missing-error="Please fill out this field."
+data-range-error="This field needs 8 to 255 characters"
+data-confirm-error="Does not match password."
+aria-describedby="registration-confirm-password-error"
+autocomplete="off"
+placeholder=""
+name="dwfrm_profile_login_passwordconfirm" required aria-required="true" value="" maxLength="255">
+<label for="registration-form-password-confirm" class="color--grey5">*Confirm Password</label>
+<p class="invalid-feedback body-m-bold color--error ca-m-0" id="registration-confirm-password-error"></p>
+</div>
+<div class="form-group ca-mb-24">
+<label class="checkbox-container-light body-m">
+Opt-in to receive emails and special offers from Cuisinart
+<input type="checkbox" id="add-to-email-list" name="subscription_type"
+name="dwfrm_profile_customer_addtoemaillist" value="true"/>
+<span class="checkbox-outer ca-mtn-4"><span class="checkbox-inner"></span></span>
+</label>
+</div>
+<input type="hidden" name="csrf_token" value="PHoAfKnTjzUKljVKjNYUmtDv3kmZNgrdonQK2g9Rl2qJiiyEeA1i96OWW88D6nTHi9H38tdI_SBCadYJPoduv1-cb-CKRXIAMldoGswAJF5HN_P4bRjUBGtQkxATL-oJNOmYd52us6VmS_oCMbf4gB1pP-MmKzPhVe7XccuvD7al4wg61q0="/>
+<!-- dwMarker="linclude" dwTemplateTitle="/default//components/content/contentAsset.isml (app_storefront_base_6_3)" dwTemplateURL="http://localhost:60606/target=/app_storefront_base_6_3/cartridge/templates/default//components/content/contentAsset.isml" -->
+
+    
+    <!-- dwMarker="dw-object-rinclude" data="{&quot;TemplateURL&quot;:&quot;http://localhost:60606/target=/app_storefront_base_6_3/cartridge/templates/default/components/content/contentAssetInc.isml&quot;,&quot;IsController&quot;:true,&quot;PipelineURL&quot;:&quot;http://localhost:60606/target=/app_conairllc_sfra_browse/cartridge/controllers/Page.js&amp;start=Include&quot;,&quot;PageProcessingTime&quot;:6,&quot;PageCacheExpires&quot;:&quot;11/17/2025 10:16 pm&quot;,&quot;TemplateTitle&quot;:&quot;/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)&quot;,&quot;PipelineTitle&quot;:&quot;Page-Include (app_conairllc_sfra_browse)&quot;}" --><!-- dwMarker="rinclude" dwPipelineTitle="Page-Include (app_conairllc_sfra_browse)" dwPipelineURL="http://localhost:60606/target=/app_conairllc_sfra_browse/cartridge/controllers/Page.js&amp;start=Include" dwIsController="true" dwTemplateTitle="/default/components/content/contentAssetInc.isml (app_storefront_base_6_3)" dwTemplateURL="http://localhost:60606/target=/app_storefront_base_6_3/cartridge/templates/default/components/content/contentAssetInc.isml" --><div class="content-asset"><!-- dwMarker="content" dwContentID="f023b06445da006ed1cc4d362c" -->
+        <!-- orig -->
+<!--
+<div class="privacy-policy body-m ca-mb-24">By clicking the box, you acknowledge that you have read and agreed to our <a href="https://legal.conair.com/content/page/terms-notice" class="link-on-light-body-m" target="_blank" rel="noopener noreferrer">
+           Terms of Use
+        </a>
+and <a href="https://legal.conair.com/content/page/terms-notice?referrer=www.cuisinart.com" class="link-on-light-body-m" target="_blank" rel="noopener noreferrer">
+            Privacy Policy
+        </a>
+</div>
+-->
+
+<div class="privacy-policy body-m ca-mb-24">You acknowledge that you have read and agreed to our <a href="	
+https://legal.conair.com/content/page/terms-notice?referrer=www.cuisinart.com" class="link-on-light-body-m" target="_blank" rel="noopener noreferrer">
+           Terms of Use
+        </a>
+and <a href="https://legal.conair.com/content/page/privacy-notice?referrer=www.cuisinart.com" class="link-on-light-body-m" target="_blank" rel="noopener noreferrer">
+            Privacy Policy
+        </a>
+</div>
+    </div> <!-- End content-asset -->
+
+
+
+
+<input type="hidden" name="reCAPTCHAEnabled" value="true"/>
+<div class="form-group ca-mb-24">
+<button type="submit"
+class="btn btn-block btn-primary g-recaptcha js-submit-button js-focus-invalid-input"
+data-sitekey="6LdCzRsqAAAAAF-gczH-5TvctNjsIEgqkrxDHsd3"
+data-callback="registerRecaptchaResponse"
+data-verify-url="/on/demandware.store/Sites-us-cuisinart-sfra-Site/en_US/ReCaptcha-Verify"
+>
+Create Account
+</button>
+</div>
+
+</form>
+
+                    <p class="ca-mb-0 body-m text-center">
+                        Already have an account? <button class="link-on-light-body-m p-0" id="toggleSignInLink">Sign in</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center m-0">
+            <div class="col-12 col-md-7 col-lg-7 p-0">
+                <!-- dwMarker="linclude" dwTemplateTitle="/default/account/components/oauthModal.isml (app_conairllc_sfra_account)" dwTemplateURL="http://localhost:60606/target=/app_conairllc_sfra_account/cartridge/templates/default/account/components/oauthModal.isml" -->
+
+
+
+<form action="" class="login-oauth" method="post" name="login-oauth-form">
+    
+        <div class="divider-line body-m ca-mt-24 ca-mb-24">
+            <span class="divider-line__text">Or with</span>
+        </div>
+    
+    
+        
+        <div class="form-group">
+            <a href="https://stage.cuisinart.com/on/demandware.store/Sites-us-cuisinart-sfra-Site/en_US/Login-OAuthLogin?oauthProvider=GoogleCUIUS&amp;oauthLoginTargetEndPoint=1" class="btn btn-secondary btn-block oauth-google"
+            role="button" aria-pressed="true"><!-- dwMarker="link" dwPipelineTitle="Login-OAuthLogin (app_conairllc_sfra_account)" dwIsController="true" dwPipelineURL="http://localhost:60606/target=/app_conairllc_sfra_account/cartridge/controllers/Login.js&amp;start=OAuthLogin" -->
+                <i class="bg-svg-icon bg-icon-socialMediaGoogleColor ca-mr-8 d-inline-block" aria-hidden="true"></i>
+                Sign in with Google
+            </a>
+        </div>
+    
+    
+</form>
+            </div>
+        </div>
+    </div>
+
+<!-- dwMarker="dw-object-page" data="{&quot;TemplateURL&quot;:&quot;http://localhost:60606/target=/app_conairllc_sfra_account/cartridge/templates/default//account/login.isml&quot;,&quot;IsController&quot;:true,&quot;PipelineURL&quot;:&quot;http://localhost:60606/target=/app_conairllc_sfra_account/cartridge/controllers/Login.js&amp;start=Show&quot;,&quot;PageProcessingTime&quot;:43,&quot;TemplateTitle&quot;:&quot;/default//account/login.isml (app_conairllc_sfra_account)&quot;,&quot;PipelineTitle&quot;:&quot;Login-Show (app_conairllc_sfra_account)&quot;}" --><!-- dwMarker="page" dwPipelineTitle="Login-Show (app_conairllc_sfra_account)" dwPipelineURL="http://localhost:60606/target=/app_conairllc_sfra_account/cartridge/controllers/Login.js&amp;start=Show" dwIsController="true" dwTemplateTitle="/default//account/login.isml (app_conairllc_sfra_account)" dwTemplateURL="http://localhost:60606/target=/app_conairllc_sfra_account/cartridge/templates/default//account/login.isml" -->

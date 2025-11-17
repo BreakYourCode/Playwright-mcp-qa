@@ -200,6 +200,66 @@ npx playwright show-trace trace.zip
 2. Set breakpoints in your test files
 3. Click "Run Test" or "Debug Test" in the gutter
 
+## 🔍 Troubleshooting
+
+### Bot Detection and CAPTCHA Issues
+
+**Conair Stage Site (`stage.conair.com`)**
+- **Issue**: PerimeterX bot detection blocks automated browsers
+- **Error**: "Access to this page has been denied" with redirect to `/PX-Show`
+- **Solutions**:
+  - Contact QA team to whitelist testing IP addresses
+  - Request a test environment without PerimeterX
+  - Implement stealth mode plugins (playwright-extra)
+  - Use API-based testing instead of UI automation
+
+**Cuisinart Stage Site (`stage.cuisinart.com`)**
+- **Status**: ✅ Site accessible, login flow navigable
+- **Issue**: reCAPTCHA v2/v3 protection on login form
+- **Login Flow Working**:
+  - ✅ Homepage loads successfully
+  - ✅ Account link found and clickable
+  - ✅ Login modal opens
+  - ✅ Form fields fillable
+  - ✅ Sign in button clickable
+- **Blocking Factors**:
+  - reCAPTCHA verification required
+  - May need valid staging credentials
+  - Potential IP-based rate limiting
+- **Solutions**:
+  - Request QA credentials for `vladjimir_henry@conair.com`
+  - Disable reCAPTCHA on staging environment
+  - Implement reCAPTCHA token bypass (requires API key)
+  - Use a dedicated QA environment without CAPTCHA
+
+### Test Credentials
+
+Current test credentials in use:
+```
+HTTP Basic Auth: storefront / conair1
+User Login: vladjimir_henry@conair.com / conair1
+```
+
+**Note**: Verify these credentials with the QA team before running tests.
+
+### Running Tests in Codespaces
+
+Codespaces is a headless environment. Always run tests in headless mode:
+```bash
+# Correct - headless mode (default)
+npm test
+
+# Will fail - requires display server
+npx playwright test --headed
+npx playwright codegen
+```
+
+For debugging, use trace viewer instead:
+```bash
+npx playwright test --trace on
+npx playwright show-trace test-results/.../trace.zip
+```
+
 ## 📚 Resources
 
 - [Playwright Documentation](https://playwright.dev)

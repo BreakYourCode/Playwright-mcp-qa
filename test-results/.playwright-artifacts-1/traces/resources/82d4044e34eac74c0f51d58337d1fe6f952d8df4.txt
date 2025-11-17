@@ -1,0 +1,1 @@
+{"performanceMetrics":{"tagLoaded":2880,"dtagStart":1951,"dtagEnd":2159,"tagCreativesLoaded":2891},"pv":1,"in":"attn","tr":"delay"}

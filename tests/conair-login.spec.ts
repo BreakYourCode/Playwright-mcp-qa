@@ -5,19 +5,37 @@ test.describe('Conair Stage Login Tests', () => {
     // Navigate to stage.conair.com with HTTP Basic Auth credentials
     await page.goto('https://storefront:conair1@stage.conair.com');
 
-    // Click on the "My Account" icon using role-based selector (most accessible)
-    await page.getByRole('link', { name: /account|sign in|login/i }).click();
+    // Wait for page to load and log the title for debugging
+    await page.waitForLoadState('domcontentloaded');
+    console.log('Page title:', await page.title());
+    console.log('Page URL:', page.url());
 
-    // Fill in email using label text (Playwright auto-finds associated input)
-    await page.getByLabel(/email|username/i).fill('vladjimir_henry@conair.com');
+    // Take a screenshot to see what's rendered
+    await page.screenshot({ path: 'test-results/conair-homepage.png', fullPage: true });
 
-    // Fill in password using label text
-    await page.getByLabel(/password/i).fill('conair1');
-
-    // Click login button using role and text
-    await page.getByRole('button', { name: /login|sign in|submit/i }).click();
-
-    // Verify successful login by checking URL or logged-in state
-    await expect(page).toHaveURL(/account|dashboard|profile/i);
+    // Try to find account link with more flexible selectors
+    const accountLink = page.locator('a:has-text("Account"), a:has-text("Sign In"), a:has-text("Login"), [aria-label*="account" i], .account, #account').first();
+    
+    // Check if link exists before clicking
+    if (await accountLink.count() > 0) {
+      await accountLink.click();
+      
+      // Fill in email using multiple possible selectors
+      await page.locator('input[type="email"], input[name="email"], input[id*="email"], input[placeholder*="email" i]').first().fill('vladjimir_henry@conair.com');
+      
+      // Fill in password
+      await page.locator('input[type="password"], input[name="password"], input[id*="password"]').first().fill('conair1');
+      
+      // Click login button
+      await page.locator('button[type="submit"], input[type="submit"], button:has-text("Login"), button:has-text("Sign In")').first().click();
+      
+      // Verify successful login
+      await expect(page).toHaveURL(/account|dashboard|profile/i);
+    } else {
+      // Log available links for debugging
+      const allLinks = await page.locator('a').allTextContents();
+      console.log('Available links:', allLinks.slice(0, 20));
+      throw new Error('Could not find account/login link on page');
+    }
   });
 });
