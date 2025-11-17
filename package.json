@@ -1,0 +1,24 @@
+{
+  "name": "playwright-mcp-qa",
+  "version": "1.0.0",
+  "description": "Playwright QA automation environment with MCP integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "keywords": [
+    "playwright",
+    "qa",
+    "automation",
+    "mcp",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1"
+  },
+  "dependencies": {
+    "@axe-core/playwright": "^4.11.0"
+  }
+}

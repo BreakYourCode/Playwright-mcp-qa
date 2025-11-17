@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "playwright-mcp": {
+      "serverUrl": "https://your-mcp-server-url.com",
+      "authToken": "your-auth-token-here",
+      "enabled": true,
+      "timeout": 30000,
+      "retries": 2
+    }
+  },
+  "reporting": {
+    "enableMcpReporting": true,
+    "sendTestResults": true,
+    "sendScreenshots": true,
+    "sendVideos": false
+  },
+  "environment": {
+    "testEnv": "development"
+  }
+}
