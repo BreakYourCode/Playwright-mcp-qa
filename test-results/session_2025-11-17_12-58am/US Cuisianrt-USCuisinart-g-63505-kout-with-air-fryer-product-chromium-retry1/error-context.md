@@ -1,0 +1,420 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - iframe
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#main-content"
+      - link "Skip to footer content" [ref=e5] [cursor=pointer]:
+        - /url: "#footercontent"
+      - generic [ref=e10]:
+        - paragraph [ref=e12]: Free Shipping on Orders $35+
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - link "The Kitchen Guide" [ref=e16] [cursor=pointer]:
+              - /url: https://stage.cuisinart.com/the-kitchen-guide-blog.html
+          - listitem [ref=e17]:
+            - link "Recipes" [ref=e18] [cursor=pointer]:
+              - /url: https://stage.cuisinart.com/recipes/
+          - listitem [ref=e19]:
+            - link "Collections & Gift Guides" [ref=e20] [cursor=pointer]:
+              - /url: https://stage.cuisinart.com/collections-and-gift-guides.html
+          - listitem [ref=e21]:
+            - link "Register a Product" [ref=e22] [cursor=pointer]:
+              - /url: https://stage.cuisinart.com/register-your-product.html
+      - navigation "primary-navigation" [ref=e23]:
+        - generic [ref=e24]:
+          - generic [ref=e25]:
+            - link "Cuisinart Home" [ref=e27] [cursor=pointer]:
+              - /url: /
+              - img [ref=e28]
+            - generic [ref=e29]:
+              - search [ref=e33]:
+                - combobox "Enter Keyword or Item No." [ref=e34]
+                - text: 
+                - button "Submit search keywords" [ref=e35] [cursor=pointer]
+              - generic [ref=e36]:
+                - generic [ref=e37]:
+                  - generic:
+                    - button "Login to your account"
+                - link "Cart 0 Items" [ref=e40] [cursor=pointer]:
+                  - /url: https://stage.cuisinart.com/cart
+                  - generic [ref=e41]: "0"
+          - generic [ref=e42]:
+            - navigation "navbar" [ref=e45]:
+              - navigation [ref=e46]:
+                - menu [ref=e47]:
+                  - menuitem "Appliances" [ref=e48]:
+                    - link "Appliances" [ref=e49] [cursor=pointer]:
+                      - /url: https://stage.cuisinart.com/shopping/appliances/
+                  - menuitem "Bakeware" [ref=e50]:
+                    - link "Bakeware" [ref=e51] [cursor=pointer]:
+                      - /url: https://stage.cuisinart.com/shopping/bakeware/
+                  - menuitem "Cookware" [ref=e52]:
+                    - link "Cookware" [ref=e53] [cursor=pointer]:
+                      - /url: https://stage.cuisinart.com/shopping/cookware/
+                  - menuitem "Cutlery" [ref=e54]:
+                    - link "Cutlery" [ref=e55] [cursor=pointer]:
+                      - /url: https://stage.cuisinart.com/shopping/cutlery/
+                  - menuitem "Tools & Gadgets" [ref=e56]:
+                    - link "Tools & Gadgets" [ref=e57] [cursor=pointer]:
+                      - /url: https://stage.cuisinart.com/shopping/kitchen-tools-gadgets/
+                  - menuitem "Outdoors" [ref=e58]:
+                    - link "Outdoors" [ref=e59] [cursor=pointer]:
+                      - /url: https://stage.cuisinart.com/shopping/outdoors/
+                  - menuitem "Parts & Accessories" [ref=e60]:
+                    - link "Parts & Accessories" [ref=e61] [cursor=pointer]:
+                      - /url: https://stage.cuisinart.com/shopping/parts-and-accessories/
+                  - menuitem "Support" [ref=e62]:
+                    - link "Support" [ref=e63] [cursor=pointer]:
+                      - /url: "#"
+                  - menuitem "Trending" [ref=e64]:
+                    - link "Trending" [ref=e65] [cursor=pointer]:
+                      - /url: /shopping/trending/
+                  - menuitem "Sale" [ref=e66]:
+                    - link "Sale" [ref=e67] [cursor=pointer]:
+                      - /url: /shopping/sale/
+                  - text: 
+            - text: 
+      - link "Food Processor Event | Shop Now" [ref=e70] [cursor=pointer]:
+        - /url: https://www.cuisinart.com/shopping/sale/
+        - text: Food Processor Event | Shop Now
+    - main [ref=e71]:
+      - generic [ref=e72]:
+        - navigation "Breadcrumb" [ref=e77]:
+          - list [ref=e78]:
+            - listitem [ref=e79]:
+              - link "home" [ref=e80] [cursor=pointer]:
+                - /url: /
+              - text: /
+            - listitem [ref=e81]:
+              - link "Shop By Category" [ref=e82] [cursor=pointer]:
+                - /url: https://stage.cuisinart.com/shopping/
+              - text: /
+            - listitem [ref=e83]:
+              - link "Appliances" [ref=e84] [cursor=pointer]:
+                - /url: https://stage.cuisinart.com/shopping/appliances/
+              - text: /
+            - listitem [ref=e85]:
+              - link "Air Fryers" [ref=e86] [cursor=pointer]:
+                - /url: /shopping/appliances/air-fryers/
+              - text: /
+            - listitem [ref=e87]: TOA-70NAS
+        - generic [ref=e88]:
+          - generic [ref=e89]:
+            - group [ref=e90]:
+              - list [ref=e91]:
+                - listitem [ref=e92]:
+                  - img "Air Fryer Toaster Oven with Grill" [ref=e94]
+                - listitem [ref=e95]
+                - listitem [ref=e97]
+                - listitem [ref=e99]
+                - listitem [ref=e101]
+                - listitem [ref=e103]
+                - listitem [ref=e105]
+                - listitem [ref=e107]
+                - listitem [ref=e109]
+                - listitem [ref=e111]:
+                  - iframe [ref=e112]:
+                    - generic "YouTube Video Player" [ref=f1e3]:
+                      - generic [ref=f1e5]:
+                        - link "Photo image of Cuisinart" [ref=f1e8] [cursor=pointer]:
+                          - /url: https://www.youtube.com/channel/UCPj4fPlLLhABe54lb8PsZOw?embeds_referring_euri=https%3A%2F%2Fstage.cuisinart.com%2F
+                        - link "Air Fryer Toaster Oven with Grill" [ref=f1e11] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=ADHV2TP2Yxs
+                        - button "Share" [ref=f1e13] [cursor=pointer]:
+                          - generic [ref=f1e14]:
+                            - img
+                          - generic [ref=f1e15]: Share
+                      - button "Play" [ref=f1e18] [cursor=pointer]:
+                        - img
+                      - link "Watch on YouTube" [ref=f1e19] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=ADHV2TP2Yxs&embeds_referring_euri=https%3A%2F%2Fstage.cuisinart.com%2F
+                        - generic [ref=f1e20]: Watch on
+                        - generic [ref=f1e21]:
+                          - img
+            - generic [ref=e113]:
+              - group [ref=e114]:
+                - list [ref=e115]:
+                  - listitem [ref=e116] [cursor=pointer]
+                  - listitem [ref=e118] [cursor=pointer]
+                  - listitem [ref=e120] [cursor=pointer]
+                  - listitem [ref=e122] [cursor=pointer]
+                  - listitem [ref=e124] [cursor=pointer]
+                  - listitem [ref=e126] [cursor=pointer]
+                  - listitem [ref=e128] [cursor=pointer]
+                  - listitem [ref=e130] [cursor=pointer]
+                  - listitem [ref=e132] [cursor=pointer]
+                  - listitem [ref=e134] [cursor=pointer]
+              - generic [ref=e135] [cursor=pointer]: prev
+              - generic [ref=e136] [cursor=pointer]: next
+          - generic [ref=e137]:
+            - generic [ref=e138]:
+              - generic [ref=e140]: Customer Favorite
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - button "Share" [ref=e143] [cursor=pointer]
+                  - text: 
+                - button "Favorite" [ref=e145] [cursor=pointer]
+            - paragraph [ref=e148]: APPLIANCES
+            - generic [ref=e151]:
+              - heading "Air Fryer Toaster Oven with Grill" [level=1] [ref=e152]
+              - paragraph [ref=e153]: TOA-70NAS
+            - generic [ref=e154]:
+              - generic [ref=e160]: $219.95
+              - generic [ref=e162]:
+                - generic [ref=e163]: The Cuisinart Air Fryer Toaster Oven with Grill brings next-generation cooking to your countertop with a quiet, powerful, stainless steel construction. Air fry healthier and delicious proteins, from chicken breast, chicken wings to salmon or burgers. Introduce an array of air fried vegetables to your dinner table, including air fried potato wedges, crispy brussel sprouts and roasted broccoli. Use the reversible grill/griddle plate to sear steaks and vegetables on one side and griddle the perfect breakfast on the other.. Cook all of your family’s favorites including air fried french fries, baked cookies, and warmed up leftovers. This air fryer oven is our latest and greatest upgrade with a spacious 8-function oven that makes cooking a feast for family and friends — or a simple snack for one — fun, fast, and easy.
+                - button "Show More" [ref=e164] [cursor=pointer]
+              - generic [ref=e168]:
+                - generic [ref=e171]:
+                  - generic [ref=e174]: "Color: Stainless Steel"
+                  - list [ref=e175]:
+                    - listitem [ref=e176]:
+                      - button "Select Color Black Stainless" [ref=e177] [cursor=pointer]
+                    - listitem [ref=e180]:
+                      - button "Select Color Stainless Steel":
+                        - generic: selected
+                    - listitem [ref=e181]:
+                      - button "Select Color White" [ref=e182] [cursor=pointer]
+                - generic [ref=e189]:
+                  - button "Minus button" [ref=e190] [cursor=pointer]
+                  - textbox "quantity" [disabled] [ref=e191]: "1"
+                  - button "Plus button" [ref=e192] [cursor=pointer]
+                - button "Add to Cart - $219.95" [ref=e196] [cursor=pointer]:
+                  - text: Add to Cart -
+                  - generic [ref=e201]: $219.95
+              - generic [ref=e203]:
+                - generic [ref=e206]: 3-Year Limited Warranty
+                - generic [ref=e209]: Free Shipping
+                - generic [ref=e212]: 30-Day Returns
+            - generic [ref=e213]:
+              - button "Features" [ref=e217] [cursor=pointer]: Features
+              - button "Specifications" [ref=e221] [cursor=pointer]: Specifications
+              - button "Warranties and Manuals" [ref=e225] [cursor=pointer]: Warranties and Manuals
+        - generic [ref=e226]:
+          - generic [ref=e228]:
+            - heading "Related Recipes" [level=2] [ref=e229]
+            - generic [ref=e231]:
+              - generic [ref=e232]:
+                - link "Carm-amel Glazed Buns This recipe celebrates patience, focus, and that unforgettable sticky swirl. The Cuisinart stand mixer handles the work, while the air-fryer toaster oven adds the golden finish, making it easier than ever to recreate the most emotionally charged baked good on television. These aren’t just honey buns. They’re a tribute to growth, glaze, and the quietest flex in the kitchen. Favorites" [ref=e234] [cursor=pointer]:
+                  - /url: /recipes/breakfast/Honey_Buns_bear.html
+                  - generic [ref=e236]:
+                    - generic [ref=e238]:
+                      - generic "Carm-amel Glazed Buns" [ref=e239]
+                      - generic [ref=e240]: This recipe celebrates patience, focus, and that unforgettable sticky swirl. The Cuisinart stand mixer handles the work, while the air-fryer toaster oven adds the golden finish, making it easier than ever to recreate the most emotionally charged baked good on television. These aren’t just honey buns. They’re a tribute to growth, glaze, and the quietest flex in the kitchen.
+                    - button "Favorites" [ref=e243]
+                - link "Maple-Pecan BLT This BLT is slightly sweeter than the bacon, lettuce and tomato sandwiches you’re used to. Favorites" [ref=e245] [cursor=pointer]:
+                  - /url: /recipes/breads/maple-pecan-blt-recipe.html
+                  - generic [ref=e247]:
+                    - generic [ref=e249]:
+                      - generic "Maple-Pecan BLT" [ref=e250]
+                      - paragraph [ref=e252]: This BLT is slightly sweeter than the bacon, lettuce and tomato sandwiches you’re used to.
+                    - button "Favorites" [ref=e255]
+                - link "Cinnamon Sugar Doughnut Bites Not that they will likely hang around, but these doughnuts are best eaten just after cooking. Favorites" [ref=e257] [cursor=pointer]:
+                  - /url: /recipes/desserts/cinnamon-sugar-doughnut-bites-recipe.html
+                  - generic [ref=e259]:
+                    - generic [ref=e261]:
+                      - generic "Cinnamon Sugar Doughnut Bites" [ref=e262]
+                      - paragraph [ref=e264]: Not that they will likely hang around, but these doughnuts are best eaten just after cooking.
+                    - button "Favorites" [ref=e267]
+                - link "Grilled Beef Burgers With nice grilled char on the outside and juicy on the inside, you can enjoy a perfect burger any time of year. Favorites" [ref=e269] [cursor=pointer]:
+                  - /url: /recipes/entrees/grilled-beef-burgers-recipe.html
+                  - generic [ref=e271]:
+                    - generic [ref=e273]:
+                      - generic "Grilled Beef Burgers" [ref=e274]
+                      - paragraph [ref=e276]:
+                        - text: With nice grilled char on the outside and juicy on the inside, you can
+                        - text: enjoy a perfect burger any time of year.
+                    - button "Favorites" [ref=e280]
+                - link "Grilled Spring Chicken with Asparagus The versatility of the grill allows for easy weeknight dinners. Favorites" [ref=e282] [cursor=pointer]:
+                  - /url: /recipes/entrees/grilled-spring-chicken-with-asparagus-recipe.html
+                  - generic [ref=e284]:
+                    - generic [ref=e286]:
+                      - generic "Grilled Spring Chicken with Asparagus" [ref=e287]
+                      - paragraph [ref=e289]: The versatility of the grill allows for easy weeknight dinners.
+                    - button "Favorites" [ref=e292]
+                - link "Coconut Shrimp (Air Fryer) Serve with a curry mayonnaise for a fun hors d’oeuvre . Favorites" [ref=e294] [cursor=pointer]:
+                  - /url: /recipes/entrees/coconut-shrimp-airfryer-recipe.html
+                  - generic [ref=e296]:
+                    - generic [ref=e298]:
+                      - generic "Coconut Shrimp (Air Fryer)" [ref=e299]
+                      - paragraph [ref=e301]: Serve with a curry mayonnaise for a fun hors d’oeuvre .
+                    - button "Favorites" [ref=e304]
+                - link "Harvest Stuffed Squash A colorful side dish, acorn squash will dress up any dinner plate. The quinoa is packed with protein so this can also be served as a main course with a side of salad or soup. Favorites" [ref=e306] [cursor=pointer]:
+                  - /url: /recipes/sides/harvest-stuffed-squash-recipe.html
+                  - generic [ref=e308]:
+                    - generic [ref=e310]:
+                      - generic "Harvest Stuffed Squash" [ref=e311]
+                      - generic [ref=e312]: A colorful side dish, acorn squash will dress up any dinner plate. The quinoa is packed with protein so this can also be served as a main course with a side of salad or soup.
+                    - button "Favorites" [ref=e315]
+                - link "Hasselback Potatoes We are not sure which is better, the impressive presentation or the maximum crunch that this fun potato side dish provides Favorites" [ref=e317] [cursor=pointer]:
+                  - /url: /recipes/sides/hasselback-potatoes-recipe.html
+                  - generic [ref=e319]:
+                    - generic [ref=e321]:
+                      - generic "Hasselback Potatoes" [ref=e322]
+                      - paragraph [ref=e324]: We are not sure which is better, the impressive presentation or the maximum crunch that this fun potato side dish provides
+                    - button "Favorites" [ref=e327]
+                - link "Fajita-Style Quesadillas The griddle plate makes it easy to create restaurant-quality quesadillas in your AirFryer. Favorites" [ref=e329] [cursor=pointer]:
+                  - /url: /recipes/appetizers/fajita-style-quesadillas-recipe.html
+                  - generic [ref=e331]:
+                    - generic [ref=e333]:
+                      - generic "Fajita-Style Quesadillas" [ref=e334]
+                      - paragraph [ref=e336]: The griddle plate makes it easy to create restaurant-quality quesadillas in your AirFryer.
+                    - button "Favorites" [ref=e339]
+                - link "Fish Tacos (Air Fryer) Get a taste of Baja and the beach with these fish tacos guilt free! Favorites" [ref=e341] [cursor=pointer]:
+                  - /url: /recipes/entrees/fish-tacos-airfryer-recipe.html
+                  - generic [ref=e343]:
+                    - generic [ref=e345]:
+                      - generic "Fish Tacos (Air Fryer)" [ref=e346]
+                      - paragraph [ref=e348]: Get a taste of Baja and the beach with these fish tacos guilt free!
+                    - button "Favorites" [ref=e351]
+                - link "Buffalo Chicken Wings The Cuisinart® Air Fryer makes them extra crispy with no oil and little preparation. Favorites" [ref=e353] [cursor=pointer]:
+                  - /url: /recipes/appetizers/buffalo-chicken-wings-2-recipe.html
+                  - generic [ref=e355]:
+                    - generic [ref=e357]:
+                      - generic "Buffalo Chicken Wings" [ref=e358]
+                      - paragraph [ref=e360]: The Cuisinart® Air Fryer makes them extra crispy with no oil and little preparation.
+                    - button "Favorites" [ref=e363]
+                - link "French Fries (Air Fryer) These crispy fries can be served with any of your favorite seasonings or sauces. Favorites" [ref=e365] [cursor=pointer]:
+                  - /url: /recipes/sides/french-fries-airfryer-recipe.html
+                  - generic [ref=e367]:
+                    - generic [ref=e369]:
+                      - generic "French Fries (Air Fryer)" [ref=e370]
+                      - paragraph [ref=e372]: These crispy fries can be served with any of your favorite seasonings or sauces.
+                    - button "Favorites" [ref=e375]
+                - link "Italian Rice Balls For the perfect appetizer, serve these rice balls alongside prepared marinara sauce. Favorites" [ref=e377] [cursor=pointer]:
+                  - /url: /recipes/appetizers/italian-rice-balls-recipe.html
+                  - generic [ref=e379]:
+                    - generic [ref=e381]:
+                      - generic "Italian Rice Balls" [ref=e382]
+                      - paragraph [ref=e384]: For the perfect appetizer, serve these rice balls alongside prepared marinara sauce.
+                    - button "Favorites" [ref=e387]
+                - link "Fresh Margherita Pizza The sky’s the limit for topping an air fry pizza. We chose to keep this one simple with fresh tomatoes and basil classic and delicious. Favorites" [ref=e389] [cursor=pointer]:
+                  - /url: /recipes/entrees/fresh-margherita-pizza-recipe.html
+                  - generic [ref=e391]:
+                    - generic [ref=e393]:
+                      - generic "Fresh Margherita Pizza" [ref=e394]
+                      - paragraph [ref=e396]: The sky’s the limit for topping an air fry pizza. We chose to keep this one simple with fresh tomatoes and basil classic and delicious.
+                    - button "Favorites" [ref=e399]
+                - link "Roasted Beet Salad with Candied Pecans and Goat Cheese The delicious flavors in this salad make you an instant fan of beets Favorites" [ref=e401] [cursor=pointer]:
+                  - /url: /recipes/sides/roasted-beet-salad-with-candied-pecans-and-goat-cheese-recipe.html
+                  - generic [ref=e403]:
+                    - generic [ref=e405]:
+                      - generic "Roasted Beet Salad with Candied Pecans and Goat Cheese" [ref=e406]
+                      - paragraph [ref=e408]: The delicious flavors in this salad make you an instant fan of beets
+                    - button "Favorites" [ref=e411]
+                - link "Sweet Potato Fries with Chipotle Mayonnaise A fun and more nutrient-dense alternative to regular potato fries. Favorites" [ref=e413] [cursor=pointer]:
+                  - /url: /recipes/sweet-potato-fries-with-chipotle-mayonnaise-recipe.html
+                  - generic [ref=e415]:
+                    - generic [ref=e417]:
+                      - generic "Sweet Potato Fries with Chipotle Mayonnaise" [ref=e418]
+                      - paragraph [ref=e420]: A fun and more nutrient-dense alternative to regular potato fries.
+                    - button "Favorites" [ref=e423]
+                - link "Thyme-Glazed Salmon with Brussels Sprouts This complete weeknight meal comes together easily and quickly thanks to the Cuisinart® AirFryer. Favorites" [ref=e425] [cursor=pointer]:
+                  - /url: /recipes/entrees/thyme-glazed-salmon-with-brussels-sprouts-recipe.html
+                  - generic [ref=e427]:
+                    - generic [ref=e429]:
+                      - generic "Thyme-Glazed Salmon with Brussels Sprouts" [ref=e430]
+                      - paragraph [ref=e432]: This complete weeknight meal comes together easily and quickly thanks to the Cuisinart® AirFryer.
+                    - button "Favorites" [ref=e435]
+                - link "Pigs in a Blanket Everyone’s favorite, baked to perfection, in the Cuisinart AirFryer! Favorites" [ref=e437] [cursor=pointer]:
+                  - /url: /recipes/appetizers/pigs-in-a-blanket-recipe.html
+                  - generic [ref=e439]:
+                    - generic [ref=e441]:
+                      - generic "Pigs in a Blanket" [ref=e442]
+                      - paragraph [ref=e444]: Everyone’s favorite, baked to perfection, in the Cuisinart AirFryer!
+                    - button "Favorites" [ref=e447]
+                - link "Turkey Waffles A delicious morning brunch! Favorites" [ref=e449] [cursor=pointer]:
+                  - /url: /recipes/entrees/turkey--waffles-recipe.html
+                  - generic [ref=e451]:
+                    - generic [ref=e453]:
+                      - generic "Turkey Waffles" [ref=e454]
+                      - generic [ref=e455]: A delicious morning brunch!
+                    - button "Favorites" [ref=e458]
+                - link "Potato Skins We use the leftover potato skin tops from our Twice-Baked Potatoes on page 31, but if you want to skip that and go straight to the skins, bake the potatoes as instructed in the first step of the Twice-Baked Potatoes, and then reserve those for another use. Favorites" [ref=e460] [cursor=pointer]:
+                  - /url: /recipes/sides/potato-skins-recipe.html
+                  - generic [ref=e462]:
+                    - generic [ref=e464]:
+                      - generic "Potato Skins" [ref=e465]
+                      - paragraph [ref=e467]: We use the leftover potato skin tops from our Twice-Baked Potatoes on page 31, but if you want to skip that and go straight to the skins, bake the potatoes as instructed in the first step of the Twice-Baked Potatoes, and then reserve those for another use.
+                    - button "Favorites" [ref=e470]
+                - link "Steak Frites This classic bistro meal is so easy to make at home. Try it with our Salsa Verde, see following recipe. Favorites" [ref=e472] [cursor=pointer]:
+                  - /url: /recipes/entrees/steak-frites-recipe.html
+                  - generic [ref=e474]:
+                    - generic [ref=e476]:
+                      - generic "Steak Frites" [ref=e477]
+                      - paragraph [ref=e479]:
+                        - text: This classic bistro meal is so easy to make at home. Try it with our
+                        - text: Salsa Verde, see following recipe.
+                    - button "Favorites" [ref=e483]
+                - link "Air Fyer Sweet Potato Fries with Chipotle Mayonnaise A more nutritious alternative to regular French fries. Favorites" [ref=e485] [cursor=pointer]:
+                  - /url: /recipes/sides/airfyer-sweet-potato-fries-with-chipotle-mayonnaise-recipe.html
+                  - generic [ref=e487]:
+                    - generic [ref=e489]:
+                      - generic "Air Fyer Sweet Potato Fries with Chipotle Mayonnaise" [ref=e490]
+                      - generic [ref=e491]: A more nutritious alternative to regular French fries.
+                    - button "Favorites" [ref=e494]
+                - link "Buffalo Cauliflower A healthy and simple snack to satisfy that savory and crunchy craving. Favorites" [ref=e496] [cursor=pointer]:
+                  - /url: /recipes/appetizers/buffalo-cauliflower-recipe.html
+                  - generic [ref=e498]:
+                    - generic [ref=e500]:
+                      - generic "Buffalo Cauliflower" [ref=e501]
+                      - paragraph [ref=e503]: A healthy and simple snack to satisfy that savory and crunchy craving.
+                    - button "Favorites" [ref=e506]
+                - link "Arepas A fun snack or hors d’oeuvre. Pair with some sliced South of the Border Grilled Chicken, or create your own fillings. Either way, don’t forget to serve with plenty of guacamole and crema! Favorites" [ref=e508] [cursor=pointer]:
+                  - /url: /recipes/sides/arepas-recipe.html
+                  - generic [ref=e510]:
+                    - generic [ref=e512]:
+                      - generic "Arepas" [ref=e513]
+                      - paragraph [ref=e515]: A fun snack or hors d’oeuvre. Pair with some sliced South of the Border Grilled Chicken, or create your own fillings. Either way, don’t forget to serve with plenty of guacamole and crema!
+                    - button "Favorites" [ref=e518]
+                - link "Butternut Squash and Farro Casserole The creaminess of butternut squash and the delicate chew of farro play on texture, while a few extra standout ingredients make this a rich and deeply satisfying all-in-one dish. A perfect holiday side dish that can also be enjoyed as a main course. Favorites" [ref=e520] [cursor=pointer]:
+                  - /url: /recipes/sides/butternut-squash-and-farro-casserole--recipe.html
+                  - generic [ref=e522]:
+                    - generic [ref=e524]:
+                      - generic "Butternut Squash and Farro Casserole" [ref=e525]
+                      - generic [ref=e526]: The creaminess of butternut squash and the delicate chew of farro play on texture, while a few extra standout ingredients make this a rich and deeply satisfying all-in-one dish. A perfect holiday side dish that can also be enjoyed as a main course.
+                    - button "Favorites" [ref=e529]
+                - link "Asian-Style Frizzled Green Beans Simple and tasty! This side dish will easily become your go-to weeknight veggie. Favorites" [ref=e531] [cursor=pointer]:
+                  - /url: /recipes/appetizers/asian-style-frizzled-green-beans-recipe.html
+                  - generic [ref=e533]:
+                    - generic [ref=e535]:
+                      - generic "Asian-Style Frizzled Green Beans" [ref=e536]
+                      - paragraph [ref=e538]: Simple and tasty! This side dish will easily become your go-to weeknight veggie.
+                    - button "Favorites" [ref=e541]
+                - link "Baked Apples Your kitchen will be filled with the smell of warm, fall spices while these bake. Favorites" [ref=e543] [cursor=pointer]:
+                  - /url: /recipes/desserts/baked-apples-recipe.html
+                  - generic [ref=e545]:
+                    - generic [ref=e547]:
+                      - generic "Baked Apples" [ref=e548]
+                      - paragraph [ref=e550]: Your kitchen will be filled with the smell of warm, fall spices while these bake.
+                    - button "Favorites" [ref=e553]
+                - link "Chicken Tenders (Air Fryer) Kids of all ages will love this homemade version of the frozen standby. Favorites" [ref=e555] [cursor=pointer]:
+                  - /url: /recipes/appetizers/chicken-tenders-airfryer-recipe.html
+                  - generic [ref=e557]:
+                    - generic [ref=e559]:
+                      - generic "Chicken Tenders (Air Fryer)" [ref=e560]
+                      - paragraph [ref=e562]: Kids of all ages will love this homemade version of the frozen standby.
+                    - button "Favorites" [ref=e565]
+                - link "Cajun Crispy Shrimp Serve this fun appetizer with spiced-up rémoulade sauce! Favorites" [ref=e567] [cursor=pointer]:
+                  - /url: /recipes/appetizers/cajun-crispy-shrimp-recipe.html
+                  - generic [ref=e569]:
+                    - generic [ref=e571]:
+                      - generic "Cajun Crispy Shrimp" [ref=e572]
+                      - paragraph [ref=e574]: Serve this fun appetizer with spiced-up rémoulade sauce!
+                    - button "Favorites" [ref=e577]
+                - link "Candied Bacon (Air Fryer) Seriously addictive – try eating just one slice. Favorites" [ref=e579] [cursor=pointer]:
+                  - /url: /recipes/sides/candied-bacon-airfryer-recipe.html
+                  - generic [ref=e581]:
+                    - generic [ref=e583]:
+                      - generic "Candied Bacon (Air Fryer)" [ref=e584]
+                      - paragraph [ref=e586]: Seriously addictive – try eating just one slice.
+                    - button "Favorites" [ref=e589]
+              - navigation [ref=e591]
+          - generic [ref=e598]:
+            - heading "Compatible Parts" [level=2] [ref=e599]
+            - link "Crumb Tray for Air Fryer Toaster Oven with Grill" [ref=e606] [cursor=pointer]:
+              - /url: /crumb-tray-for-air-fryer-toaster-oven-with-grill/TOA-70CT.html
+```
