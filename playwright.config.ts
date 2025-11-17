@@ -61,7 +61,7 @@ export default defineConfig({
     /* Screenshot on failure */
     screenshot: 'only-on-failure',
     
-    /* Video - on for all tests, but only the last retry is kept */
+    /* Video recording for narration */
     video: 'on',
     
     /* Run in headless mode */

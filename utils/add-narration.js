@@ -22,7 +22,8 @@ speechConfig.speechSynthesisVoiceName = 'en-US-JennyNeural';
 function generateNarrationScript(testName, testResults, consoleLogs = []) {
   const script = [];
   
-  script.push(`Test: ${testName}`);
+  // Don't read the test title - it's too long and delays the action
+  // script.push(`Test: ${testName}`);
   
   // Add console logs as narration steps
   if (consoleLogs && consoleLogs.length > 0) {
