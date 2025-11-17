@@ -20,6 +20,7 @@
     "@types/node": "^24.10.1"
   },
   "dependencies": {
-    "@axe-core/playwright": "^4.11.0"
+    "@axe-core/playwright": "^4.11.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.47.0"
   }
 }
